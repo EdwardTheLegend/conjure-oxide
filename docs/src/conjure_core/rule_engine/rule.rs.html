@@ -227,7 +227,9 @@
 <a href=#227 id=227 data-nosnippet>227</a>    ) -&gt; <span class="prelude-ty">Option</span>&lt;Expression&gt; {
 <a href=#228 id=228 data-nosnippet>228</a>        <span class="kw">let </span>reduction = Rule::apply(<span class="self">self</span>, subtree, meta).ok()<span class="question-mark">?</span>;
 <a href=#229 id=229 data-nosnippet>229</a>        commands.mut_meta(Box::new(|m: <span class="kw-2">&amp;mut </span>SymbolTable| m.extend(reduction.symbols)));
-<a href=#230 id=230 data-nosnippet>230</a>        commands.transform(Box::new(|m| m.extend_root(reduction.new_top)));
-<a href=#231 id=231 data-nosnippet>231</a>        <span class="prelude-val">Some</span>(reduction.new_expression)
-<a href=#232 id=232 data-nosnippet>232</a>    }
-<a href=#233 id=233 data-nosnippet>233</a>}</code></pre></div></section></main></body></html>
+<a href=#230 id=230 data-nosnippet>230</a>        <span class="kw">if </span>!reduction.new_top.is_empty() {
+<a href=#231 id=231 data-nosnippet>231</a>            commands.transform(Box::new(|m| m.extend_root(reduction.new_top)));
+<a href=#232 id=232 data-nosnippet>232</a>        }
+<a href=#233 id=233 data-nosnippet>233</a>        <span class="prelude-val">Some</span>(reduction.new_expression)
+<a href=#234 id=234 data-nosnippet>234</a>    }
+<a href=#235 id=235 data-nosnippet>235</a>}</code></pre></div></section></main></body></html>
