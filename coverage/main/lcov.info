@@ -1675,11 +1675,11 @@ DA:35,0
 DA:42,0
 DA:43,0
 DA:44,0
-DA:48,906167
-DA:49,906167
-DA:50,274873
-DA:51,631294
-DA:53,906167
+DA:48,932026
+DA:49,932026
+DA:50,288819
+DA:51,643207
+DA:53,932026
 DA:63,0
 DA:64,0
 DA:65,0
@@ -2971,8 +2971,8 @@ FN:77,<conjure_core::rule_engine::rule::Reduction>::pure
 FN:202,<conjure_core::rule_engine::rule::Rule as core::hash::Hash>::hash::<std::hash::random::DefaultHasher>
 FN:114,<conjure_core::rule_engine::rule::Reduction>::added_symbols::{closure#0}
 FN:114,<conjure_core::rule_engine::rule::Reduction>::added_symbols::{closure#0}
-FN:230,<&conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable>>::apply::{closure#1}
-FN:230,<&conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable>>::apply::{closure#1}
+FN:231,<&conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable>>::apply::{closure#1}
+FN:231,<&conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable>>::apply::{closure#1}
 FN:202,<conjure_core::rule_engine::rule::Rule as core::hash::Hash>::hash::<std::hash::random::DefaultHasher>
 FN:188,<conjure_core::rule_engine::rule::Rule as core::fmt::Display>::fmt
 FN:132,<conjure_core::rule_engine::rule::Reduction>::changed_symbols
@@ -3004,7 +3004,7 @@ FN:229,<&conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure
 FN:216,<conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable>>::apply::{closure#1}
 FN:216,<conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable>>::apply::{closure#1}
 FN:104,<conjure_core::rule_engine::rule::Reduction>::apply
-FN:230,<&conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable>>::apply::{closure#1}
+FN:231,<&conjure_core::rule_engine::rule::Rule as tree_morph::rule::Rule<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable>>::apply::{closure#1}
 FN:110,<conjure_core::rule_engine::rule::Reduction>::added_symbols
 FN:86,<conjure_core::rule_engine::rule::Reduction>::with_symbols
 FN:188,<conjure_core::rule_engine::rule::Rule as core::fmt::Display>::fmt
@@ -3170,12 +3170,12 @@ DA:184,13148
 DA:188,0
 DA:189,0
 DA:190,0
-DA:194,285
-DA:195,285
-DA:196,285
-DA:202,12977
-DA:203,12977
-DA:204,12977
+DA:194,228
+DA:195,228
+DA:196,228
+DA:202,10450
+DA:203,10450
+DA:204,10450
 DA:208,0
 DA:209,0
 DA:210,0
@@ -3198,7 +3198,9 @@ DA:229,0
 DA:230,0
 DA:231,0
 DA:232,0
-LF:111
+DA:233,0
+DA:234,0
+LF:113
 LH:55
 end_of_record
 SF:crates/conjure_core/src/rule_engine/rule_set.rs
@@ -3281,14 +3283,14 @@ DA:55,0
 DA:56,0
 DA:60,8303
 DA:61,8303
-DA:63,285
-DA:64,285
-DA:65,285
-DA:66,285
-DA:67,285
-DA:68,285
-DA:69,285
-DA:71,8018
+DA:63,247
+DA:64,247
+DA:65,247
+DA:66,247
+DA:67,247
+DA:68,247
+DA:69,247
+DA:71,8056
 DA:73,8303
 DA:78,8322
 DA:79,8322
@@ -3306,22 +3308,22 @@ DA:96,2128
 DA:97,2128
 DA:98,2128
 DA:99,2128
-DA:102,285
-DA:103,285
-DA:105,19095
-DA:106,18810
-DA:107,18810
-DA:109,31920
-DA:110,18810
-DA:111,5700
-DA:112,5700
-DA:113,5700
-DA:114,13110
-DA:117,18810
-DA:118,5700
-DA:119,13110
-DA:122,285
-DA:123,285
+DA:102,247
+DA:103,247
+DA:105,16549
+DA:106,16302
+DA:107,16302
+DA:109,27987
+DA:110,16302
+DA:111,4617
+DA:112,4617
+DA:113,4617
+DA:114,11685
+DA:117,16302
+DA:118,4617
+DA:119,11685
+DA:122,247
+DA:123,247
 DA:127,285
 DA:128,285
 DA:130,380
@@ -3337,9 +3339,9 @@ DA:142,95
 DA:143,95
 DA:148,285
 DA:149,285
-DA:153,4275
-DA:154,4275
-DA:155,4275
+DA:153,4256
+DA:154,4256
+DA:155,4256
 DA:161,31065
 DA:162,31065
 DA:163,31065
@@ -4004,16 +4006,16 @@ DA:492,29431
 DA:493,29431
 DA:494,29431
 DA:495,29431
-DA:496,111777
-DA:497,41876
+DA:496,110010
+DA:497,42218
 DA:498,29431
 DA:500,114
 DA:501,29431
-DA:502,111777
+DA:502,110010
 DA:503,6232
-DA:505,41876
+DA:505,42218
 DA:506,3192
-DA:508,6251
+DA:508,6080
 DA:509,1596
 DA:512,1919
 DA:513,1919
@@ -8975,16 +8977,16 @@ BRH:0
 DA:21,57
 DA:23,57
 DA:24,57
-DA:27,327161
-DA:28,327161
-DA:29,327161
-DA:30,281010
-DA:31,281010
-DA:32,281010
+DA:27,327009
+DA:28,327009
+DA:29,327009
+DA:30,280858
+DA:31,280858
+DA:32,280858
 DA:33,3838
 DA:35,38
 DA:36,38
-DA:37,327123
+DA:37,326971
 DA:43,57
 DA:44,19
 DA:45,19
@@ -11973,9 +11975,9 @@ DA:109,0
 DA:111,1
 DA:112,1
 DA:113,1
-DA:120,1083
-DA:121,1083
-DA:122,1083
+DA:120,1045
+DA:121,1045
+DA:122,1045
 DA:135,0
 DA:136,0
 DA:137,0
