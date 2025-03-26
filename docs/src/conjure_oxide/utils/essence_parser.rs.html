@@ -266,7 +266,7 @@
 <a href=#266 id=266 data-nosnippet>266</a>
 <a href=#267 id=267 data-nosnippet>267</a>            <span class="kw">match </span>op_type {
 <a href=#268 id=268 data-nosnippet>268</a>                <span class="string">"**" </span>=&gt; Expression::UnsafePow(Metadata::new(), Box::new(expr1), Box::new(expr2)),
-<a href=#269 id=269 data-nosnippet>269</a>                <span class="string">"+" </span>=&gt; Expression::Sum(Metadata::new(), <span class="macro">vec!</span>[expr1, expr2]),
+<a href=#269 id=269 data-nosnippet>269</a>                <span class="string">"+" </span>=&gt; Expression::Sum(Metadata::new(), Box::new(<span class="macro">matrix_expr!</span>[expr1, expr2])),
 <a href=#270 id=270 data-nosnippet>270</a>                <span class="string">"-" </span>=&gt; Expression::Minus(Metadata::new(), Box::new(expr1), Box::new(expr2)),
 <a href=#271 id=271 data-nosnippet>271</a>                <span class="string">"*" </span>=&gt; Expression::Product(Metadata::new(), <span class="macro">vec!</span>[expr1, expr2]),
 <a href=#272 id=272 data-nosnippet>272</a>                <span class="string">"/" </span>=&gt; {
@@ -308,7 +308,7 @@
 <a href=#308 id=308 data-nosnippet>308</a>                <span class="string">"or" </span>=&gt; Expression::Or(Metadata::new(), Box::new(<span class="macro">into_matrix_expr!</span>[expr_list])),
 <a href=#309 id=309 data-nosnippet>309</a>                <span class="string">"min" </span>=&gt; Expression::Min(Metadata::new(), Box::new(<span class="macro">into_matrix_expr!</span>[expr_list])),
 <a href=#310 id=310 data-nosnippet>310</a>                <span class="string">"max" </span>=&gt; Expression::Max(Metadata::new(), Box::new(<span class="macro">into_matrix_expr!</span>[expr_list])),
-<a href=#311 id=311 data-nosnippet>311</a>                <span class="string">"sum" </span>=&gt; Expression::Sum(Metadata::new(), expr_list),
+<a href=#311 id=311 data-nosnippet>311</a>                <span class="string">"sum" </span>=&gt; Expression::Sum(Metadata::new(), Box::new(<span class="macro">into_matrix_expr!</span>[expr_list])),
 <a href=#312 id=312 data-nosnippet>312</a>                <span class="string">"allDiff" </span>=&gt; {
 <a href=#313 id=313 data-nosnippet>313</a>                    Expression::AllDiff(Metadata::new(), Box::new(<span class="macro">into_matrix_expr!</span>[expr_list]))
 <a href=#314 id=314 data-nosnippet>314</a>                }

@@ -139,7 +139,7 @@
 <a href=#139 id=139 data-nosnippet>139</a>                </span><span class="prelude-val">Some</span>(Lit::Bool(<span class="bool-val">true</span>))
 <a href=#140 id=140 data-nosnippet>140</a>            }
 <a href=#141 id=141 data-nosnippet>141</a>        }
-<a href=#142 id=142 data-nosnippet>142</a>        Expr::Sum(<span class="kw">_</span>, exprs) =&gt; vec_op::&lt;i32, i32&gt;(|e| e.iter().sum(), exprs).map(Lit::Int),
+<a href=#142 id=142 data-nosnippet>142</a>        Expr::Sum(<span class="kw">_</span>, exprs) =&gt; vec_lit_op::&lt;i32, i32&gt;(|e| e.iter().sum(), exprs).map(Lit::Int),
 <a href=#143 id=143 data-nosnippet>143</a>        Expr::Product(<span class="kw">_</span>, exprs) =&gt; vec_op::&lt;i32, i32&gt;(|e| e.iter().product(), exprs).map(Lit::Int),
 <a href=#144 id=144 data-nosnippet>144</a>        Expr::FlatIneq(<span class="kw">_</span>, a, b, c) =&gt; {
 <a href=#145 id=145 data-nosnippet>145</a>            <span class="kw">let </span>a: i32 = a.try_into().ok()<span class="question-mark">?</span>;
