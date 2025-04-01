@@ -1915,11 +1915,11 @@ DA:35,0
 DA:42,0
 DA:43,0
 DA:44,0
-DA:48,995163
-DA:49,995163
-DA:50,296685
-DA:51,698478
-DA:53,995163
+DA:48,988399
+DA:49,988399
+DA:50,277932
+DA:51,710467
+DA:53,988399
 DA:63,0
 DA:64,0
 DA:65,0
@@ -3430,12 +3430,12 @@ DA:184,8132
 DA:188,0
 DA:189,0
 DA:190,0
-DA:194,266
-DA:195,266
-DA:196,266
-DA:202,10450
-DA:203,10450
-DA:204,10450
+DA:194,380
+DA:195,380
+DA:196,380
+DA:202,12065
+DA:203,12065
+DA:204,12065
 DA:208,0
 DA:209,0
 DA:210,0
@@ -3543,68 +3543,68 @@ DA:55,0
 DA:56,0
 DA:60,8835
 DA:61,8835
-DA:63,266
-DA:64,266
-DA:65,266
-DA:66,266
-DA:67,266
-DA:68,266
-DA:69,266
-DA:71,8569
+DA:63,285
+DA:64,285
+DA:65,285
+DA:66,285
+DA:67,285
+DA:68,285
+DA:69,285
+DA:71,8550
 DA:73,8835
 DA:78,8854
 DA:79,8854
-DA:81,209
-DA:82,209
-DA:83,209
-DA:84,209
-DA:85,209
-DA:86,209
-DA:87,209
-DA:89,8645
+DA:81,228
+DA:82,228
+DA:83,228
+DA:84,228
+DA:85,228
+DA:86,228
+DA:87,228
+DA:89,8626
 DA:91,8854
 DA:95,2261
 DA:96,2261
 DA:97,2261
 DA:98,2261
 DA:99,2261
-DA:102,266
-DA:103,266
-DA:105,17822
-DA:106,17556
-DA:107,17556
-DA:109,30495
-DA:110,17556
-DA:111,4617
-DA:112,4617
-DA:113,4617
-DA:114,12939
-DA:117,17556
-DA:118,4617
-DA:119,12939
-DA:122,266
-DA:123,266
-DA:127,323
-DA:128,323
-DA:130,437
-DA:131,114
+DA:102,285
+DA:103,285
+DA:105,19095
+DA:106,18810
+DA:107,18810
+DA:109,32376
+DA:110,18810
+DA:111,5244
+DA:112,5244
+DA:113,5244
+DA:114,13566
+DA:117,18810
+DA:118,5244
+DA:119,13566
+DA:122,285
+DA:123,285
+DA:127,361
+DA:128,361
+DA:130,494
+DA:131,133
 DA:133,0
 DA:134,0
 DA:135,0
-DA:138,114
-DA:139,114
-DA:140,114
-DA:141,114
-DA:142,114
-DA:143,114
-DA:148,323
-DA:149,323
-DA:153,4503
-DA:154,4503
-DA:155,4503
-DA:161,33079
-DA:162,33079
-DA:163,33079
+DA:138,133
+DA:139,133
+DA:140,133
+DA:141,133
+DA:142,133
+DA:143,133
+DA:148,361
+DA:149,361
+DA:153,4484
+DA:154,4484
+DA:155,4484
+DA:161,33098
+DA:162,33098
+DA:163,33098
 DA:167,0
 DA:168,0
 DA:169,0
@@ -4264,14 +4264,14 @@ DA:490,32908
 DA:491,32908
 DA:492,32908
 DA:493,32908
-DA:494,119358
-DA:495,47861
+DA:494,119890
+DA:495,47766
 DA:496,32908
 DA:498,152
 DA:499,32908
-DA:500,119358
+DA:500,119890
 DA:501,6403
-DA:503,47861
+DA:503,47766
 DA:504,4940
 DA:506,2565
 DA:507,418
@@ -5917,7 +5917,7 @@ DA:126,49552
 DA:127,49552
 DA:128,49552
 DA:132,61429109
-DA:133,19
+DA:133,0
 DA:144,15768157
 DA:145,49552
 DA:146,15718605
@@ -5969,7 +5969,7 @@ DA:199,0
 DA:200,0
 DA:203,190
 LF:134
-LH:113
+LH:112
 end_of_record
 SF:crates/conjure_core/src/stats/solver_stats.rs
 FN:33,<conjure_core::stats::solver_stats::SolverStats>::with_timings
@@ -9890,16 +9890,16 @@ BRH:0
 DA:21,57
 DA:23,57
 DA:24,57
-DA:27,342589
-DA:28,342589
-DA:29,342589
-DA:30,293797
-DA:31,293797
-DA:32,293797
+DA:27,342285
+DA:28,342285
+DA:29,342285
+DA:30,293493
+DA:31,293493
+DA:32,293493
 DA:33,4028
 DA:35,38
 DA:36,38
-DA:37,342551
+DA:37,342247
 DA:43,57
 DA:44,19
 DA:45,19
@@ -12961,9 +12961,9 @@ DA:109,0
 DA:111,1
 DA:112,1
 DA:113,1
-DA:120,1140
-DA:121,1140
-DA:122,1140
+DA:120,1159
+DA:121,1159
+DA:122,1159
 DA:135,0
 DA:136,0
 DA:137,0
@@ -12981,19 +12981,19 @@ DA:161,1
 DA:166,0
 DA:168,1
 DA:169,1
-DA:178,9025
-DA:179,9025
-DA:180,9025
+DA:178,9044
+DA:179,9044
+DA:180,9044
 DA:187,1
 DA:191,0
 DA:193,1
 DA:194,1
-DA:199,6726
-DA:200,6726
-DA:201,6726
-DA:202,24605
-DA:203,6726
-DA:204,6726
+DA:199,6745
+DA:200,6745
+DA:201,6745
+DA:202,24700
+DA:203,6745
+DA:204,6745
 DA:212,1
 DA:216,1
 DA:217,1
@@ -13034,13 +13034,14 @@ FN:117,conjure_core::rules::constant_eval::eval_constant::{closure#14}
 FN:389,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_EVAL_ROOT::__typecheck::{closure#0}::{closure#0}
 FN:105,conjure_core::rules::constant_eval::eval_constant::{closure#7}
 FN:203,conjure_core::rules::constant_eval::eval_constant::{closure#27}
+FN:489,conjure_core::rules::constant_eval::unwrap_expr::<bool>
+FN:19,conjure_core::rules::constant_eval::constant_evaluator
 FN:452,conjure_core::rules::constant_eval::vec_lit_op::<i32, i32>
-FN:19,conjure_core::rules::constant_eval::apply_eval_constant
-FN:424,conjure_core::rules::constant_eval::bin_op::<i32, bool>
 FN:416,conjure_core::rules::constant_eval::un_op::<i32, i32>
+FN:424,conjure_core::rules::constant_eval::bin_op::<i32, bool>
 FN:104,conjure_core::rules::constant_eval::eval_constant::{closure#6}
+FN:416,conjure_core::rules::constant_eval::un_op::<bool, bool>
 FN:61,conjure_core::rules::constant_eval::eval_constant::{closure#2}
-FN:18,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_APPLY_EVAL_CONSTANT::__typecheck::{closure#0}::{closure#0}
 FN:434,conjure_core::rules::constant_eval::tern_op::<_, _>
 FN:93,conjure_core::rules::constant_eval::eval_constant::{closure#5}
 FN:424,conjure_core::rules::constant_eval::bin_op::<bool, bool>
@@ -13049,7 +13050,6 @@ FN:117,conjure_core::rules::constant_eval::eval_constant::{closure#14}
 FN:354,conjure_core::rules::constant_eval::eval_constant::{closure#32}
 FN:115,conjure_core::rules::constant_eval::eval_constant::{closure#12}
 FN:339,conjure_core::rules::constant_eval::eval_constant::{closure#29}
-FN:24,conjure_core::rules::constant_eval::apply_eval_constant::{closure#0}
 FN:118,conjure_core::rules::constant_eval::eval_constant::{closure#15}
 FN:480,conjure_core::rules::constant_eval::flat_op::<_, _>
 FN:452,conjure_core::rules::constant_eval::vec_lit_op::<i32, i32>
@@ -13064,6 +13064,7 @@ FN:424,conjure_core::rules::constant_eval::bin_op::<i32, i32>
 FN:424,conjure_core::rules::constant_eval::bin_op::<bool, bool>
 FN:489,conjure_core::rules::constant_eval::unwrap_expr::<bool>
 FN:203,conjure_core::rules::constant_eval::eval_constant::{closure#27}
+FN:18,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_CONSTANT_EVALUATOR::__typecheck::{closure#0}::{closure#0}
 FN:350,conjure_core::rules::constant_eval::eval_constant::{closure#31}
 FN:111,conjure_core::rules::constant_eval::eval_constant::{closure#9}
 FN:406,conjure_core::rules::constant_eval::eval_root::{closure#0}
@@ -13074,14 +13075,15 @@ FN:173,conjure_core::rules::constant_eval::eval_constant::{closure#24}
 FN:32,conjure_core::rules::constant_eval::eval_constant
 FN:16,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_SET_CONSTANT::__typecheck::{closure#0}::{closure#0}
 FN:142,conjure_core::rules::constant_eval::eval_constant::{closure#19}
+FN:24,conjure_core::rules::constant_eval::constant_evaluator::{closure#0}
 FN:119,conjure_core::rules::constant_eval::eval_constant::{closure#16}
+FN:24,conjure_core::rules::constant_eval::constant_evaluator::{closure#0}
 FN:121,conjure_core::rules::constant_eval::eval_constant::{closure#17}::{closure#0}
 FN:114,conjure_core::rules::constant_eval::eval_constant::{closure#11}
 FN:60,conjure_core::rules::constant_eval::eval_constant::{closure#1}
 FN:350,conjure_core::rules::constant_eval::eval_constant::{closure#31}
 FN:111,conjure_core::rules::constant_eval::eval_constant::{closure#9}
 FN:489,conjure_core::rules::constant_eval::unwrap_expr::<i32>
-FN:19,conjure_core::rules::constant_eval::apply_eval_constant
 FN:343,conjure_core::rules::constant_eval::eval_constant::{closure#30}
 FN:98,conjure_core::rules::constant_eval::eval_constant::{closure#5}::{closure#0}
 FN:469,conjure_core::rules::constant_eval::opt_vec_lit_op::<i32, i32>
@@ -13093,14 +13095,14 @@ FN:112,conjure_core::rules::constant_eval::eval_constant::{closure#10}::{closure
 FN:143,conjure_core::rules::constant_eval::eval_constant::{closure#20}
 FN:93,conjure_core::rules::constant_eval::eval_constant::{closure#5}
 FN:104,conjure_core::rules::constant_eval::eval_constant::{closure#6}
-FN:18,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_APPLY_EVAL_CONSTANT::__typecheck::{closure#0}::{closure#0}
-FN:72,conjure_core::rules::constant_eval::eval_constant::{closure#3}
 FN:480,conjure_core::rules::constant_eval::flat_op::<_, _>
-FN:116,conjure_core::rules::constant_eval::eval_constant::{closure#13}
+FN:72,conjure_core::rules::constant_eval::eval_constant::{closure#3}
 FN:469,conjure_core::rules::constant_eval::opt_vec_lit_op::<i32, i32>
+FN:116,conjure_core::rules::constant_eval::eval_constant::{closure#13}
+FN:444,conjure_core::rules::constant_eval::vec_op::<i32, i32>
 FN:343,conjure_core::rules::constant_eval::eval_constant::{closure#30}
 FN:142,conjure_core::rules::constant_eval::eval_constant::{closure#19}
-FN:444,conjure_core::rules::constant_eval::vec_op::<i32, i32>
+FN:444,conjure_core::rules::constant_eval::vec_op::<bool, bool>
 FN:116,conjure_core::rules::constant_eval::eval_constant::{closure#13}
 FN:52,conjure_core::rules::constant_eval::eval_constant::{closure#0}
 FN:119,conjure_core::rules::constant_eval::eval_constant::{closure#16}
@@ -13109,11 +13111,10 @@ FN:179,conjure_core::rules::constant_eval::eval_constant::{closure#25}
 FN:115,conjure_core::rules::constant_eval::eval_constant::{closure#12}
 FN:489,conjure_core::rules::constant_eval::unwrap_expr::<i32>
 FN:61,conjure_core::rules::constant_eval::eval_constant::{closure#2}
-FN:444,conjure_core::rules::constant_eval::vec_op::<bool, bool>
-FN:354,conjure_core::rules::constant_eval::eval_constant::{closure#32}
+FN:125,conjure_core::rules::constant_eval::eval_constant::{closure#18}
 FN:110,conjure_core::rules::constant_eval::eval_constant::{closure#8}
 FN:161,conjure_core::rules::constant_eval::eval_constant::{closure#22}
-FN:125,conjure_core::rules::constant_eval::eval_constant::{closure#18}
+FN:354,conjure_core::rules::constant_eval::eval_constant::{closure#32}
 FN:52,conjure_core::rules::constant_eval::eval_constant::{closure#0}
 FN:516,conjure_core::rules::constant_eval::tests::safediv_by_zero
 FN:98,conjure_core::rules::constant_eval::eval_constant::{closure#5}::{closure#0}
@@ -13162,48 +13163,47 @@ FN:112,conjure_core::rules::constant_eval::eval_constant::{closure#10}
 FN:489,conjure_core::rules::constant_eval::unwrap_expr::<i32>
 FN:116,conjure_core::rules::constant_eval::eval_constant::{closure#13}
 FN:119,conjure_core::rules::constant_eval::eval_constant::{closure#16}
-FN:19,conjure_core::rules::constant_eval::apply_eval_constant
 FN:444,conjure_core::rules::constant_eval::vec_op::<i32, i32>
 FN:80,conjure_core::rules::constant_eval::eval_constant::{closure#4}
 FN:500,conjure_core::rules::constant_eval::tests::div_by_zero
 FN:469,conjure_core::rules::constant_eval::opt_vec_lit_op::<i32, i32>
 FN:125,conjure_core::rules::constant_eval::eval_constant::{closure#18}
 FN:112,conjure_core::rules::constant_eval::eval_constant::{closure#10}::{closure#0}
-FN:24,conjure_core::rules::constant_eval::apply_eval_constant::{closure#0}
+FN:390,conjure_core::rules::constant_eval::eval_root
 FN:112,conjure_core::rules::constant_eval::eval_constant::{closure#10}
 FN:424,conjure_core::rules::constant_eval::bin_op::<i32, bool>
-FN:390,conjure_core::rules::constant_eval::eval_root
+FN:406,conjure_core::rules::constant_eval::eval_root::{closure#0}::{closure#0}
 FN:489,conjure_core::rules::constant_eval::unwrap_expr::<bool>
 FN:121,conjure_core::rules::constant_eval::eval_constant::{closure#17}
-FN:406,conjure_core::rules::constant_eval::eval_root::{closure#0}::{closure#0}
 FN:339,conjure_core::rules::constant_eval::eval_constant::{closure#29}
-FN:406,conjure_core::rules::constant_eval::eval_root::{closure#0}
+FN:24,conjure_core::rules::constant_eval::constant_evaluator::{closure#0}
 FN:452,conjure_core::rules::constant_eval::vec_lit_op::<bool, bool>
+FN:406,conjure_core::rules::constant_eval::eval_root::{closure#0}
 FN:52,conjure_core::rules::constant_eval::eval_constant::{closure#0}
-FN:32,conjure_core::rules::constant_eval::eval_constant
+FN:18,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_CONSTANT_EVALUATOR::__typecheck::{closure#0}::{closure#0}
 FN:80,conjure_core::rules::constant_eval::eval_constant::{closure#4}
 FN:114,conjure_core::rules::constant_eval::eval_constant::{closure#11}
 FN:173,conjure_core::rules::constant_eval::eval_constant::{closure#24}
 FN:121,conjure_core::rules::constant_eval::eval_constant::{closure#17}
+FN:32,conjure_core::rules::constant_eval::eval_constant
 FN:110,conjure_core::rules::constant_eval::eval_constant::{closure#8}
-FN:424,conjure_core::rules::constant_eval::bin_op::<i32, bool>
 FN:350,conjure_core::rules::constant_eval::eval_constant::{closure#31}
 FN:444,conjure_core::rules::constant_eval::vec_op::<bool, bool>
+FN:19,conjure_core::rules::constant_eval::constant_evaluator
+FN:424,conjure_core::rules::constant_eval::bin_op::<i32, bool>
 FN:170,conjure_core::rules::constant_eval::eval_constant::{closure#23}
-FN:24,conjure_core::rules::constant_eval::apply_eval_constant::{closure#0}
 FN:80,conjure_core::rules::constant_eval::eval_constant::{closure#4}
-FN:18,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_APPLY_EVAL_CONSTANT::__typecheck::{closure#0}::{closure#0}
 FN:389,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_EVAL_ROOT::__typecheck::{closure#0}::{closure#0}
 FN:121,conjure_core::rules::constant_eval::eval_constant::{closure#17}
 FN:434,conjure_core::rules::constant_eval::tern_op::<_, _>
 FN:354,conjure_core::rules::constant_eval::eval_constant::{closure#32}
 FN:343,conjure_core::rules::constant_eval::eval_constant::{closure#30}
 FN:416,conjure_core::rules::constant_eval::un_op::<i32, i32>
+FN:19,conjure_core::rules::constant_eval::constant_evaluator
 FN:143,conjure_core::rules::constant_eval::eval_constant::{closure#20}
-FN:179,conjure_core::rules::constant_eval::eval_constant::{closure#25}
 FN:424,conjure_core::rules::constant_eval::bin_op::<i32, i32>
-FN:489,conjure_core::rules::constant_eval::unwrap_expr::<bool>
-FN:416,conjure_core::rules::constant_eval::un_op::<bool, bool>
+FN:179,conjure_core::rules::constant_eval::eval_constant::{closure#25}
+FN:18,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_CONSTANT_EVALUATOR::__typecheck::{closure#0}::{closure#0}
 FNDA:1,conjure_core::rules::constant_eval::bin_op::<bool, bool>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#28}
 FNDA:0,conjure_core::rules::constant_eval::flat_op::<_, _>
@@ -13222,13 +13222,14 @@ FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#14}
 FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_EVAL_ROOT::__typecheck::{closure#0}::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#7}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#27}
+FNDA:0,conjure_core::rules::constant_eval::unwrap_expr::<bool>
+FNDA:0,conjure_core::rules::constant_eval::constant_evaluator
 FNDA:0,conjure_core::rules::constant_eval::vec_lit_op::<i32, i32>
-FNDA:1,conjure_core::rules::constant_eval::apply_eval_constant
-FNDA:1,conjure_core::rules::constant_eval::bin_op::<i32, bool>
 FNDA:0,conjure_core::rules::constant_eval::un_op::<i32, i32>
+FNDA:1,conjure_core::rules::constant_eval::bin_op::<i32, bool>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#6}
+FNDA:0,conjure_core::rules::constant_eval::un_op::<bool, bool>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#2}
-FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_APPLY_EVAL_CONSTANT::__typecheck::{closure#0}::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::tern_op::<_, _>
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#5}
 FNDA:0,conjure_core::rules::constant_eval::bin_op::<bool, bool>
@@ -13237,7 +13238,6 @@ FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#14}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#32}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#12}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#29}
-FNDA:0,conjure_core::rules::constant_eval::apply_eval_constant::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#15}
 FNDA:0,conjure_core::rules::constant_eval::flat_op::<_, _>
 FNDA:0,conjure_core::rules::constant_eval::vec_lit_op::<i32, i32>
@@ -13252,6 +13252,7 @@ FNDA:0,conjure_core::rules::constant_eval::bin_op::<i32, i32>
 FNDA:0,conjure_core::rules::constant_eval::bin_op::<bool, bool>
 FNDA:0,conjure_core::rules::constant_eval::unwrap_expr::<bool>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#27}
+FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_CONSTANT_EVALUATOR::__typecheck::{closure#0}::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#31}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#9}
 FNDA:1,conjure_core::rules::constant_eval::eval_root::{closure#0}
@@ -13262,14 +13263,15 @@ FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#24}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant
 FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_SET_CONSTANT::__typecheck::{closure#0}::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#19}
+FNDA:1,conjure_core::rules::constant_eval::constant_evaluator::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#16}
+FNDA:0,conjure_core::rules::constant_eval::constant_evaluator::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#17}::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#11}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#1}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#31}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#9}
 FNDA:1,conjure_core::rules::constant_eval::unwrap_expr::<i32>
-FNDA:0,conjure_core::rules::constant_eval::apply_eval_constant
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#30}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#5}::{closure#0}
 FNDA:1,conjure_core::rules::constant_eval::opt_vec_lit_op::<i32, i32>
@@ -13281,14 +13283,14 @@ FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#10}::{closure
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#20}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#5}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#6}
-FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_APPLY_EVAL_CONSTANT::__typecheck::{closure#0}::{closure#0}
-FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#3}
 FNDA:0,conjure_core::rules::constant_eval::flat_op::<_, _>
-FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#13}
+FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#3}
 FNDA:0,conjure_core::rules::constant_eval::opt_vec_lit_op::<i32, i32>
+FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#13}
+FNDA:0,conjure_core::rules::constant_eval::vec_op::<i32, i32>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#30}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#19}
-FNDA:0,conjure_core::rules::constant_eval::vec_op::<i32, i32>
+FNDA:0,conjure_core::rules::constant_eval::vec_op::<bool, bool>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#13}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#0}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#16}
@@ -13297,11 +13299,10 @@ FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#25}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#12}
 FNDA:0,conjure_core::rules::constant_eval::unwrap_expr::<i32>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#2}
-FNDA:0,conjure_core::rules::constant_eval::vec_op::<bool, bool>
-FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#32}
+FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#18}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#8}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#22}
-FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#18}
+FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#32}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#0}
 FNDA:1,conjure_core::rules::constant_eval::tests::safediv_by_zero
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#5}::{closure#0}
@@ -13350,48 +13351,47 @@ FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#10}
 FNDA:1,conjure_core::rules::constant_eval::unwrap_expr::<i32>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#13}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#16}
-FNDA:0,conjure_core::rules::constant_eval::apply_eval_constant
 FNDA:1,conjure_core::rules::constant_eval::vec_op::<i32, i32>
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#4}
 FNDA:1,conjure_core::rules::constant_eval::tests::div_by_zero
 FNDA:0,conjure_core::rules::constant_eval::opt_vec_lit_op::<i32, i32>
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#18}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#10}::{closure#0}
-FNDA:0,conjure_core::rules::constant_eval::apply_eval_constant::{closure#0}
+FNDA:0,conjure_core::rules::constant_eval::eval_root
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#10}
 FNDA:0,conjure_core::rules::constant_eval::bin_op::<i32, bool>
-FNDA:0,conjure_core::rules::constant_eval::eval_root
+FNDA:0,conjure_core::rules::constant_eval::eval_root::{closure#0}::{closure#0}
 FNDA:1,conjure_core::rules::constant_eval::unwrap_expr::<bool>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#17}
-FNDA:0,conjure_core::rules::constant_eval::eval_root::{closure#0}::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#29}
-FNDA:0,conjure_core::rules::constant_eval::eval_root::{closure#0}
+FNDA:0,conjure_core::rules::constant_eval::constant_evaluator::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::vec_lit_op::<bool, bool>
+FNDA:0,conjure_core::rules::constant_eval::eval_root::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#0}
-FNDA:1,conjure_core::rules::constant_eval::eval_constant
+FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_CONSTANT_EVALUATOR::__typecheck::{closure#0}::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#4}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#11}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#24}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#17}
+FNDA:1,conjure_core::rules::constant_eval::eval_constant
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#8}
-FNDA:0,conjure_core::rules::constant_eval::bin_op::<i32, bool>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#31}
 FNDA:1,conjure_core::rules::constant_eval::vec_op::<bool, bool>
+FNDA:0,conjure_core::rules::constant_eval::constant_evaluator
+FNDA:0,conjure_core::rules::constant_eval::bin_op::<i32, bool>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#23}
-FNDA:1,conjure_core::rules::constant_eval::apply_eval_constant::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#4}
-FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_APPLY_EVAL_CONSTANT::__typecheck::{closure#0}::{closure#0}
 FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_EVAL_ROOT::__typecheck::{closure#0}::{closure#0}
 FNDA:1,conjure_core::rules::constant_eval::eval_constant::{closure#17}
 FNDA:0,conjure_core::rules::constant_eval::tern_op::<_, _>
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#32}
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#30}
 FNDA:0,conjure_core::rules::constant_eval::un_op::<i32, i32>
+FNDA:1,conjure_core::rules::constant_eval::constant_evaluator
 FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#20}
-FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#25}
 FNDA:0,conjure_core::rules::constant_eval::bin_op::<i32, i32>
-FNDA:0,conjure_core::rules::constant_eval::unwrap_expr::<bool>
-FNDA:0,conjure_core::rules::constant_eval::un_op::<bool, bool>
+FNDA:0,conjure_core::rules::constant_eval::eval_constant::{closure#25}
+FNDA:0,conjure_core::rules::constant_eval::CONJURE_GEN_RULE_CONSTANT_EVALUATOR::__typecheck::{closure#0}::{closure#0}
 FNF:188
 FNH:51
 BRF:0
