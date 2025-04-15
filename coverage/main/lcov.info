@@ -644,9 +644,9 @@ end_of_record
 SF:conjure_oxide/src/solve.rs
 FN:47,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
 FN:158,conjure_oxide::solve::parse::{closure#1}
-FN:42,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#0}
-FN:128,conjure_oxide::solve::init_context::{closure#6}
 FN:88,conjure_oxide::solve::init_context
+FN:128,conjure_oxide::solve::init_context::{closure#6}
+FN:42,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#0}
 FN:128,conjure_oxide::solve::init_context::{closure#6}
 FN:32,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FN:32,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
@@ -673,10 +673,10 @@ FN:183,conjure_oxide::solve::rewrite
 FN:46,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#1}
 FN:43,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FN:179,conjure_oxide::solve::parse::{closure#2}
-FN:142,conjure_oxide::solve::parse
-FN:237,conjure_oxide::solve::run_sat_solver
-FN:47,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
 FN:204,conjure_oxide::solve::run_minion
+FN:142,conjure_oxide::solve::parse
+FN:47,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
+FN:237,conjure_oxide::solve::run_sat_solver
 FN:43,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FN:42,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#0}
 FN:46,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args_for_update::{closure#1}
@@ -705,14 +705,14 @@ FN:43,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::upda
 FN:113,conjure_oxide::solve::init_context::{closure#0}
 FN:47,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#2}
 FN:237,conjure_oxide::solve::run_sat_solver
-FN:158,conjure_oxide::solve::parse::{closure#1}
 FN:46,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#1}
 FN:179,conjure_oxide::solve::parse::{closure#2}
+FN:158,conjure_oxide::solve::parse::{closure#1}
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
 FNDA:0,conjure_oxide::solve::parse::{closure#1}
-FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#0}
-FNDA:0,conjure_oxide::solve::init_context::{closure#6}
 FNDA:0,conjure_oxide::solve::init_context
+FNDA:0,conjure_oxide::solve::init_context::{closure#6}
+FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#0}
 FNDA:1,conjure_oxide::solve::init_context::{closure#6}
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
@@ -739,10 +739,10 @@ FNDA:0,conjure_oxide::solve::rewrite
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#1}
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FNDA:0,conjure_oxide::solve::parse::{closure#2}
-FNDA:0,conjure_oxide::solve::parse
-FNDA:0,conjure_oxide::solve::run_sat_solver
-FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
 FNDA:0,conjure_oxide::solve::run_minion
+FNDA:0,conjure_oxide::solve::parse
+FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
+FNDA:0,conjure_oxide::solve::run_sat_solver
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#0}
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args_for_update::{closure#1}
@@ -771,9 +771,9 @@ FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::upd
 FNDA:1,conjure_oxide::solve::init_context::{closure#0}
 FNDA:0,<conjure_oxide::solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#2}
 FNDA:0,conjure_oxide::solve::run_sat_solver
-FNDA:0,conjure_oxide::solve::parse::{closure#1}
 FNDA:1,<conjure_oxide::solve::Args as clap_builder::derive::Args>::augment_args::{closure#1}
 FNDA:0,conjure_oxide::solve::parse::{closure#2}
+FNDA:0,conjure_oxide::solve::parse::{closure#1}
 FNF:66
 FNH:10
 BRF:0
@@ -3103,11 +3103,11 @@ DA:35,0
 DA:42,0
 DA:43,0
 DA:44,0
-DA:48,1278552
-DA:49,1278552
-DA:50,351888
-DA:51,926664
-DA:53,1278552
+DA:48,1291224
+DA:49,1291224
+DA:50,350112
+DA:51,941112
+DA:53,1291224
 DA:63,0
 DA:64,0
 DA:65,0
@@ -5216,12 +5216,12 @@ DA:184,10272
 DA:188,0
 DA:189,0
 DA:190,0
-DA:194,552
-DA:195,552
-DA:196,552
-DA:202,20400
-DA:203,20400
-DA:204,20400
+DA:194,768
+DA:195,768
+DA:196,768
+DA:202,24744
+DA:203,24744
+DA:204,24744
 DA:208,0
 DA:209,0
 DA:210,0
@@ -5369,68 +5369,68 @@ DA:55,0
 DA:56,0
 DA:60,11472
 DA:61,11472
-DA:63,552
-DA:64,552
-DA:65,552
-DA:66,552
-DA:67,552
-DA:68,552
-DA:69,552
-DA:71,10920
+DA:63,624
+DA:64,624
+DA:65,624
+DA:66,624
+DA:67,624
+DA:68,624
+DA:69,624
+DA:71,10848
 DA:73,11472
 DA:78,11424
 DA:79,11424
-DA:81,504
-DA:82,504
-DA:83,504
-DA:84,504
-DA:85,504
-DA:86,504
-DA:87,504
-DA:89,10920
+DA:81,528
+DA:82,528
+DA:83,528
+DA:84,528
+DA:85,528
+DA:86,528
+DA:87,528
+DA:89,10896
 DA:91,11424
 DA:95,2904
 DA:96,2904
 DA:97,2904
 DA:98,2904
 DA:99,2904
-DA:102,552
-DA:103,552
-DA:105,36432
-DA:106,36432
-DA:107,36432
-DA:109,63696
-DA:110,36432
-DA:111,9168
-DA:112,9168
-DA:113,9168
-DA:114,27264
-DA:117,36432
-DA:118,9168
-DA:119,27264
-DA:122,552
-DA:123,552
-DA:127,768
-DA:128,768
-DA:130,1032
-DA:131,264
+DA:102,624
+DA:103,624
+DA:105,41184
+DA:106,41184
+DA:107,41184
+DA:109,71256
+DA:110,41184
+DA:111,11112
+DA:112,11112
+DA:113,11112
+DA:114,30072
+DA:117,41184
+DA:118,11112
+DA:119,30072
+DA:122,624
+DA:123,624
+DA:127,816
+DA:128,816
+DA:130,1104
+DA:131,288
 DA:133,0
 DA:134,0
 DA:135,0
-DA:138,264
-DA:139,264
-DA:140,264
-DA:141,264
-DA:142,264
-DA:143,264
-DA:148,768
-DA:149,768
-DA:153,5856
-DA:154,5856
-DA:155,5856
-DA:161,42864
-DA:162,42864
-DA:163,42864
+DA:138,288
+DA:139,288
+DA:140,288
+DA:141,288
+DA:142,288
+DA:143,288
+DA:148,816
+DA:149,816
+DA:153,5784
+DA:154,5784
+DA:155,5784
+DA:161,42888
+DA:162,42888
+DA:163,42888
 DA:167,0
 DA:168,0
 DA:169,0
@@ -6272,14 +6272,14 @@ DA:490,41496
 DA:491,41496
 DA:492,41496
 DA:493,41496
-DA:494,152328
-DA:495,59880
+DA:494,150816
+DA:495,60216
 DA:496,41496
 DA:498,192
 DA:499,41496
-DA:500,152328
+DA:500,150816
 DA:501,8064
-DA:503,59880
+DA:503,60216
 DA:504,6240
 DA:506,3240
 DA:507,528
@@ -11291,8 +11291,8 @@ SF:conjure_oxide/src/test_solve.rs
 FN:17,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FN:20,conjure_oxide::test_solve::run_test_solve_command
 FN:20,conjure_oxide::test_solve::run_test_solve_command
-FN:20,conjure_oxide::test_solve::run_test_solve_command
 FN:17,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FN:20,conjure_oxide::test_solve::run_test_solve_command
 FN:17,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
 FN:17,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
 FN:17,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
@@ -11300,8 +11300,8 @@ FN:17,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>:
 FNDA:0,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FNDA:0,conjure_oxide::test_solve::run_test_solve_command
 FNDA:0,conjure_oxide::test_solve::run_test_solve_command
-FNDA:0,conjure_oxide::test_solve::run_test_solve_command
 FNDA:0,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FNDA:0,conjure_oxide::test_solve::run_test_solve_command
 FNDA:0,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::test_solve::Args as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
@@ -14104,16 +14104,16 @@ BRH:0
 DA:21,48
 DA:23,48
 DA:24,48
-DA:27,321384
-DA:28,321384
-DA:29,321384
-DA:30,276792
-DA:31,276792
-DA:32,276792
+DA:27,321408
+DA:28,321408
+DA:29,321408
+DA:30,276816
+DA:31,276816
+DA:32,276816
 DA:33,3432
 DA:35,24
 DA:36,24
-DA:37,321360
+DA:37,321384
 DA:43,48
 DA:44,24
 DA:45,24
@@ -14160,7 +14160,7 @@ LF:55
 LH:55
 end_of_record
 SF:conjure_oxide/src/main.rs
-FN:129,conjure_oxide::run_subcommand
+FN:21,conjure_oxide::main
 FN:107,conjure_oxide::setup_logging::{closure#0}
 FN:34,conjure_oxide::run
 FN:107,conjure_oxide::setup_logging::{closure#0}
@@ -14172,17 +14172,17 @@ FN:161,conjure_oxide::tests::test_get_example_model_fail_empty_filepath
 FN:129,conjure_oxide::run_subcommand
 FN:149,conjure_oxide::tests::test_get_example_model_by_filepath
 FN:115,conjure_oxide::setup_logging::{closure#0}::{closure#0}
-FN:115,conjure_oxide::setup_logging::{closure#0}::{closure#0}
-FN:34,conjure_oxide::run
-FN:107,conjure_oxide::setup_logging::{closure#0}
 FN:47,conjure_oxide::setup_logging
+FN:34,conjure_oxide::run
+FN:21,conjure_oxide::main
+FN:47,conjure_oxide::setup_logging
+FN:115,conjure_oxide::setup_logging::{closure#0}::{closure#0}
+FN:107,conjure_oxide::setup_logging::{closure#0}
 FN:129,conjure_oxide::run_subcommand
 FN:34,conjure_oxide::run
-FN:47,conjure_oxide::setup_logging
+FN:129,conjure_oxide::run_subcommand
 FN:21,conjure_oxide::main
-FN:21,conjure_oxide::main
-FN:21,conjure_oxide::main
-FNDA:0,conjure_oxide::run_subcommand
+FNDA:0,conjure_oxide::main
 FNDA:0,conjure_oxide::setup_logging::{closure#0}
 FNDA:0,conjure_oxide::run
 FNDA:0,conjure_oxide::setup_logging::{closure#0}
@@ -14194,15 +14194,15 @@ FNDA:1,conjure_oxide::tests::test_get_example_model_fail_empty_filepath
 FNDA:1,conjure_oxide::run_subcommand
 FNDA:1,conjure_oxide::tests::test_get_example_model_by_filepath
 FNDA:0,conjure_oxide::setup_logging::{closure#0}::{closure#0}
-FNDA:0,conjure_oxide::setup_logging::{closure#0}::{closure#0}
+FNDA:0,conjure_oxide::setup_logging
 FNDA:1,conjure_oxide::run
-FNDA:0,conjure_oxide::setup_logging::{closure#0}
+FNDA:0,conjure_oxide::main
 FNDA:1,conjure_oxide::setup_logging
+FNDA:0,conjure_oxide::setup_logging::{closure#0}::{closure#0}
+FNDA:0,conjure_oxide::setup_logging::{closure#0}
 FNDA:0,conjure_oxide::run_subcommand
 FNDA:0,conjure_oxide::run
-FNDA:0,conjure_oxide::setup_logging
-FNDA:0,conjure_oxide::main
-FNDA:0,conjure_oxide::main
+FNDA:0,conjure_oxide::run_subcommand
 FNDA:1,conjure_oxide::main
 FNF:22
 FNH:8
@@ -16890,9 +16890,9 @@ DA:126,0
 DA:128,1
 DA:129,1
 DA:130,1
-DA:137,1656
-DA:138,1656
-DA:139,1656
+DA:137,1728
+DA:138,1728
+DA:139,1728
 DA:152,0
 DA:153,0
 DA:154,0
@@ -16910,19 +16910,19 @@ DA:178,1
 DA:183,0
 DA:185,1
 DA:186,1
-DA:195,11760
-DA:196,11760
-DA:197,11760
+DA:195,11784
+DA:196,11784
+DA:197,11784
 DA:204,1
 DA:208,0
 DA:210,1
 DA:211,1
-DA:216,8808
-DA:217,8808
-DA:218,8808
-DA:219,20328
-DA:220,8808
-DA:221,8808
+DA:216,8832
+DA:217,8832
+DA:218,8832
+DA:219,20352
+DA:220,8832
+DA:221,8832
 DA:229,1
 DA:233,0
 DA:235,1
@@ -20462,18 +20462,18 @@ end_of_record
 SF:conjure_oxide/src/cli.rs
 FN:71,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
 FN:68,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#0}
-FN:71,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
+FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FN:81,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
+FN:71,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
 FN:59,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
 FN:81,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#4}
-FN:81,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
-FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FN:68,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#0}
-FN:43,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
-FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
 FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
+FN:43,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
+FN:81,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
 FN:43,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
 FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FN:81,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#4}
 FN:71,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#3}
@@ -20481,53 +20481,53 @@ FN:84,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_ar
 FN:81,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#4}
 FN:43,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FN:43,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
+FN:59,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
 FN:71,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#3}
-FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
 FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FN:59,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#2}
 FN:84,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#1}
 FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FN:81,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
 FN:68,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#0}
+FN:71,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
+FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
+FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FN:68,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#0}
+FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
+FN:43,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
+FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
 FN:84,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#1}
 FN:43,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
-FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
-FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
-FN:68,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#0}
-FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
-FN:81,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
-FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
-FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
-FN:71,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
-FN:43,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
 FN:59,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
-FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
+FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
 FN:59,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#2}
 FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
 FN:68,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#0}
 FN:71,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#3}
-FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FN:55,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FN:84,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#1}
-FN:84,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#1}
-FN:85,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
 FN:59,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#2}
-FN:59,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
+FN:84,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#1}
+FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FN:36,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FN:84,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#1}
 FN:68,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#0}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#0}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
+FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#4}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
-FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#0}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#4}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#3}
@@ -20535,37 +20535,37 @@ FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_a
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#4}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#3}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#2}
 FNDA:1,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#1}
 FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#0}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
+FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FNDA:1,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#0}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#1}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
-FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
-FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
-FNDA:1,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#0}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#4}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#3}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#1}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#5}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#2}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#0}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#3}
-FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#1}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#1}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#1}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#5}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#2}
-FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#2}
+FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#1}
+FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::from_arg_matches_mut::{closure#0}
+FNDA:0,<conjure_oxide::cli::Cli as clap_builder::derive::FromArgMatches>::update_from_arg_matches_mut::{closure#0}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args::{closure#1}
 FNDA:0,<conjure_oxide::cli::GlobalArgs as clap_builder::derive::Args>::augment_args_for_update::{closure#0}
 FNF:54
@@ -21167,9 +21167,9 @@ DA:652,230
 DA:653,230
 DA:654,230
 DA:655,230
-DA:656,17698
-DA:657,17698
-DA:658,17698
+DA:656,17617
+DA:657,17617
+DA:658,17617
 DA:660,230
 DA:661,230
 DA:663,230
@@ -21182,7 +21182,7 @@ DA:669,230
 DA:670,230
 DA:671,230
 DA:672,230
-DA:673,17698
+DA:673,17617
 DA:675,230
 DA:676,230
 DA:679,1
