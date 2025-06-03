@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `crates/conjure_core/src/ast/expressions.rs`."><title>expressions.rs - source</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../static.files/normalize-9960930a.css"><link rel="stylesheet" href="../../../static.files/rustdoc-84e720fa.css"><meta name="rustdoc-vars" data-root-path="../../../" data-static-root-path="../../../static.files/" data-current-crate="conjure_core" data-themes="" data-resource-suffix="" data-rustdoc-version="1.89.0-nightly (99e7c15e8 2025-06-01)" data-channel="nightly" data-search-js="search-f7877310.js" data-settings-js="settings-5514c975.js" ><script src="../../../static.files/storage-4e99c027.js"></script><script defer src="../../../static.files/src-script-63605ae7.js"></script><script defer src="../../../src-files.js"></script><script defer src="../../../static.files/main-fd3af306.js"></script><noscript><link rel="stylesheet" href="../../../static.files/noscript-32bb7600.css"></noscript><link rel="alternate icon" type="image/png" href="../../../static.files/favicon-32x32-6580c154.png"><link rel="icon" type="image/svg+xml" href="../../../static.files/favicon-044be391.svg"></head><body class="rustdoc src"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="src-sidebar-title"><h2>Files</h2></div></nav><div class="sidebar-resizer" title="Drag to resize sidebar"></div><main><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><h1><div class="sub-heading">conjure_core/ast/</div>expressions.rs</h1><rustdoc-toolbar></rustdoc-toolbar></div><div class="example-wrap digits-4"><pre class="rust"><code><a href=#1 id=1 data-nosnippet>1</a><span class="kw">use </span>std::collections::VecDeque;
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `crates/conjure_core/src/ast/expressions.rs`."><title>expressions.rs - source</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../static.files/normalize-9960930a.css"><link rel="stylesheet" href="../../../static.files/rustdoc-84e720fa.css"><meta name="rustdoc-vars" data-root-path="../../../" data-static-root-path="../../../static.files/" data-current-crate="conjure_core" data-themes="" data-resource-suffix="" data-rustdoc-version="1.89.0-nightly (5d707b07e 2025-06-02)" data-channel="nightly" data-search-js="search-f7877310.js" data-settings-js="settings-5514c975.js" ><script src="../../../static.files/storage-4e99c027.js"></script><script defer src="../../../static.files/src-script-63605ae7.js"></script><script defer src="../../../src-files.js"></script><script defer src="../../../static.files/main-fd3af306.js"></script><noscript><link rel="stylesheet" href="../../../static.files/noscript-32bb7600.css"></noscript><link rel="alternate icon" type="image/png" href="../../../static.files/favicon-32x32-6580c154.png"><link rel="icon" type="image/svg+xml" href="../../../static.files/favicon-044be391.svg"></head><body class="rustdoc src"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="src-sidebar-title"><h2>Files</h2></div></nav><div class="sidebar-resizer" title="Drag to resize sidebar"></div><main><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><h1><div class="sub-heading">conjure_core/ast/</div>expressions.rs</h1><rustdoc-toolbar></rustdoc-toolbar></div><div class="example-wrap digits-4"><pre class="rust"><code><a href=#1 id=1 data-nosnippet>1</a><span class="kw">use </span>std::collections::VecDeque;
 <a href=#2 id=2 data-nosnippet>2</a><span class="kw">use </span>std::fmt::{Display, Formatter};
 <a href=#3 id=3 data-nosnippet>3</a><span class="kw">use </span>std::sync::Arc;
 <a href=#4 id=4 data-nosnippet>4</a>
@@ -31,8 +31,8 @@
 <a href=#31 id=31 data-nosnippet>31</a>#[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize, Uniplate)]
 <a href=#32 id=32 data-nosnippet>32</a>#[uniplate(walk_into=[Atom,SubModel,AbstractLiteral&lt;Expression&gt;,Comprehension]</span>)]
 <a href=#33 id=33 data-nosnippet>33</a><span class="attr">#[biplate(to=Metadata)]
-<a href=#34 id=34 data-nosnippet>34</a>#[biplate(to=Atom)]
-<a href=#35 id=35 data-nosnippet>35</a>#[biplate(to=Name,walk_into=[Atom]</span>)]
+<a href=#34 id=34 data-nosnippet>34</a>#[biplate(to=Atom,walk_into=[Expression,AbstractLiteral&lt;Expression&gt;,Vec&lt;Expression&gt;]</span>)]
+<a href=#35 id=35 data-nosnippet>35</a><span class="attr">#[biplate(to=Name,walk_into=[Expression,Atom,AbstractLiteral&lt;Expression&gt;,Vec&lt;Expression&gt;]</span>)]
 <a href=#36 id=36 data-nosnippet>36</a><span class="attr">#[biplate(to=Vec&lt;Expression&gt;)]
 <a href=#37 id=37 data-nosnippet>37</a>#[biplate(to=<span class="prelude-ty">Option</span>&lt;Expression&gt;)]
 <a href=#38 id=38 data-nosnippet>38</a>#[biplate(to=SubModel,walk_into=[Comprehension]</span>)]
@@ -486,7 +486,7 @@
 <a href=#486 id=486 data-nosnippet>486</a>            Expression::AbstractLiteral(<span class="kw">_</span>, <span class="kw">_</span>) =&gt; <span class="prelude-val">None</span>,
 <a href=#487 id=487 data-nosnippet>487</a>            Expression::DominanceRelation(<span class="kw">_</span>, <span class="kw">_</span>) =&gt; <span class="prelude-val">Some</span>(Domain::BoolDomain),
 <a href=#488 id=488 data-nosnippet>488</a>            Expression::FromSolution(<span class="kw">_</span>, expr) =&gt; expr.domain_of(syms),
-<a href=#489 id=489 data-nosnippet>489</a>            Expression::Comprehension(<span class="kw">_</span>, comprehension) =&gt; comprehension.domain_of(),
+<a href=#489 id=489 data-nosnippet>489</a>            Expression::Comprehension(<span class="kw">_</span>, comprehension) =&gt; comprehension.domain_of(syms),
 <a href=#490 id=490 data-nosnippet>490</a>            Expression::UnsafeIndex(<span class="kw">_</span>, matrix, <span class="kw">_</span>) | Expression::SafeIndex(<span class="kw">_</span>, matrix, <span class="kw">_</span>) =&gt; {
 <a href=#491 id=491 data-nosnippet>491</a>                <span class="kw">match </span>matrix.domain_of(syms)<span class="question-mark">? </span>{
 <a href=#492 id=492 data-nosnippet>492</a>                    Domain::DomainMatrix(elem_domain, <span class="kw">_</span>) =&gt; <span class="prelude-val">Some</span>(<span class="kw-2">*</span>elem_domain),
@@ -1008,7 +1008,7 @@
 <a href=#1008 id=1008 data-nosnippet>1008</a>            }
 <a href=#1009 id=1009 data-nosnippet>1009</a>            Expression::MinionWInIntervalSet(<span class="kw">_</span>, atom, intervals) =&gt; {
 <a href=#1010 id=1010 data-nosnippet>1010</a>                <span class="kw">let </span>intervals = intervals.iter().join(<span class="string">","</span>);
-<a href=#1011 id=1011 data-nosnippet>1011</a>                <span class="macro">write!</span>(f, <span class="string">"__minion_w_inintervalset({atom},{intervals})"</span>)
+<a href=#1011 id=1011 data-nosnippet>1011</a>                <span class="macro">write!</span>(f, <span class="string">"__minion_w_inintervalset({atom},[{intervals}])"</span>)
 <a href=#1012 id=1012 data-nosnippet>1012</a>            }
 <a href=#1013 id=1013 data-nosnippet>1013</a>            Expression::AuxDeclaration(<span class="kw">_</span>, n, e) =&gt; {
 <a href=#1014 id=1014 data-nosnippet>1014</a>                <span class="macro">write!</span>(f, <span class="string">"{} =aux {}"</span>, n, e.clone())
@@ -1249,4 +1249,45 @@
 <a href=#1249 id=1249 data-nosnippet>1249</a>            <span class="prelude-val">Some</span>(Domain::IntDomain(<span class="macro">vec!</span>[Range::Bounded(<span class="number">2</span>, <span class="number">4</span>)]))
 <a href=#1250 id=1250 data-nosnippet>1250</a>        );
 <a href=#1251 id=1251 data-nosnippet>1251</a>    }
-<a href=#1252 id=1252 data-nosnippet>1252</a>}</code></pre></div></section></main></body></html>
+<a href=#1252 id=1252 data-nosnippet>1252</a>
+<a href=#1253 id=1253 data-nosnippet>1253</a>    <span class="attr">#[test]
+<a href=#1254 id=1254 data-nosnippet>1254</a>    </span><span class="kw">fn </span>biplate_to_names() {
+<a href=#1255 id=1255 data-nosnippet>1255</a>        <span class="kw">let </span>expr = Expression::Atomic(Metadata::new(), Atom::Reference(Name::MachineName(<span class="number">1</span>)));
+<a href=#1256 id=1256 data-nosnippet>1256</a>        <span class="kw">let </span>expected_expr =
+<a href=#1257 id=1257 data-nosnippet>1257</a>            Expression::Atomic(Metadata::new(), Atom::Reference(Name::MachineName(<span class="number">2</span>)));
+<a href=#1258 id=1258 data-nosnippet>1258</a>        <span class="kw">let </span>actual_expr = expr.transform_bi(Arc::new(<span class="kw">move </span>|x: Name| <span class="kw">match </span>x {
+<a href=#1259 id=1259 data-nosnippet>1259</a>            Name::MachineName(i) =&gt; Name::MachineName(i + <span class="number">1</span>),
+<a href=#1260 id=1260 data-nosnippet>1260</a>            n =&gt; n,
+<a href=#1261 id=1261 data-nosnippet>1261</a>        }));
+<a href=#1262 id=1262 data-nosnippet>1262</a>        <span class="macro">assert_eq!</span>(actual_expr, expected_expr);
+<a href=#1263 id=1263 data-nosnippet>1263</a>
+<a href=#1264 id=1264 data-nosnippet>1264</a>        <span class="kw">let </span>expr = Expression::And(
+<a href=#1265 id=1265 data-nosnippet>1265</a>            Metadata::new(),
+<a href=#1266 id=1266 data-nosnippet>1266</a>            Box::new(<span class="macro">matrix_expr!</span>[Expression::AuxDeclaration(
+<a href=#1267 id=1267 data-nosnippet>1267</a>                Metadata::new(),
+<a href=#1268 id=1268 data-nosnippet>1268</a>                Name::MachineName(<span class="number">0</span>),
+<a href=#1269 id=1269 data-nosnippet>1269</a>                Box::new(Expression::Atomic(
+<a href=#1270 id=1270 data-nosnippet>1270</a>                    Metadata::new(),
+<a href=#1271 id=1271 data-nosnippet>1271</a>                    Atom::Reference(Name::MachineName(<span class="number">1</span>))
+<a href=#1272 id=1272 data-nosnippet>1272</a>                ))
+<a href=#1273 id=1273 data-nosnippet>1273</a>            )]),
+<a href=#1274 id=1274 data-nosnippet>1274</a>        );
+<a href=#1275 id=1275 data-nosnippet>1275</a>        <span class="kw">let </span>expected_expr = Expression::And(
+<a href=#1276 id=1276 data-nosnippet>1276</a>            Metadata::new(),
+<a href=#1277 id=1277 data-nosnippet>1277</a>            Box::new(<span class="macro">matrix_expr!</span>[Expression::AuxDeclaration(
+<a href=#1278 id=1278 data-nosnippet>1278</a>                Metadata::new(),
+<a href=#1279 id=1279 data-nosnippet>1279</a>                Name::MachineName(<span class="number">1</span>),
+<a href=#1280 id=1280 data-nosnippet>1280</a>                Box::new(Expression::Atomic(
+<a href=#1281 id=1281 data-nosnippet>1281</a>                    Metadata::new(),
+<a href=#1282 id=1282 data-nosnippet>1282</a>                    Atom::Reference(Name::MachineName(<span class="number">2</span>))
+<a href=#1283 id=1283 data-nosnippet>1283</a>                ))
+<a href=#1284 id=1284 data-nosnippet>1284</a>            )]),
+<a href=#1285 id=1285 data-nosnippet>1285</a>        );
+<a href=#1286 id=1286 data-nosnippet>1286</a>
+<a href=#1287 id=1287 data-nosnippet>1287</a>        <span class="kw">let </span>actual_expr = expr.transform_bi(Arc::new(<span class="kw">move </span>|x: Name| <span class="kw">match </span>x {
+<a href=#1288 id=1288 data-nosnippet>1288</a>            Name::MachineName(i) =&gt; Name::MachineName(i + <span class="number">1</span>),
+<a href=#1289 id=1289 data-nosnippet>1289</a>            n =&gt; n,
+<a href=#1290 id=1290 data-nosnippet>1290</a>        }));
+<a href=#1291 id=1291 data-nosnippet>1291</a>        <span class="macro">assert_eq!</span>(actual_expr, expected_expr);
+<a href=#1292 id=1292 data-nosnippet>1292</a>    }
+<a href=#1293 id=1293 data-nosnippet>1293</a>}</code></pre></div></section></main></body></html>
