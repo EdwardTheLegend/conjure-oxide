@@ -1,21 +1,21 @@
 TN:
 SF:crates/conjure_essence_parser/src/parser/expression.rs
-FN:13,conjure_essence_parser::parser::expression::parse_expression
 FN:230,conjure_essence_parser::parser::expression::child_expr
 FN:230,conjure_essence_parser::parser::expression::child_expr
 FN:230,conjure_essence_parser::parser::expression::child_expr
-FN:13,conjure_essence_parser::parser::expression::parse_expression
-FN:230,conjure_essence_parser::parser::expression::child_expr
-FN:13,conjure_essence_parser::parser::expression::parse_expression
 FN:230,conjure_essence_parser::parser::expression::child_expr
 FN:13,conjure_essence_parser::parser::expression::parse_expression
 FN:13,conjure_essence_parser::parser::expression::parse_expression
-FNDA:0,conjure_essence_parser::parser::expression::parse_expression
+FN:13,conjure_essence_parser::parser::expression::parse_expression
+FN:230,conjure_essence_parser::parser::expression::child_expr
+FN:13,conjure_essence_parser::parser::expression::parse_expression
+FN:13,conjure_essence_parser::parser::expression::parse_expression
+FNDA:0,conjure_essence_parser::parser::expression::child_expr
 FNDA:0,conjure_essence_parser::parser::expression::child_expr
 FNDA:1,conjure_essence_parser::parser::expression::child_expr
 FNDA:0,conjure_essence_parser::parser::expression::child_expr
 FNDA:0,conjure_essence_parser::parser::expression::parse_expression
-FNDA:0,conjure_essence_parser::parser::expression::child_expr
+FNDA:0,conjure_essence_parser::parser::expression::parse_expression
 FNDA:1,conjure_essence_parser::parser::expression::parse_expression
 FNDA:1,conjure_essence_parser::parser::expression::child_expr
 FNDA:0,conjure_essence_parser::parser::expression::parse_expression
@@ -813,16 +813,16 @@ FN:60,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#
 FN:56,conjure_essence_parser::parser::util::get_metavars
 FN:13,conjure_essence_parser::parser::util::get_tree
 FN:57,conjure_essence_parser::parser::util::get_metavars::{closure#0}
-FN:13,conjure_essence_parser::parser::util::get_tree
+FN:57,conjure_essence_parser::parser::util::get_metavars::{closure#1}
 FN:43,conjure_essence_parser::parser::util::named_children
-FN:57,conjure_essence_parser::parser::util::get_metavars::{closure#1}
-FN:57,conjure_essence_parser::parser::util::get_metavars::{closure#1}
-FN:60,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#0}
 FN:17,conjure_essence_parser::parser::util::get_tree::{closure#0}
 FN:44,conjure_essence_parser::parser::util::named_children::{closure#0}
 FN:56,conjure_essence_parser::parser::util::get_metavars
-FN:44,conjure_essence_parser::parser::util::named_children::{closure#0}
+FN:60,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#0}
+FN:13,conjure_essence_parser::parser::util::get_tree
 FN:56,conjure_essence_parser::parser::util::get_metavars
+FN:44,conjure_essence_parser::parser::util::named_children::{closure#0}
+FN:57,conjure_essence_parser::parser::util::get_metavars::{closure#1}
 FN:57,conjure_essence_parser::parser::util::get_metavars::{closure#0}
 FN:17,conjure_essence_parser::parser::util::get_tree::{closure#0}
 FN:48,conjure_essence_parser::parser::util::query_toplevel
@@ -830,11 +830,11 @@ FN:44,conjure_essence_parser::parser::util::named_children::{closure#0}
 FN:13,conjure_essence_parser::parser::util::get_tree
 FN:69,conjure_essence_parser::parser::util::test::test_get_metavars
 FN:13,conjure_essence_parser::parser::util::get_tree
+FN:60,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#0}
+FN:48,conjure_essence_parser::parser::util::query_toplevel
+FN:17,conjure_essence_parser::parser::util::get_tree::{closure#0}
 FN:52,conjure_essence_parser::parser::util::query_toplevel::{closure#0}
 FN:57,conjure_essence_parser::parser::util::get_metavars::{closure#0}
-FN:17,conjure_essence_parser::parser::util::get_tree::{closure#0}
-FN:48,conjure_essence_parser::parser::util::query_toplevel
-FN:60,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#0}
 FN:52,conjure_essence_parser::parser::util::query_toplevel::{closure#0}
 FNDA:0,conjure_essence_parser::parser::util::query_toplevel
 FNDA:1,conjure_essence_parser::parser::util::query_toplevel::{closure#0}
@@ -864,16 +864,16 @@ FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure
 FNDA:1,conjure_essence_parser::parser::util::get_metavars
 FNDA:1,conjure_essence_parser::parser::util::get_tree
 FNDA:1,conjure_essence_parser::parser::util::get_metavars::{closure#0}
-FNDA:0,conjure_essence_parser::parser::util::get_tree
+FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}
 FNDA:1,conjure_essence_parser::parser::util::named_children
-FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}
-FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}
-FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#0}
 FNDA:1,conjure_essence_parser::parser::util::get_tree::{closure#0}
 FNDA:1,conjure_essence_parser::parser::util::named_children::{closure#0}
 FNDA:0,conjure_essence_parser::parser::util::get_metavars
-FNDA:0,conjure_essence_parser::parser::util::named_children::{closure#0}
+FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#0}
+FNDA:0,conjure_essence_parser::parser::util::get_tree
 FNDA:0,conjure_essence_parser::parser::util::get_metavars
+FNDA:0,conjure_essence_parser::parser::util::named_children::{closure#0}
+FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}
 FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#0}
 FNDA:1,conjure_essence_parser::parser::util::get_tree::{closure#0}
 FNDA:0,conjure_essence_parser::parser::util::query_toplevel
@@ -881,11 +881,11 @@ FNDA:1,conjure_essence_parser::parser::util::named_children::{closure#0}
 FNDA:1,conjure_essence_parser::parser::util::get_tree
 FNDA:1,conjure_essence_parser::parser::util::test::test_get_metavars
 FNDA:1,conjure_essence_parser::parser::util::get_tree
+FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#0}
+FNDA:1,conjure_essence_parser::parser::util::query_toplevel
+FNDA:1,conjure_essence_parser::parser::util::get_tree::{closure#0}
 FNDA:0,conjure_essence_parser::parser::util::query_toplevel::{closure#0}
 FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#0}
-FNDA:1,conjure_essence_parser::parser::util::get_tree::{closure#0}
-FNDA:1,conjure_essence_parser::parser::util::query_toplevel
-FNDA:0,conjure_essence_parser::parser::util::get_metavars::{closure#1}::{closure#0}
 FNDA:0,conjure_essence_parser::parser::util::query_toplevel::{closure#0}
 FNF:51
 FNH:27
@@ -3594,11 +3594,11 @@ DA:35,0
 DA:42,0
 DA:43,0
 DA:44,0
-DA:48,2359992
-DA:49,2359992
-DA:50,687744
-DA:51,1672248
-DA:53,2359992
+DA:48,2348640
+DA:49,2348640
+DA:50,663912
+DA:51,1684728
+DA:53,2348640
 DA:63,0
 DA:64,0
 DA:65,0
@@ -5202,15 +5202,15 @@ FNF:20
 FNH:2
 BRF:0
 BRH:0
-DA:33,2469720
-DA:34,2469720
+DA:33,2469696
+DA:34,2469696
 DA:35,1632240
-DA:36,555432
-DA:37,118344
-DA:38,118344
+DA:36,555552
+DA:37,118200
+DA:38,118200
 DA:40,163704
 DA:42,163704
-DA:45,2469720
+DA:45,2469696
 DA:49,0
 DA:50,0
 DA:51,0
@@ -6059,12 +6059,12 @@ DA:184,13584
 DA:188,0
 DA:189,0
 DA:190,0
-DA:194,744
-DA:195,744
-DA:196,744
-DA:202,24048
-DA:203,24048
-DA:204,24048
+DA:194,816
+DA:195,816
+DA:196,816
+DA:202,26496
+DA:203,26496
+DA:204,26496
 DA:208,0
 DA:209,0
 DA:210,0
@@ -6214,10 +6214,10 @@ DA:55,0
 DA:56,0
 DA:60,14160
 DA:61,14160
-DA:63,552
-DA:64,552
-DA:69,552
-DA:71,13608
+DA:63,576
+DA:64,576
+DA:69,576
+DA:71,13584
 DA:73,14160
 DA:78,14112
 DA:79,14112
@@ -6231,22 +6231,22 @@ DA:96,3576
 DA:97,3576
 DA:98,3576
 DA:99,3576
-DA:102,552
-DA:103,552
-DA:105,49128
-DA:106,49128
-DA:107,49128
-DA:109,86112
-DA:110,49128
-DA:111,12144
-DA:112,12144
-DA:113,12144
-DA:114,36984
-DA:117,49128
-DA:118,12144
-DA:119,36984
-DA:122,552
-DA:123,552
+DA:102,576
+DA:103,576
+DA:105,51264
+DA:106,51264
+DA:107,51264
+DA:109,89184
+DA:110,51264
+DA:111,13344
+DA:112,13344
+DA:113,13344
+DA:114,37920
+DA:117,51264
+DA:118,13344
+DA:119,37920
+DA:122,576
+DA:123,576
 DA:127,768
 DA:128,768
 DA:130,1032
@@ -6262,9 +6262,9 @@ DA:142,264
 DA:143,264
 DA:148,768
 DA:149,768
-DA:153,7104
-DA:154,7104
-DA:155,7104
+DA:153,7224
+DA:154,7224
+DA:155,7224
 DA:161,52944
 DA:162,52944
 DA:163,52944
@@ -7122,9 +7122,9 @@ DA:572,47256
 DA:573,47256
 DA:575,264
 DA:576,47256
-DA:577,275952
+DA:577,274512
 DA:578,8976
-DA:580,70800
+DA:580,71736
 DA:581,6840
 DA:583,2832
 DA:584,2832
@@ -7643,11 +7643,11 @@ DA:42,0
 DA:43,0
 DA:45,0
 DA:47,0
-DA:51,1246296
-DA:52,1246296
-DA:53,583848
-DA:54,662448
-DA:56,1246296
+DA:51,1246440
+DA:52,1246440
+DA:53,583872
+DA:54,662568
+DA:56,1246440
 DA:60,0
 DA:61,0
 DA:62,0
@@ -8039,8 +8039,8 @@ FN:21,conjure_essence_parser::parser::parse_exprs::parse_exprs
 FN:28,conjure_essence_parser::parser::parse_exprs::parse_exprs::{closure#0}
 FN:45,conjure_essence_parser::parser::parse_exprs::test::test_parse_expressions
 FN:11,conjure_essence_parser::parser::parse_exprs::parse_expr
-FN:21,conjure_essence_parser::parser::parse_exprs::parse_exprs
 FN:28,conjure_essence_parser::parser::parse_exprs::parse_exprs::{closure#0}
+FN:21,conjure_essence_parser::parser::parse_exprs::parse_exprs
 FN:28,conjure_essence_parser::parser::parse_exprs::parse_exprs::{closure#0}
 FN:21,conjure_essence_parser::parser::parse_exprs::parse_exprs
 FN:21,conjure_essence_parser::parser::parse_exprs::parse_exprs
@@ -8055,8 +8055,8 @@ FNDA:0,conjure_essence_parser::parser::parse_exprs::parse_exprs
 FNDA:0,conjure_essence_parser::parser::parse_exprs::parse_exprs::{closure#0}
 FNDA:1,conjure_essence_parser::parser::parse_exprs::test::test_parse_expressions
 FNDA:0,conjure_essence_parser::parser::parse_exprs::parse_expr
-FNDA:0,conjure_essence_parser::parser::parse_exprs::parse_exprs
 FNDA:0,conjure_essence_parser::parser::parse_exprs::parse_exprs::{closure#0}
+FNDA:0,conjure_essence_parser::parser::parse_exprs::parse_exprs
 FNDA:0,conjure_essence_parser::parser::parse_exprs::parse_exprs::{closure#0}
 FNDA:1,conjure_essence_parser::parser::parse_exprs::parse_exprs
 FNDA:0,conjure_essence_parser::parser::parse_exprs::parse_exprs
@@ -10847,12 +10847,12 @@ DA:360,96
 DA:361,96
 DA:362,48
 DA:366,3240
-DA:371,835776
-DA:372,835776
-DA:373,770784
+DA:371,835800
+DA:372,835800
+DA:373,770808
 DA:374,52704
 DA:375,12288
-DA:377,835776
+DA:377,835800
 DA:389,1
 DA:391,1
 DA:392,1
@@ -14562,11 +14562,11 @@ DA:310,1727
 DA:315,836
 DA:316,836
 DA:317,1991
-DA:318,1342
-DA:319,1342
-DA:320,1342
-DA:321,1342
-DA:322,1342
+DA:318,1375
+DA:319,1375
+DA:320,1375
+DA:321,1375
+DA:322,1375
 DA:323,1991
 DA:324,836
 DA:326,836
@@ -15471,10 +15471,10 @@ FN:99,conjure_essence_parser::parser::traversal::test::test_bfs
 FN:20,<conjure_essence_parser::parser::traversal::WalkDFS>::with_retract
 FN:74,<conjure_essence_parser::parser::traversal::WalkBFS>::new
 FN:86,<conjure_essence_parser::parser::traversal::WalkBFS as core::iter::traits::iterator::Iterator>::next::{closure#0}
+FN:13,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FN:84,<conjure_essence_parser::parser::traversal::WalkBFS as core::iter::traits::iterator::Iterator>::next
 FN:31,<conjure_essence_parser::parser::traversal::WalkDFS as core::iter::traits::iterator::Iterator>::next
 FN:31,<conjure_essence_parser::parser::traversal::WalkDFS as core::iter::traits::iterator::Iterator>::next
-FN:13,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FN:86,<conjure_essence_parser::parser::traversal::WalkBFS as core::iter::traits::iterator::Iterator>::next::{closure#0}
 FN:13,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FN:130,conjure_essence_parser::parser::traversal::test::test_dfs_retract::{closure#0}
@@ -15482,9 +15482,9 @@ FN:113,conjure_essence_parser::parser::traversal::test::test_dfs
 FN:131,conjure_essence_parser::parser::traversal::test::test_dfs_retract::{closure#1}
 FN:116,conjure_essence_parser::parser::traversal::test::test_dfs::{closure#0}
 FN:127,conjure_essence_parser::parser::traversal::test::test_dfs_retract
-FN:74,<conjure_essence_parser::parser::traversal::WalkBFS>::new
-FN:13,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FN:20,<conjure_essence_parser::parser::traversal::WalkDFS>::with_retract
+FN:13,<conjure_essence_parser::parser::traversal::WalkDFS>::new
+FN:74,<conjure_essence_parser::parser::traversal::WalkBFS>::new
 FN:31,<conjure_essence_parser::parser::traversal::WalkDFS as core::iter::traits::iterator::Iterator>::next
 FN:13,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FN:13,<conjure_essence_parser::parser::traversal::WalkDFS>::new
@@ -15508,10 +15508,10 @@ FNDA:1,conjure_essence_parser::parser::traversal::test::test_bfs
 FNDA:1,<conjure_essence_parser::parser::traversal::WalkDFS>::with_retract
 FNDA:0,<conjure_essence_parser::parser::traversal::WalkBFS>::new
 FNDA:0,<conjure_essence_parser::parser::traversal::WalkBFS as core::iter::traits::iterator::Iterator>::next::{closure#0}
+FNDA:0,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FNDA:0,<conjure_essence_parser::parser::traversal::WalkBFS as core::iter::traits::iterator::Iterator>::next
 FNDA:0,<conjure_essence_parser::parser::traversal::WalkDFS as core::iter::traits::iterator::Iterator>::next
 FNDA:1,<conjure_essence_parser::parser::traversal::WalkDFS as core::iter::traits::iterator::Iterator>::next
-FNDA:0,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FNDA:1,<conjure_essence_parser::parser::traversal::WalkBFS as core::iter::traits::iterator::Iterator>::next::{closure#0}
 FNDA:0,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FNDA:1,conjure_essence_parser::parser::traversal::test::test_dfs_retract::{closure#0}
@@ -15519,9 +15519,9 @@ FNDA:1,conjure_essence_parser::parser::traversal::test::test_dfs
 FNDA:1,conjure_essence_parser::parser::traversal::test::test_dfs_retract::{closure#1}
 FNDA:1,conjure_essence_parser::parser::traversal::test::test_dfs::{closure#0}
 FNDA:1,conjure_essence_parser::parser::traversal::test::test_dfs_retract
-FNDA:0,<conjure_essence_parser::parser::traversal::WalkBFS>::new
-FNDA:1,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FNDA:1,<conjure_essence_parser::parser::traversal::WalkDFS>::with_retract
+FNDA:1,<conjure_essence_parser::parser::traversal::WalkDFS>::new
+FNDA:0,<conjure_essence_parser::parser::traversal::WalkBFS>::new
 FNDA:1,<conjure_essence_parser::parser::traversal::WalkDFS as core::iter::traits::iterator::Iterator>::next
 FNDA:0,<conjure_essence_parser::parser::traversal::WalkDFS>::new
 FNDA:0,<conjure_essence_parser::parser::traversal::WalkDFS>::new
@@ -15661,16 +15661,16 @@ BRH:0
 DA:21,48
 DA:23,48
 DA:24,48
-DA:27,318144
-DA:28,318144
-DA:29,318144
-DA:30,271824
-DA:31,271824
-DA:32,271824
+DA:27,317352
+DA:28,317352
+DA:29,317352
+DA:30,271032
+DA:31,271032
+DA:32,271032
 DA:33,3912
 DA:35,24
 DA:36,24
-DA:37,318120
+DA:37,317328
 DA:43,48
 DA:44,24
 DA:45,24
@@ -18645,9 +18645,9 @@ DA:130,0
 DA:132,1
 DA:133,1
 DA:134,1
-DA:141,1656
-DA:142,1656
-DA:143,1656
+DA:141,1680
+DA:142,1680
+DA:143,1680
 DA:157,0
 DA:158,0
 DA:159,0
@@ -21200,8 +21200,8 @@ LH:78
 end_of_record
 SF:crates/conjure_essence_parser/src/parser/parse_model.rs
 FN:31,conjure_essence_parser::parser::parse_model::parse_essence_with_context
-FN:27,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{closure#0}
 FN:22,conjure_essence_parser::parser::parse_model::parse_essence_file_native
+FN:27,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{closure#0}
 FN:31,conjure_essence_parser::parser::parse_model::parse_essence_with_context
 FN:27,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{closure#0}
 FN:27,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{closure#0}
@@ -21215,8 +21215,8 @@ FN:27,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{c
 FN:22,conjure_essence_parser::parser::parse_model::parse_essence_file_native
 FN:31,conjure_essence_parser::parser::parse_model::parse_essence_with_context
 FNDA:0,conjure_essence_parser::parser::parse_model::parse_essence_with_context
-FNDA:0,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{closure#0}
 FNDA:0,conjure_essence_parser::parser::parse_model::parse_essence_file_native
+FNDA:0,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{closure#0}
 FNDA:0,conjure_essence_parser::parser::parse_model::parse_essence_with_context
 FNDA:0,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{closure#0}
 FNDA:0,conjure_essence_parser::parser::parse_model::parse_essence_file_native::{closure#0}
@@ -21300,36 +21300,36 @@ LF:63
 LH:52
 end_of_record
 SF:crates/conjure_essence_parser/src/errors.rs
-FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
-FN:21,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
-FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FN:27,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
-FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
-FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FN:21,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
+FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
+FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FN:27,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
 FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FN:21,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
 FN:27,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
+FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
+FN:21,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
+FN:27,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
 FN:27,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
 FN:21,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
 FN:21,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
-FN:27,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
-FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
-FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
-FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
+FN:33,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
-FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
-FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
+FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
+FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
+FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
+FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
+FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
 FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<conjure_core::error::Error>>::from
-FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<&str>>::from
+FNDA:0,<conjure_essence_parser::errors::EssenceParseError as core::convert::From<alloc::string::String>>::from
 FNF:15
 FNH:0
 BRF:0
@@ -23035,9 +23035,9 @@ DA:652,284
 DA:653,284
 DA:654,284
 DA:655,284
-DA:656,22647
-DA:657,22647
-DA:658,22647
+DA:656,22531
+DA:657,22531
+DA:658,22531
 DA:660,284
 DA:661,284
 DA:663,284
@@ -23049,7 +23049,7 @@ DA:669,284
 DA:670,284
 DA:671,284
 DA:672,284
-DA:673,22647
+DA:673,22531
 DA:675,284
 DA:676,284
 DA:679,1
