@@ -3,7 +3,8 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Introduction - Conjure Oxide</title>
+        <title>Conjure Oxide</title>
+        <meta name="robots" content="noindex">
 
 
         <!-- Custom HTML head -->
@@ -186,15 +187,41 @@ St Andrews, but we also welcome outside contributors; for more information see
 <a href="https://github.com/conjure-cp/conjure-oxide/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
 <h2 id="licence"><a class="header" href="#licence">Licence</a></h2>
 <p>The Conjure Oxide source and documentation are released under the <a href="https://github.com/conjure-cp/conjure-oxide/blob/main/LICENCE">Mozilla Public Licence v2.0</a>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="useful-links"><a class="header" href="#useful-links">Useful Links</a></h1>
+<h2 id="api-documentation"><a class="header" href="#api-documentation">API Documentation</a></h2>
+<p>As well as Conjure Oxide, this repository contains various dependent crates
+(such as solver bindings), and related projects. Below are links to the API
+documentation for each crate for developer reference:</p>
+<ul>
+<li><a href="https://conjure-cp.github.io/conjure-oxide/docs/conjure_oxide/index.html">conjure-oxide</a></li>
+<li><a href="https://conjure-cp.github.io/conjure-oxide/docs/conjure_core/index.html">conjure_core</a></li>
+<li><a href="https://conjure-cp.github.io/conjure-oxide/docs/conjure_essence_macros/">conjure_essence_macros</a></li>
+<li><a href="https://conjure-cp.github.io/conjure-oxide/docs/conjure_essence_parser">conjure_essence_parser</a></li>
+<li><a href="https://conjure-cp.github.io/conjure-oxide/docs/conjure_rule_macros">conjure_rule_macros</a></li>
+<li><a href="https://conjure-cp.github.io/conjure-oxide/docs/enum_compatability_macro">enum_compatability_macro</a></li>
+<li><a href="https://conjure-cp.github.io/conjure-oxide/docs/minion_rs/index.html">minion_rs</a></li>
+</ul>
+<h2 id="code-coverage"><a class="header" href="#code-coverage">Code Coverage</a></h2>
+<p>Code coverage reports can be found <a href="https://conjure-cp.github.io/conjure-oxide/coverage/main/">here</a>.</p>
+<h2 id="miscellaneous"><a class="header" href="#miscellaneous">Miscellaneous</a></h2>
+<ul>
+<li><a href="https://conjure-cp.github.io/conjure-oxide/tools/essence-feature-usage-stats/">Essence feature usage stats</a></li>
+<li><a href="https://conjure-cp.github.io/conjure-blocks/">Conjure blocks</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="installation"><a class="header" href="#installation">Installation</a></h1>
+<p>To install Conjure Oxide, either <a href="installation/">build it from source</a>, or use a <a href="installation/">nightly release</a>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="developer-documentation"><a class="header" href="#developer-documentation">Developer Documentation</a></h1>
+<p>Developer documentation is hosted on the <a href="https://github.com/conjure-cp/conjure-oxide/wiki">Github Wiki</a>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="for-interested-students"><a class="header" href="#for-interested-students">For Interested Students</a></h1>
+<p>This project is developed as part of the "Artificial Intelligence for Decision
+Making" Vertically Integrated Project module. For more information on the VIP, <a href="https://ozgurakgun.github.io/vip">click here</a>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contributors"><a class="header" href="#contributors">Contributors</a></h1>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
 
-                            <a rel="next prefetch" href="links.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -203,9 +230,6 @@ St Andrews, but we also welcome outside contributors; for more information see
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
 
-                    <a rel="next prefetch" href="links.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
             </nav>
 
         </div>
@@ -228,6 +252,13 @@ St Andrews, but we also welcome outside contributors; for more information see
 
         <!-- Custom JS scripts -->
 
+        <script>
+        window.addEventListener('load', function() {
+            MathJax.Hub.Register.StartupHook('End', function() {
+                window.setTimeout(window.print, 100);
+            });
+        });
+        </script>
 
     </div>
     </body>
