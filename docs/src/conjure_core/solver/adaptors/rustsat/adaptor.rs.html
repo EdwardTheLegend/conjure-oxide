@@ -31,7 +31,7 @@
 <a href=#31 id=31 data-nosnippet>31</a><span class="kw">use crate</span>::{ast <span class="kw">as </span>conjure_ast, bug, Model <span class="kw">as </span>ConjureModel};
 <a href=#32 id=32 data-nosnippet>32</a><span class="kw">use crate</span>::{into_matrix_expr, matrix_expr};
 <a href=#33 id=33 data-nosnippet>33</a>
-<a href=#34 id=34 data-nosnippet>34</a><span class="kw">use </span>rustsat::instances::{BasicVarManager, Cnf, SatInstance};
+<a href=#34 id=34 data-nosnippet>34</a><span class="kw">use </span>rustsat::instances::{BasicVarManager, Cnf, ManageVars, SatInstance};
 <a href=#35 id=35 data-nosnippet>35</a>
 <a href=#36 id=36 data-nosnippet>36</a><span class="kw">use </span>thiserror::Error;
 <a href=#37 id=37 data-nosnippet>37</a>
@@ -206,11 +206,11 @@
 <a href=#206 id=206 data-nosnippet>206</a>        <span class="prelude-val">Ok</span>(())
 <a href=#207 id=207 data-nosnippet>207</a>    }
 <a href=#208 id=208 data-nosnippet>208</a>
-<a href=#209 id=209 data-nosnippet>209</a>    <span class="kw">fn </span>get_family(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; SolverFamily {
-<a href=#210 id=210 data-nosnippet>210</a>        SolverFamily::SAT
-<a href=#211 id=211 data-nosnippet>211</a>    }
-<a href=#212 id=212 data-nosnippet>212</a>
-<a href=#213 id=213 data-nosnippet>213</a>    <span class="kw">fn </span>init_solver(<span class="kw-2">&amp;mut </span><span class="self">self</span>, <span class="kw">_</span>: private::Internal) {}
+<a href=#209 id=209 data-nosnippet>209</a>    <span class="kw">fn </span>init_solver(<span class="kw-2">&amp;mut </span><span class="self">self</span>, <span class="kw">_</span>: private::Internal) {}
+<a href=#210 id=210 data-nosnippet>210</a>
+<a href=#211 id=211 data-nosnippet>211</a>    <span class="kw">fn </span>get_family(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; SolverFamily {
+<a href=#212 id=212 data-nosnippet>212</a>        SolverFamily::SAT
+<a href=#213 id=213 data-nosnippet>213</a>    }
 <a href=#214 id=214 data-nosnippet>214</a>
 <a href=#215 id=215 data-nosnippet>215</a>    <span class="kw">fn </span>get_name(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; <span class="prelude-ty">Option</span>&lt;String&gt; {
 <a href=#216 id=216 data-nosnippet>216</a>        <span class="prelude-val">Some</span>(<span class="string">"SAT"</span>.to_string())
@@ -223,4 +223,22 @@
 <a href=#223 id=223 data-nosnippet>223</a>            ..stats
 <a href=#224 id=224 data-nosnippet>224</a>        }
 <a href=#225 id=225 data-nosnippet>225</a>    }
-<a href=#226 id=226 data-nosnippet>226</a>}</code></pre></div></section></main></body></html>
+<a href=#226 id=226 data-nosnippet>226</a>
+<a href=#227 id=227 data-nosnippet>227</a>    <span class="kw">fn </span>write_solver_input_file(
+<a href=#228 id=228 data-nosnippet>228</a>        <span class="kw-2">&amp;</span><span class="self">self</span>,
+<a href=#229 id=229 data-nosnippet>229</a>        writer: <span class="kw-2">&amp;mut </span><span class="kw">impl </span>std::io::Write,
+<a href=#230 id=230 data-nosnippet>230</a>    ) -&gt; <span class="prelude-ty">Result</span>&lt;(), std::io::Error&gt; {
+<a href=#231 id=231 data-nosnippet>231</a>        <span class="comment">// TODO: add comments saying what conjure oxide variables each clause has
+<a href=#232 id=232 data-nosnippet>232</a>        // e.g.
+<a href=#233 id=233 data-nosnippet>233</a>        //      c y x z
+<a href=#234 id=234 data-nosnippet>234</a>        //        1 2 3
+<a href=#235 id=235 data-nosnippet>235</a>        //      c x -y
+<a href=#236 id=236 data-nosnippet>236</a>        //        1 -1
+<a href=#237 id=237 data-nosnippet>237</a>        // This will require handwriting a dimacs writer, but that should be easy. For now, just
+<a href=#238 id=238 data-nosnippet>238</a>        // let rustsat write the dimacs.
+<a href=#239 id=239 data-nosnippet>239</a>
+<a href=#240 id=240 data-nosnippet>240</a>        </span><span class="kw">let </span>model = <span class="self">self</span>.model_inst.clone().expect(<span class="string">"model should exist when we write the solver input file, as we should be in the LoadedModel state"</span>);
+<a href=#241 id=241 data-nosnippet>241</a>        <span class="kw">let </span>(cnf, var_manager): (Cnf, BasicVarManager) = model.into_cnf();
+<a href=#242 id=242 data-nosnippet>242</a>        cnf.write_dimacs(writer, var_manager.n_used())
+<a href=#243 id=243 data-nosnippet>243</a>    }
+<a href=#244 id=244 data-nosnippet>244</a>}</code></pre></div></section></main></body></html>
