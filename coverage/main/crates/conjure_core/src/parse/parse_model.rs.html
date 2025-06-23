@@ -1900,7 +1900,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    let name = Name::UserName(name.to_owned());</pre>
+                <pre class="has-background-success-light py-0 px-2">    let name = Name::User(name.to_owned());</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2300,7 +2300,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    let name = Name::UserName(name.to_owned());</pre>
+                <pre class="has-background-success-light py-0 px-2">    let name = Name::User(name.to_owned());</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2956,7 +2956,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        &quot;DomainBool&quot; =&gt; Ok(Domain::BoolDomain),</pre>
+                <pre class="has-background-success-light py-0 px-2">        &quot;DomainBool&quot; =&gt; Ok(Domain::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2972,7 +2972,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        &quot;DomainReference&quot; =&gt; Ok(Domain::DomainReference(Name::UserName(</pre>
+                <pre class="has-background-success-light py-0 px-2">        &quot;DomainReference&quot; =&gt; Ok(Domain::Reference(Name::User(</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -3260,7 +3260,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Ok(Domain::DomainSet(SetAttr::None, Box::new(domain)))</pre>
+                <pre class="has-background-success-light py-0 px-2">            Ok(Domain::Set(SetAttr::None, Box::new(domain)))</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -3916,7 +3916,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            while let Domain::DomainMatrix(new_value_domain, mut indices) = value_domain {</pre>
+                <pre class="has-background-success-light py-0 px-2">            while let Domain::Matrix(new_value_domain, mut indices) = value_domain {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -3996,7 +3996,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Ok(Domain::DomainMatrix(Box::new(value_domain), index_domains))</pre>
+                <pre class="has-background-success-light py-0 px-2">            Ok(Domain::Matrix(Box::new(value_domain), index_domains))</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -4332,7 +4332,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Ok(Domain::DomainTuple(domain))</pre>
+                <pre class="has-background-success-light py-0 px-2">            Ok(Domain::Tuple(domain))</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -4604,7 +4604,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                let name = Name::UserName(name.to_owned());</pre>
+                <pre class="has-background-success-light py-0 px-2">                let name = Name::User(name.to_owned());</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -4828,7 +4828,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Ok(Domain::DomainRecord(record_entries))</pre>
+                <pre class="has-background-success-light py-0 px-2">            Ok(Domain::Record(record_entries))</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -5548,7 +5548,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    Ok(Domain::IntDomain(ranges))</pre>
+                <pre class="has-background-success-light py-0 px-2">    Ok(Domain::Int(ranges))</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -6620,7 +6620,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let name = Name::UserName(inner_name.to_string());</pre>
+                <pre class="has-background-success-light py-0 px-2">        let name = Name::User(inner_name.to_string());</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -6732,7 +6732,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let a = d.clone().to_literal()?;</pre>
+                <pre class="has-background-success-light py-0 px-2">        let a = d.clone().into_literal()?;</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -9255,8 +9255,8 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="292800">
-                292800
+                role="cell" aria-label="296700">
+                296700
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
@@ -9303,8 +9303,8 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="75350">
-                75350
+                role="cell" aria-label="75900">
+                75900
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
@@ -9580,7 +9580,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                Atom::Reference(Name::UserName(name.to_string())),</pre>
+                <pre class="has-background-success-light py-0 px-2">                Atom::Reference(Name::User(name.to_string())),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -10764,7 +10764,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let name = Name::UserName(name.to_string());</pre>
+                <pre class="has-background-success-light py-0 px-2">        let name = Name::User(name.to_string());</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -11372,7 +11372,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                comprehension.generator(Name::UserName(name.to_string()), domain)</pre>
+                <pre class="has-background-success-light py-0 px-2">                comprehension.generator(Name::User(name.to_string()), domain)</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -16179,7 +16179,7 @@
         <footer class="footer">
             
                 <div class="content has-text-centered">
-                    <p class="heading">Date: 2025-06-23 11:02</p>
+                    <p class="heading">Date: 2025-06-23 13:27</p>
                 </div>
             
         </footer>

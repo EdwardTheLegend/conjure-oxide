@@ -556,7 +556,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            let Domain::DomainMatrix(valdom, indexdoms) = &amp;var.domain else {</pre>
+                <pre class="has-background-success-light py-0 px-2">            let Domain::Matrix(valdom, indexdoms) = &amp;var.domain else {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -636,7 +636,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            if !matches!(valdom.as_ref(), Domain::BoolDomain | Domain::IntDomain(_)) {</pre>
+                <pre class="has-background-success-light py-0 px-2">            if !matches!(valdom.as_ref(), Domain::Bool | Domain::Int(_)) {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -732,7 +732,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                .any(|x| !matches!(x, Domain::BoolDomain | Domain::IntDomain(_)))</pre>
+                <pre class="has-background-success-light py-0 px-2">                .any(|x| !matches!(x, Domain::Bool | Domain::Int(_)))</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2828,7 +2828,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        Domain::BoolDomain | Domain::IntDomain(_) =&gt; false,</pre>
+                <pre class="has-background-success-light py-0 px-2">        Domain::Bool | Domain::Int(_) =&gt; false,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2844,7 +2844,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        Domain::DomainMatrix(_, _) =&gt; false, &#x2F;&#x2F; we special case these elsewhere</pre>
+                <pre class="has-background-success-light py-0 px-2">        Domain::Matrix(_, _) =&gt; false, &#x2F;&#x2F; we special case these elsewhere</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2860,7 +2860,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        Domain::DomainSet(_, _) | Domain::DomainTuple(_) | Domain::DomainRecord(_) =&gt; true,</pre>
+                <pre class="has-background-success-light py-0 px-2">        Domain::Set(_, _) | Domain::Tuple(_) | Domain::Record(_) =&gt; true,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2876,7 +2876,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">        Domain::DomainReference(_) =&gt; unreachable!(&quot;domain should be resolved&quot;),</pre>
+                <pre class="has-background-danger-light py-0 px-2">        Domain::Reference(_) =&gt; unreachable!(&quot;domain should be resolved&quot;),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -3196,7 +3196,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        Domain::DomainSet(_, _) =&gt; None, &#x2F;&#x2F; has no representations yet!</pre>
+                <pre class="has-background-success-light py-0 px-2">        Domain::Set(_, _) =&gt; None, &#x2F;&#x2F; has no representations yet!</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -3212,7 +3212,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        Domain::DomainTuple(elem_domains) =&gt; {</pre>
+                <pre class="has-background-success-light py-0 px-2">        Domain::Tuple(elem_domains) =&gt; {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -3324,7 +3324,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        Domain::DomainRecord(entries) =&gt; {</pre>
+                <pre class="has-background-success-light py-0 px-2">        Domain::Record(entries) =&gt; {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -3523,7 +3523,7 @@
         <footer class="footer">
             
                 <div class="content has-text-centered">
-                    <p class="heading">Date: 2025-06-23 11:02</p>
+                    <p class="heading">Date: 2025-06-23 13:27</p>
                 </div>
             
         </footer>
