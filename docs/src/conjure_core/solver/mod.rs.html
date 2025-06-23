@@ -41,8 +41,8 @@
 <a href=#41 id=41 data-nosnippet>41</a>//! // Define a model for minion.
 <a href=#42 id=42 data-nosnippet>42</a>//! let context = Context::&lt;'static&gt;::new_ptr_empty(SolverFamily::Minion);
 <a href=#43 id=43 data-nosnippet>43</a>//! let mut model = Model::new(context);
-<a href=#44 id=44 data-nosnippet>44</a>//! model.as_submodel_mut().add_symbol(Declaration::new_var("x".into(), Domain::BoolDomain));
-<a href=#45 id=45 data-nosnippet>45</a>//! model.as_submodel_mut().add_symbol(Declaration::new_var("y".into(), Domain::BoolDomain));
+<a href=#44 id=44 data-nosnippet>44</a>//! model.as_submodel_mut().add_symbol(Declaration::new_var("x".into(), Domain::Bool));
+<a href=#45 id=45 data-nosnippet>45</a>//! model.as_submodel_mut().add_symbol(Declaration::new_var("y".into(), Domain::Bool));
 <a href=#46 id=46 data-nosnippet>46</a>//! model.as_submodel_mut().add_constraint(essence_expr!{x != y});
 <a href=#47 id=47 data-nosnippet>47</a>//!
 <a href=#48 id=48 data-nosnippet>48</a>//! // Solve using Minion.
@@ -147,7 +147,7 @@
 <a href=#147 id=147 data-nosnippet>147</a>    JsonSchema,
 <a href=#148 id=148 data-nosnippet>148</a>)]
 <a href=#149 id=149 data-nosnippet>149</a></span><span class="kw">pub enum </span>SolverFamily {
-<a href=#150 id=150 data-nosnippet>150</a>    SAT,
+<a href=#150 id=150 data-nosnippet>150</a>    Sat,
 <a href=#151 id=151 data-nosnippet>151</a>    Minion,
 <a href=#152 id=152 data-nosnippet>152</a>}
 <a href=#153 id=153 data-nosnippet>153</a>

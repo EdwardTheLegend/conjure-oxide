@@ -152,7 +152,7 @@
 <a href=#152 id=152 data-nosnippet>152</a>    /// * If this submodel has no constraints, true is returned.
 <a href=#153 id=153 data-nosnippet>153</a>    /// * If this submodel has a single constraint, that constraint is returned.
 <a href=#154 id=154 data-nosnippet>154</a>    /// * If this submodel has multiple constraints, they are returned as an `and` constraint.
-<a href=#155 id=155 data-nosnippet>155</a>    </span><span class="kw">pub fn </span>as_single_expression(<span class="self">self</span>) -&gt; Expression {
+<a href=#155 id=155 data-nosnippet>155</a>    </span><span class="kw">pub fn </span>into_single_expression(<span class="self">self</span>) -&gt; Expression {
 <a href=#156 id=156 data-nosnippet>156</a>        <span class="kw">let </span>constraints = <span class="self">self</span>.constraints().clone();
 <a href=#157 id=157 data-nosnippet>157</a>        <span class="kw">match </span>constraints.len() {
 <a href=#158 id=158 data-nosnippet>158</a>            <span class="number">0 </span>=&gt; Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Bool(<span class="bool-val">true</span>))),

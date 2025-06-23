@@ -76,7 +76,7 @@
 <a href=#76 id=76 data-nosnippet>76</a>/// use conjure_core::rule_engine::register_rule_set;
 <a href=#77 id=77 data-nosnippet>77</a>/// use conjure_core::solver::SolverFamily;
 <a href=#78 id=78 data-nosnippet>78</a>/// register_rule_set!("MyRuleSet", (), SolverFamily::Minion);
-<a href=#79 id=79 data-nosnippet>79</a>/// register_rule_set!("AnotherRuleSet", (), (SolverFamily::Minion, SolverFamily::SAT));
+<a href=#79 id=79 data-nosnippet>79</a>/// register_rule_set!("AnotherRuleSet", (), (SolverFamily::Minion, SolverFamily::Sat));
 <a href=#80 id=80 data-nosnippet>80</a>/// ```
 <a href=#81 id=81 data-nosnippet>81</a></span><span class="attr">#[doc(inline)]
 <a href=#82 id=82 data-nosnippet>82</a></span><span class="kw">pub use </span>conjure_rule_macros::register_rule_set;
@@ -233,9 +233,9 @@
 <a href=#233 id=233 data-nosnippet>233</a>/// use conjure_core::solver::SolverFamily;
 <a href=#234 id=234 data-nosnippet>234</a>/// use conjure_core::rule_engine::{get_rule_sets_for_solver_family, register_rule_set};
 <a href=#235 id=235 data-nosnippet>235</a>///
-<a href=#236 id=236 data-nosnippet>236</a>/// register_rule_set!("CNF", (), SolverFamily::SAT);
+<a href=#236 id=236 data-nosnippet>236</a>/// register_rule_set!("CNF", (), SolverFamily::Sat);
 <a href=#237 id=237 data-nosnippet>237</a>///
-<a href=#238 id=238 data-nosnippet>238</a>/// let rule_sets = get_rule_sets_for_solver_family(SolverFamily::SAT);
+<a href=#238 id=238 data-nosnippet>238</a>/// let rule_sets = get_rule_sets_for_solver_family(SolverFamily::Sat);
 <a href=#239 id=239 data-nosnippet>239</a>/// assert_eq!(rule_sets.len(), 1);
 <a href=#240 id=240 data-nosnippet>240</a>/// assert_eq!(rule_sets[0].name, "CNF");
 <a href=#241 id=241 data-nosnippet>241</a>/// ```

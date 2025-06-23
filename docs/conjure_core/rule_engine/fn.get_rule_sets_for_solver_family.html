@@ -6,9 +6,9 @@ Returns a <code>Vec</code> of static references to all rule sets that are applic
 <div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use </span>conjure_core::solver::SolverFamily;
 <span class="kw">use </span>conjure_core::rule_engine::{get_rule_sets_for_solver_family, register_rule_set};
 
-<span class="macro">register_rule_set!</span>(<span class="string">"CNF"</span>, (), SolverFamily::SAT);
+<span class="macro">register_rule_set!</span>(<span class="string">"CNF"</span>, (), SolverFamily::Sat);
 
-<span class="kw">let </span>rule_sets = get_rule_sets_for_solver_family(SolverFamily::SAT);
+<span class="kw">let </span>rule_sets = get_rule_sets_for_solver_family(SolverFamily::Sat);
 <span class="macro">assert_eq!</span>(rule_sets.len(), <span class="number">1</span>);
 <span class="macro">assert_eq!</span>(rule_sets[<span class="number">0</span>].name, <span class="string">"CNF"</span>);</code></pre></div>
 </div></details></section></div></main></body></html>

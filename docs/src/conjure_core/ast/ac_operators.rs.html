@@ -21,7 +21,7 @@
 <a href=#21 id=21 data-nosnippet>21</a>    <span class="doccomment">/// Creates a new [Expression] of this AC operator kind with the given child expression.
 <a href=#22 id=22 data-nosnippet>22</a>    ///
 <a href=#23 id=23 data-nosnippet>23</a>    /// The child expression given should be of type matrix.
-<a href=#24 id=24 data-nosnippet>24</a>    </span><span class="kw">pub fn </span>to_expression(<span class="kw-2">&amp;</span><span class="self">self</span>, child_expr: Expression) -&gt; Expression {
+<a href=#24 id=24 data-nosnippet>24</a>    </span><span class="kw">pub fn </span>as_expression(<span class="kw-2">&amp;</span><span class="self">self</span>, child_expr: Expression) -&gt; Expression {
 <a href=#25 id=25 data-nosnippet>25</a>        <span class="macro">assert!</span>(
 <a href=#26 id=26 data-nosnippet>26</a>            <span class="macro">matches!</span>(child_expr.return_type(), <span class="prelude-val">Some</span>(ReturnType::Matrix(<span class="kw">_</span>))),
 <a href=#27 id=27 data-nosnippet>27</a>            <span class="string">"The child expression given to ACOperatorKind::to_expression should be of type matrix."
@@ -115,7 +115,7 @@
 <a href=#115 id=115 data-nosnippet>115</a>                Expression::UnsafeIndex(
 <a href=#116 id=116 data-nosnippet>116</a>                    Metadata::new(),
 <a href=#117 id=117 data-nosnippet>117</a>                    Box::new(
-<a href=#118 id=118 data-nosnippet>118</a>                        <span class="macro">matrix_expr!</span>[Expression::Atomic(Metadata::new(),<span class="number">1</span>.into()),tail_expr;Domain::IntDomain(<span class="macro">vec!</span>[Range::Bounded(<span class="number">0</span>,<span class="number">1</span>)])],
+<a href=#118 id=118 data-nosnippet>118</a>                        <span class="macro">matrix_expr!</span>[Expression::Atomic(Metadata::new(),<span class="number">1</span>.into()),tail_expr;Domain::Int(<span class="macro">vec!</span>[Range::Bounded(<span class="number">0</span>,<span class="number">1</span>)])],
 <a href=#119 id=119 data-nosnippet>119</a>                    ),
 <a href=#120 id=120 data-nosnippet>120</a>                    <span class="macro">vec!</span>[Expression::ToInt(Metadata::new(), guard_expr_boxed)],
 <a href=#121 id=121 data-nosnippet>121</a>                )

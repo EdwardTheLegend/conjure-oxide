@@ -23,7 +23,7 @@
 <a href=#23 id=23 data-nosnippet>23</a><span class="kw">impl </span>Atom {
 <a href=#24 id=24 data-nosnippet>24</a>    <span class="doccomment">/// Shorthand to create a reference by user name.
 <a href=#25 id=25 data-nosnippet>25</a>    </span><span class="kw">pub fn </span>new_uref(name: <span class="kw-2">&amp;</span>str) -&gt; Atom {
-<a href=#26 id=26 data-nosnippet>26</a>        Atom::Reference(Name::UserName(name.to_string()))
+<a href=#26 id=26 data-nosnippet>26</a>        Atom::Reference(Name::User(name.to_string()))
 <a href=#27 id=27 data-nosnippet>27</a>    }
 <a href=#28 id=28 data-nosnippet>28</a>
 <a href=#29 id=29 data-nosnippet>29</a>    <span class="doccomment">/// Shorthand to create an integer literal.

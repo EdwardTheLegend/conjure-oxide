@@ -9,7 +9,7 @@
 </ul>
 <h2 id="example"><a class="doc-anchor" href="#example">§</a>Example</h2>
 <div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use </span>conjure_core::ast::{Domain,Range,Literal,matrix};
-<span class="kw">let </span>index_domains = <span class="macro">vec!</span>[Domain::BoolDomain,Domain::IntDomain(<span class="macro">vec!</span>[Range::Bounded(<span class="number">1</span>,<span class="number">2</span>)])];
+<span class="kw">let </span>index_domains = <span class="macro">vec!</span>[Domain::Bool,Domain::Int(<span class="macro">vec!</span>[Range::Bounded(<span class="number">1</span>,<span class="number">2</span>)])];
 
 <span class="kw">let </span>expected_indices = <span class="macro">vec!</span>[
   <span class="macro">vec!</span>[Literal::Bool(<span class="bool-val">false</span>),Literal::Int(<span class="number">1</span>)],

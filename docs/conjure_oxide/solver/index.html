@@ -40,8 +40,8 @@ For a full end-to-end example, see conjure_oxide/examples/solver_hello_minion.rs
 <span class="comment">// Define a model for minion.
 </span><span class="kw">let </span>context = Context::&lt;<span class="lifetime">'static</span>&gt;::new_ptr_empty(SolverFamily::Minion);
 <span class="kw">let </span><span class="kw-2">mut </span>model = Model::new(context);
-model.as_submodel_mut().add_symbol(Declaration::new_var(<span class="string">"x"</span>.into(), Domain::BoolDomain));
-model.as_submodel_mut().add_symbol(Declaration::new_var(<span class="string">"y"</span>.into(), Domain::BoolDomain));
+model.as_submodel_mut().add_symbol(Declaration::new_var(<span class="string">"x"</span>.into(), Domain::Bool));
+model.as_submodel_mut().add_symbol(Declaration::new_var(<span class="string">"y"</span>.into(), Domain::Bool));
 model.as_submodel_mut().add_constraint(<span class="macro">essence_expr!</span>{x != y});
 
 <span class="comment">// Solve using Minion.

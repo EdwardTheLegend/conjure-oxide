@@ -114,7 +114,7 @@
 <a href=#114 id=114 data-nosnippet>114</a>        .as_str()
 <a href=#115 id=115 data-nosnippet>115</a>        .ok_or(<span class="macro">error!</span>(<span class="string">"FindOrGiven[1].Name is not a string"</span>))<span class="question-mark">?</span>;
 <a href=#116 id=116 data-nosnippet>116</a>
-<a href=#117 id=117 data-nosnippet>117</a>    <span class="kw">let </span>name = Name::UserName(name.to_owned());
+<a href=#117 id=117 data-nosnippet>117</a>    <span class="kw">let </span>name = Name::User(name.to_owned());
 <a href=#118 id=118 data-nosnippet>118</a>
 <a href=#119 id=119 data-nosnippet>119</a>    <span class="kw">let </span>domain = arr[<span class="number">2</span>]
 <a href=#120 id=120 data-nosnippet>120</a>        .as_object()
@@ -139,7 +139,7 @@
 <a href=#139 id=139 data-nosnippet>139</a>        .ok_or(<span class="macro">error!</span>(<span class="string">"Letting[0] is not an object"</span>))<span class="question-mark">?</span>[<span class="string">"Name"</span>]
 <a href=#140 id=140 data-nosnippet>140</a>        .as_str()
 <a href=#141 id=141 data-nosnippet>141</a>        .ok_or(<span class="macro">error!</span>(<span class="string">"Letting[0].Name is not a string"</span>))<span class="question-mark">?</span>;
-<a href=#142 id=142 data-nosnippet>142</a>    <span class="kw">let </span>name = Name::UserName(name.to_owned());
+<a href=#142 id=142 data-nosnippet>142</a>    <span class="kw">let </span>name = Name::User(name.to_owned());
 <a href=#143 id=143 data-nosnippet>143</a>    <span class="comment">// value letting
 <a href=#144 id=144 data-nosnippet>144</a>    </span><span class="kw">if let </span><span class="prelude-val">Some</span>(value) = parse_expression(<span class="kw-2">&amp;</span>arr[<span class="number">1</span>], scope) {
 <a href=#145 id=145 data-nosnippet>145</a>        <span class="kw">let </span><span class="kw-2">mut </span>symtab = scope.borrow_mut();
@@ -180,8 +180,8 @@
 <a href=#180 id=180 data-nosnippet>180</a>) -&gt; <span class="prelude-ty">Result</span>&lt;Domain&gt; {
 <a href=#181 id=181 data-nosnippet>181</a>    <span class="kw">match </span>domain_name {
 <a href=#182 id=182 data-nosnippet>182</a>        <span class="string">"DomainInt" </span>=&gt; <span class="prelude-val">Ok</span>(parse_int_domain(domain_value, symbols)<span class="question-mark">?</span>),
-<a href=#183 id=183 data-nosnippet>183</a>        <span class="string">"DomainBool" </span>=&gt; <span class="prelude-val">Ok</span>(Domain::BoolDomain),
-<a href=#184 id=184 data-nosnippet>184</a>        <span class="string">"DomainReference" </span>=&gt; <span class="prelude-val">Ok</span>(Domain::DomainReference(Name::UserName(
+<a href=#183 id=183 data-nosnippet>183</a>        <span class="string">"DomainBool" </span>=&gt; <span class="prelude-val">Ok</span>(Domain::Bool),
+<a href=#184 id=184 data-nosnippet>184</a>        <span class="string">"DomainReference" </span>=&gt; <span class="prelude-val">Ok</span>(Domain::Reference(Name::User(
 <a href=#185 id=185 data-nosnippet>185</a>            domain_value
 <a href=#186 id=186 data-nosnippet>186</a>                .as_array()
 <a href=#187 id=187 data-nosnippet>187</a>                .ok_or(<span class="macro">error!</span>(<span class="string">"DomainReference is not an array"</span>))<span class="question-mark">?</span>[<span class="number">0</span>]
@@ -199,7 +199,7 @@
 <a href=#199 id=199 data-nosnippet>199</a>                .next()
 <a href=#200 id=200 data-nosnippet>200</a>                .ok_or(Error::Parse(<span class="string">"DomainSet is an empty object"</span>.to_owned()))<span class="question-mark">?</span>;
 <a href=#201 id=201 data-nosnippet>201</a>            <span class="kw">let </span>domain = parse_domain(domain.<span class="number">0</span>.as_str(), domain.<span class="number">1</span>, symbols)<span class="question-mark">?</span>;
-<a href=#202 id=202 data-nosnippet>202</a>            <span class="prelude-val">Ok</span>(Domain::DomainSet(SetAttr::None, Box::new(domain)))
+<a href=#202 id=202 data-nosnippet>202</a>            <span class="prelude-val">Ok</span>(Domain::Set(SetAttr::None, Box::new(domain)))
 <a href=#203 id=203 data-nosnippet>203</a>        }
 <a href=#204 id=204 data-nosnippet>204</a>
 <a href=#205 id=205 data-nosnippet>205</a>        <span class="string">"DomainMatrix" </span>=&gt; {
@@ -240,12 +240,12 @@
 <a href=#240 id=240 data-nosnippet>240</a>            // Walk through the value domain until it is not a DomainMatrix, adding the index to
 <a href=#241 id=241 data-nosnippet>241</a>            // our list of indices.
 <a href=#242 id=242 data-nosnippet>242</a>            </span><span class="kw">let </span><span class="kw-2">mut </span>value_domain = parse_domain(value_domain_name, value_domain_value, symbols)<span class="question-mark">?</span>;
-<a href=#243 id=243 data-nosnippet>243</a>            <span class="kw">while let </span>Domain::DomainMatrix(new_value_domain, <span class="kw-2">mut </span>indices) = value_domain {
+<a href=#243 id=243 data-nosnippet>243</a>            <span class="kw">while let </span>Domain::Matrix(new_value_domain, <span class="kw-2">mut </span>indices) = value_domain {
 <a href=#244 id=244 data-nosnippet>244</a>                index_domains.append(<span class="kw-2">&amp;mut </span>indices);
 <a href=#245 id=245 data-nosnippet>245</a>                value_domain = <span class="kw-2">*</span>new_value_domain.clone()
 <a href=#246 id=246 data-nosnippet>246</a>            }
 <a href=#247 id=247 data-nosnippet>247</a>
-<a href=#248 id=248 data-nosnippet>248</a>            <span class="prelude-val">Ok</span>(Domain::DomainMatrix(Box::new(value_domain), index_domains))
+<a href=#248 id=248 data-nosnippet>248</a>            <span class="prelude-val">Ok</span>(Domain::Matrix(Box::new(value_domain), index_domains))
 <a href=#249 id=249 data-nosnippet>249</a>        }
 <a href=#250 id=250 data-nosnippet>250</a>        <span class="string">"DomainTuple" </span>=&gt; {
 <a href=#251 id=251 data-nosnippet>251</a>            <span class="kw">let </span>domain_value = domain_value
@@ -266,7 +266,7 @@
 <a href=#266 id=266 data-nosnippet>266</a>                })
 <a href=#267 id=267 data-nosnippet>267</a>                .collect::&lt;<span class="prelude-ty">Result</span>&lt;Vec&lt;Domain&gt;&gt;&gt;()<span class="question-mark">?</span>;
 <a href=#268 id=268 data-nosnippet>268</a>
-<a href=#269 id=269 data-nosnippet>269</a>            <span class="prelude-val">Ok</span>(Domain::DomainTuple(domain))
+<a href=#269 id=269 data-nosnippet>269</a>            <span class="prelude-val">Ok</span>(Domain::Tuple(domain))
 <a href=#270 id=270 data-nosnippet>270</a>        }
 <a href=#271 id=271 data-nosnippet>271</a>        <span class="string">"DomainRecord" </span>=&gt; {
 <a href=#272 id=272 data-nosnippet>272</a>            <span class="kw">let </span>domain_value = domain_value
@@ -283,7 +283,7 @@
 <a href=#283 id=283 data-nosnippet>283</a>                    .as_str()
 <a href=#284 id=284 data-nosnippet>284</a>                    .ok_or(<span class="macro">error!</span>(<span class="string">"FindOrGiven[1].Name is not a string"</span>))<span class="question-mark">?</span>;
 <a href=#285 id=285 data-nosnippet>285</a>
-<a href=#286 id=286 data-nosnippet>286</a>                <span class="kw">let </span>name = Name::UserName(name.to_owned());
+<a href=#286 id=286 data-nosnippet>286</a>                <span class="kw">let </span>name = Name::User(name.to_owned());
 <a href=#287 id=287 data-nosnippet>287</a>                <span class="comment">// then collect the domain of the record field
 <a href=#288 id=288 data-nosnippet>288</a>                </span><span class="kw">let </span>domain = item[<span class="number">1</span>]
 <a href=#289 id=289 data-nosnippet>289</a>                    .as_object()
@@ -297,7 +297,7 @@
 <a href=#297 id=297 data-nosnippet>297</a>                <span class="kw">let </span>rec = RecordEntry { name, domain };
 <a href=#298 id=298 data-nosnippet>298</a>                record_entries.push(rec);
 <a href=#299 id=299 data-nosnippet>299</a>            }
-<a href=#300 id=300 data-nosnippet>300</a>            <span class="prelude-val">Ok</span>(Domain::DomainRecord(record_entries))
+<a href=#300 id=300 data-nosnippet>300</a>            <span class="prelude-val">Ok</span>(Domain::Record(record_entries))
 <a href=#301 id=301 data-nosnippet>301</a>        }
 <a href=#302 id=302 data-nosnippet>302</a>
 <a href=#303 id=303 data-nosnippet>303</a>        <span class="kw">_ </span>=&gt; <span class="prelude-val">Err</span>(Error::Parse(
@@ -342,7 +342,7 @@
 <a href=#342 id=342 data-nosnippet>342</a>            <span class="kw">_ </span>=&gt; <span class="kw">return </span><span class="macro">throw_error!</span>(<span class="string">"DomainInt[1] contains an unknown object"</span>),
 <a href=#343 id=343 data-nosnippet>343</a>        }
 <a href=#344 id=344 data-nosnippet>344</a>    }
-<a href=#345 id=345 data-nosnippet>345</a>    <span class="prelude-val">Ok</span>(Domain::IntDomain(ranges))
+<a href=#345 id=345 data-nosnippet>345</a>    <span class="prelude-val">Ok</span>(Domain::Int(ranges))
 <a href=#346 id=346 data-nosnippet>346</a>}
 <a href=#347 id=347 data-nosnippet>347</a>
 <a href=#348 id=348 data-nosnippet>348</a><span class="doccomment">/// Parses a (possibly) integer value inside the range of a domain
@@ -409,14 +409,14 @@
 <a href=#409 id=409 data-nosnippet>409</a>            <span class="string">".. found domain reference to {}, trying to resolve it"</span>,
 <a href=#410 id=410 data-nosnippet>410</a>            inner_name
 <a href=#411 id=411 data-nosnippet>411</a>        );
-<a href=#412 id=412 data-nosnippet>412</a>        <span class="kw">let </span>name = Name::UserName(inner_name.to_string());
+<a href=#412 id=412 data-nosnippet>412</a>        <span class="kw">let </span>name = Name::User(inner_name.to_string());
 <a href=#413 id=413 data-nosnippet>413</a>        <span class="kw">let </span>decl = symbols.lookup(<span class="kw-2">&amp;</span>name)<span class="question-mark">?</span>;
 <a href=#414 id=414 data-nosnippet>414</a>        <span class="kw">let </span>DeclarationKind::ValueLetting(d) = decl.kind() <span class="kw">else </span>{
 <a href=#415 id=415 data-nosnippet>415</a>            <span class="macro">parser_trace!</span>(<span class="string">".. name exists but is not a value letting!"</span>);
 <a href=#416 id=416 data-nosnippet>416</a>            <span class="kw">return </span><span class="prelude-val">None</span>;
 <a href=#417 id=417 data-nosnippet>417</a>        };
 <a href=#418 id=418 data-nosnippet>418</a>
-<a href=#419 id=419 data-nosnippet>419</a>        <span class="kw">let </span>a = d.clone().to_literal()<span class="question-mark">?</span>;
+<a href=#419 id=419 data-nosnippet>419</a>        <span class="kw">let </span>a = d.clone().into_literal()<span class="question-mark">?</span>;
 <a href=#420 id=420 data-nosnippet>420</a>        <span class="kw">let </span>Literal::Int(a) = a <span class="kw">else </span>{
 <a href=#421 id=421 data-nosnippet>421</a>            <span class="kw">return </span><span class="prelude-val">None</span>;
 <a href=#422 id=422 data-nosnippet>422</a>        };
@@ -594,7 +594,7 @@
 <a href=#594 id=594 data-nosnippet>594</a>            <span class="kw">let </span>name = refe[<span class="string">"Reference"</span>].as_array()<span class="question-mark">?</span>[<span class="number">0</span>].as_object()<span class="question-mark">?</span>[<span class="string">"Name"</span>].as_str()<span class="question-mark">?</span>;
 <a href=#595 id=595 data-nosnippet>595</a>            <span class="prelude-val">Some</span>(Expression::Atomic(
 <a href=#596 id=596 data-nosnippet>596</a>                Metadata::new(),
-<a href=#597 id=597 data-nosnippet>597</a>                Atom::Reference(Name::UserName(name.to_string())),
+<a href=#597 id=597 data-nosnippet>597</a>                Atom::Reference(Name::User(name.to_string())),
 <a href=#598 id=598 data-nosnippet>598</a>            ))
 <a href=#599 id=599 data-nosnippet>599</a>        }
 <a href=#600 id=600 data-nosnippet>600</a>        Value::Object(abslit) <span class="kw">if </span>abslit.contains_key(<span class="string">"AbstractLiteral"</span>) =&gt; {
@@ -668,7 +668,7 @@
 <a href=#668 id=668 data-nosnippet>668</a>
 <a href=#669 id=669 data-nosnippet>669</a>        <span class="kw">let </span>value = parse_expression(<span class="kw-2">&amp;</span>entry[<span class="number">1</span>], scope)<span class="question-mark">?</span>;
 <a href=#670 id=670 data-nosnippet>670</a>
-<a href=#671 id=671 data-nosnippet>671</a>        <span class="kw">let </span>name = Name::UserName(name.to_string());
+<a href=#671 id=671 data-nosnippet>671</a>        <span class="kw">let </span>name = Name::User(name.to_string());
 <a href=#672 id=672 data-nosnippet>672</a>        <span class="kw">let </span>rec_entry = RecordValue {
 <a href=#673 id=673 data-nosnippet>673</a>            name: name.clone(),
 <a href=#674 id=674 data-nosnippet>674</a>            value,
@@ -706,7 +706,7 @@
 <a href=#706 id=706 data-nosnippet>706</a>                    </span>.iter()
 <a href=#707 id=707 data-nosnippet>707</a>                    .next()<span class="question-mark">?</span>;
 <a href=#708 id=708 data-nosnippet>708</a>                <span class="kw">let </span>domain = parse_domain(domain_name, domain_value, <span class="kw-2">&amp;</span>scope.borrow()).ok()<span class="question-mark">?</span>;
-<a href=#709 id=709 data-nosnippet>709</a>                comprehension.generator(Name::UserName(name.to_string()), domain)
+<a href=#709 id=709 data-nosnippet>709</a>                comprehension.generator(Name::User(name.to_string()), domain)
 <a href=#710 id=710 data-nosnippet>710</a>            }
 <a href=#711 id=711 data-nosnippet>711</a>
 <a href=#712 id=712 data-nosnippet>712</a>            <span class="string">"Condition" </span>=&gt; comprehension.guard(parse_expression(value, <span class="kw-2">&amp;</span>scope)<span class="question-mark">?</span>),

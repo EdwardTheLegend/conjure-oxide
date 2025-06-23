@@ -34,7 +34,7 @@
 <a href=#34 id=34 data-nosnippet>34</a>            <span class="string">"expression" </span>=&gt; {
 <a href=#35 id=35 data-nosnippet>35</a>                <span class="kw">for </span>name <span class="kw">in </span>temp_symbols {
 <a href=#36 id=36 data-nosnippet>36</a>                    symbol_table.insert(Rc::new(Declaration::new_value_letting(
-<a href=#37 id=37 data-nosnippet>37</a>                        Name::UserName(String::from(name)),
+<a href=#37 id=37 data-nosnippet>37</a>                        Name::User(String::from(name)),
 <a href=#38 id=38 data-nosnippet>38</a>                        parse_expression(expr_or_domain, source_code, <span class="kw-2">&amp;</span>letting_statement_list)<span class="question-mark">?</span>,
 <a href=#39 id=39 data-nosnippet>39</a>                    )));
 <a href=#40 id=40 data-nosnippet>40</a>                }
@@ -42,7 +42,7 @@
 <a href=#42 id=42 data-nosnippet>42</a>            <span class="string">"domain" </span>=&gt; {
 <a href=#43 id=43 data-nosnippet>43</a>                <span class="kw">for </span>name <span class="kw">in </span>temp_symbols {
 <a href=#44 id=44 data-nosnippet>44</a>                    symbol_table.insert(Rc::new(Declaration::new_domain_letting(
-<a href=#45 id=45 data-nosnippet>45</a>                        Name::UserName(String::from(name)),
+<a href=#45 id=45 data-nosnippet>45</a>                        Name::User(String::from(name)),
 <a href=#46 id=46 data-nosnippet>46</a>                        parse_domain(expr_or_domain, source_code),
 <a href=#47 id=47 data-nosnippet>47</a>                    )));
 <a href=#48 id=48 data-nosnippet>48</a>                }

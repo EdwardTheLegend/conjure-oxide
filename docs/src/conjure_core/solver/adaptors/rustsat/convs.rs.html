@@ -58,7 +58,7 @@
 <a href=#58 id=58 data-nosnippet>58</a>                <span class="macro">todo!</span>(<span class="string">"Not Sure if we are handling Lits as-is or not.."</span>)
 <a href=#59 id=59 data-nosnippet>59</a>            }
 <a href=#60 id=60 data-nosnippet>60</a>            conjure_core::ast::Atom::Reference(name) =&gt; <span class="kw">match </span>name {
-<a href=#61 id=61 data-nosnippet>61</a>                conjure_core::ast::Name::UserName(n) =&gt; {
+<a href=#61 id=61 data-nosnippet>61</a>                conjure_core::ast::Name::User(n) =&gt; {
 <a href=#62 id=62 data-nosnippet>62</a>                    <span class="comment">// TODO: Temp Clone
 <a href=#63 id=63 data-nosnippet>63</a>                    // let m = n.clone();
 <a href=#64 id=64 data-nosnippet>64</a>                    </span><span class="kw">let </span>lit_temp: Lit = fetch_lit(n, vars_added, inst);
