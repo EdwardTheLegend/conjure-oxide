@@ -252,7 +252,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    context::Context,</pre>
+                <pre class="has-background-white py-0 px-2">    Model,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -268,7 +268,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    rule_engine::{resolve_rule_sets, rewrite_naive},</pre>
+                <pre class="has-background-white py-0 px-2">    context::Context,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -284,7 +284,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    solver::{adaptors, Solver},</pre>
+                <pre class="has-background-white py-0 px-2">    rule_engine::{resolve_rule_sets, rewrite_naive},</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -300,7 +300,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    Model,</pre>
+                <pre class="has-background-white py-0 px-2">    solver::{Solver, adaptors},</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -348,7 +348,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    defaults::DEFAULT_RULE_SETS,</pre>
+                <pre class="has-background-white py-0 px-2">    SolverFamily,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -364,7 +364,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    find_conjure::conjure_executable,</pre>
+                <pre class="has-background-white py-0 px-2">    defaults::DEFAULT_RULE_SETS,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -380,7 +380,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    get_rules, model_from_json, parse_essence_file_native,</pre>
+                <pre class="has-background-white py-0 px-2">    find_conjure::conjure_executable,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -396,7 +396,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    utils::conjure::{get_minion_solutions, get_sat_solutions, solutions_to_json},</pre>
+                <pre class="has-background-white py-0 px-2">    get_rules, model_from_json, parse_essence_file_native,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -412,7 +412,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    SolverFamily,</pre>
+                <pre class="has-background-white py-0 px-2">    utils::conjure::{get_minion_solutions, get_sat_solutions, solutions_to_json},</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2428,7 +2428,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        rules.iter().map(|rd| format!(&quot;{}&quot;, rd)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;\n&quot;)</pre>
+                <pre class="has-background-success-light py-0 px-2">        rules.iter().map(|rd| format!(&quot;{rd}&quot;)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;\n&quot;)</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -4028,7 +4028,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            println!(&quot;{}&quot;, solutions_str);</pre>
+                <pre class="has-background-success-light py-0 px-2">            println!(&quot;{solutions_str}&quot;);</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -4620,7 +4620,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            println!(&quot;{}&quot;, solutions_str);</pre>
+                <pre class="has-background-danger-light py-0 px-2">            println!(&quot;{solutions_str}&quot;);</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -4803,7 +4803,7 @@
         <footer class="footer">
             
                 <div class="content has-text-centered">
-                    <p class="heading">Date: 2025-07-02 10:04</p>
+                    <p class="heading">Date: 2025-07-02 10:06</p>
                 </div>
             
         </footer>
