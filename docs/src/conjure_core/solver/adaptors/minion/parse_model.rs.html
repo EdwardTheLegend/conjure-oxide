@@ -338,8 +338,8 @@
 <a href=#338 id=338 data-nosnippet>338</a>            parse_atomic_expr(<span class="kw-2">*</span>b)<span class="question-mark">?</span>,
 <a href=#339 id=339 data-nosnippet>339</a>        )),
 <a href=#340 id=340 data-nosnippet>340</a>
-<a href=#341 id=341 data-nosnippet>341</a>        conjure_ast::Expression::FlatWatchedLiteral(_metadata, name, k) =&gt; <span class="prelude-val">Ok</span>(
-<a href=#342 id=342 data-nosnippet>342</a>            minion_ast::Constraint::WLiteral(parse_name(name)<span class="question-mark">?</span>, parse_literal(k)<span class="question-mark">?</span>),
+<a href=#341 id=341 data-nosnippet>341</a>        conjure_ast::Expression::FlatWatchedLiteral(_metadata, decl, k) =&gt; <span class="prelude-val">Ok</span>(
+<a href=#342 id=342 data-nosnippet>342</a>            minion_ast::Constraint::WLiteral(parse_name(decl.name().clone())<span class="question-mark">?</span>, parse_literal(k)<span class="question-mark">?</span>),
 <a href=#343 id=343 data-nosnippet>343</a>        ),
 <a href=#344 id=344 data-nosnippet>344</a>        conjure_ast::Expression::MinionReify(_metadata, e, v) =&gt; <span class="prelude-val">Ok</span>(minion_ast::Constraint::Reify(
 <a href=#345 id=345 data-nosnippet>345</a>            Box::new(parse_expr(<span class="kw-2">*</span>e)<span class="question-mark">?</span>),
