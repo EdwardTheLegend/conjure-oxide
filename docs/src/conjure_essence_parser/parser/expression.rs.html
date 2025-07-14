@@ -198,13 +198,13 @@
 <a href=#198 id=198 data-nosnippet>198</a>            <span class="kw">let </span>name = Name::User(variable_name.to_string());
 <a href=#199 id=199 data-nosnippet>199</a>
 <a href=#200 id=200 data-nosnippet>200</a>            <span class="comment">// Look up the declaration in the symbol table
-<a href=#201 id=201 data-nosnippet>201</a>            </span><span class="kw">let </span>declaration_rc = symbols.lookup(<span class="kw-2">&amp;</span>name).ok_or_else(|| {
+<a href=#201 id=201 data-nosnippet>201</a>            </span><span class="kw">let </span>declaration = symbols.lookup(<span class="kw-2">&amp;</span>name).ok_or_else(|| {
 <a href=#202 id=202 data-nosnippet>202</a>                EssenceParseError::from(<span class="macro">format!</span>(<span class="string">"Variable '{variable_name}' not found in scope"</span>))
 <a href=#203 id=203 data-nosnippet>203</a>            })<span class="question-mark">?</span>;
 <a href=#204 id=204 data-nosnippet>204</a>
 <a href=#205 id=205 data-nosnippet>205</a>            <span class="prelude-val">Ok</span>(Expression::Atomic(
 <a href=#206 id=206 data-nosnippet>206</a>                Metadata::new(),
-<a href=#207 id=207 data-nosnippet>207</a>                Atom::Reference(Name::User(variable_name), declaration_rc),
+<a href=#207 id=207 data-nosnippet>207</a>                Atom::Reference(declaration),
 <a href=#208 id=208 data-nosnippet>208</a>            ))
 <a href=#209 id=209 data-nosnippet>209</a>        }
 <a href=#210 id=210 data-nosnippet>210</a>        <span class="string">"from_solution" </span>=&gt; <span class="kw">match </span>root.kind() {

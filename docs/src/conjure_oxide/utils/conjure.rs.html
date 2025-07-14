@@ -4,7 +4,7 @@
 <a href=#4 id=4 data-nosnippet>4</a><span class="kw">use </span>std::string::ToString;
 <a href=#5 id=5 data-nosnippet>5</a><span class="kw">use </span>std::sync::{Arc, Mutex, RwLock};
 <a href=#6 id=6 data-nosnippet>6</a>
-<a href=#7 id=7 data-nosnippet>7</a><span class="kw">use </span>conjure_core::ast::{Literal, Name};
+<a href=#7 id=7 data-nosnippet>7</a><span class="kw">use </span>conjure_core::ast::{DeclarationKind, Literal, Name};
 <a href=#8 id=8 data-nosnippet>8</a><span class="kw">use </span>conjure_core::bug;
 <a href=#9 id=9 data-nosnippet>9</a><span class="kw">use </span>conjure_core::context::Context;
 <a href=#10 id=10 data-nosnippet>10</a>
@@ -212,7 +212,7 @@
 <a href=#212 id=212 data-nosnippet>212</a>
 <a href=#213 id=213 data-nosnippet>213</a>        <span class="kw">let </span><span class="kw-2">mut </span>solutions = BTreeMap::new();
 <a href=#214 id=214 data-nosnippet>214</a>        <span class="kw">for </span>(name, decl) <span class="kw">in </span>model.as_submodel().symbols().clone().into_iter() {
-<a href=#215 id=215 data-nosnippet>215</a>            <span class="kw">match </span>decl.borrow().kind() {
+<a href=#215 id=215 data-nosnippet>215</a>            <span class="kw">match </span><span class="kw-2">&amp;</span>decl.kind() <span class="kw">as </span><span class="kw-2">&amp;</span>DeclarationKind {
 <a href=#216 id=216 data-nosnippet>216</a>                conjure_core::ast::DeclarationKind::ValueLetting(expression) =&gt; {
 <a href=#217 id=217 data-nosnippet>217</a>                    <span class="kw">let </span>literal = expression
 <a href=#218 id=218 data-nosnippet>218</a>                        .clone()

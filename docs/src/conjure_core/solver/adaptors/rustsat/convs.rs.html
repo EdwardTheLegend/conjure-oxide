@@ -57,11 +57,11 @@
 <a href=#57 id=57 data-nosnippet>57</a>            conjure_core::ast::Atom::Literal(literal) =&gt; {
 <a href=#58 id=58 data-nosnippet>58</a>                <span class="macro">todo!</span>(<span class="string">"Not Sure if we are handling Lits as-is or not.."</span>)
 <a href=#59 id=59 data-nosnippet>59</a>            }
-<a href=#60 id=60 data-nosnippet>60</a>            conjure_core::ast::Atom::Reference(name, <span class="kw">_</span>) =&gt; <span class="kw">match </span>name {
+<a href=#60 id=60 data-nosnippet>60</a>            conjure_core::ast::Atom::Reference(decl) =&gt; <span class="kw">match </span><span class="kw-2">&amp;*</span>(decl.name()) {
 <a href=#61 id=61 data-nosnippet>61</a>                conjure_core::ast::Name::User(n) =&gt; {
 <a href=#62 id=62 data-nosnippet>62</a>                    <span class="comment">// TODO: Temp Clone
 <a href=#63 id=63 data-nosnippet>63</a>                    // let m = n.clone();
-<a href=#64 id=64 data-nosnippet>64</a>                    </span><span class="kw">let </span>lit_temp: Lit = fetch_lit(n, vars_added, inst);
+<a href=#64 id=64 data-nosnippet>64</a>                    </span><span class="kw">let </span>lit_temp: Lit = fetch_lit(n.to_string(), vars_added, inst);
 <a href=#65 id=65 data-nosnippet>65</a>                    <span class="kw">if </span>polarity { lit_temp } <span class="kw">else </span>{ !lit_temp }
 <a href=#66 id=66 data-nosnippet>66</a>                }
 <a href=#67 id=67 data-nosnippet>67</a>                <span class="kw">_ </span>=&gt; {
