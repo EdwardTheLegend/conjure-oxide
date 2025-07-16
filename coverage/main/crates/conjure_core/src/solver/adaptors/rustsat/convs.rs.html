@@ -988,7 +988,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            conjure_core::ast::Atom::Reference(name) =&gt; match name {</pre>
+                <pre class="has-background-success-light py-0 px-2">            conjure_core::ast::Atom::Reference(decl) =&gt; match &amp;*(decl.name()) {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -1052,7 +1052,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                    let lit_temp: Lit = fetch_lit(n, vars_added, inst);</pre>
+                <pre class="has-background-success-light py-0 px-2">                    let lit_temp: Lit = fetch_lit(n.to_string(), vars_added, inst);</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2243,7 +2243,7 @@
         <footer class="footer">
             
                 <div class="content has-text-centered">
-                    <p class="heading">Date: 2025-07-09 21:21</p>
+                    <p class="heading">Date: 2025-07-16 11:40</p>
                 </div>
             
         </footer>
