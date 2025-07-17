@@ -15,7 +15,7 @@
         <div>
             <p class="heading">Lines</p>
             <p class="title has-text-danger">
-                <abbr title="406 / 563">72.11 %</abbr></p>
+                <abbr title="406 / 567">71.6 %</abbr></p>
         </div>
     </div>
 
@@ -19644,7 +19644,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                Some(subject.return_type()?)</pre>
+                <pre class="has-background-success-light py-0 px-2">                match subject.return_type()? {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19654,13 +19654,13 @@
                 <a href="#1227">1227</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
                 
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">            }</pre>
+                <pre class="has-background-danger-light py-0 px-2">                    ReturnType::Matrix(element_type) =&gt; Some(*element_type),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19670,13 +19670,13 @@
                 <a href="#1228">1228</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="26">
-                26
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::UnsafeSlice(_, subject, _) | Expression::SafeSlice(_, subject, _) =&gt; {</pre>
+                <pre class="has-background-danger-light py-0 px-2">                    ReturnType::Tuple(_) =&gt; None, &#x2F;&#x2F;todo</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19686,13 +19686,13 @@
                 <a href="#1229">1229</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="26">
-                26
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                Some(ReturnType::Matrix(Box::new(subject.return_type()?)))</pre>
+                <pre class="has-background-danger-light py-0 px-2">                    ReturnType::Record(_) =&gt; None,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19708,7 +19708,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">            }</pre>
+                <pre class="has-background-white py-0 px-2">                    t =&gt; bug!(</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19724,7 +19724,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::InDomain(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">                        &quot;{t:#?} cannot be the subject of an indexing expression. expression: {self}&quot;</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19732,6 +19732,118 @@
                 id="1232"
                 role="cell">
                 <a href="#1232">1232</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
+            </div>
+            <div class="column has-background-white p-0"
+                 role="cell">
+                <pre class="has-background-white py-0 px-2">                    ),</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1233"
+                role="cell">
+                <a href="#1233">1233</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
+            </div>
+            <div class="column has-background-white p-0"
+                 role="cell">
+                <pre class="has-background-white py-0 px-2">                }</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1234"
+                role="cell">
+                <a href="#1234">1234</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
+            </div>
+            <div class="column has-background-white p-0"
+                 role="cell">
+                <pre class="has-background-white py-0 px-2">            }</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1235"
+                role="cell">
+                <a href="#1235">1235</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="26">
+                26
+            </div>
+            <div class="column has-background-success-light p-0"
+                 role="cell">
+                <pre class="has-background-success-light py-0 px-2">            Expression::UnsafeSlice(_, subject, _) | Expression::SafeSlice(_, subject, _) =&gt; {</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1236"
+                role="cell">
+                <a href="#1236">1236</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="26">
+                26
+            </div>
+            <div class="column has-background-success-light p-0"
+                 role="cell">
+                <pre class="has-background-success-light py-0 px-2">                Some(ReturnType::Matrix(Box::new(subject.return_type()?)))</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1237"
+                role="cell">
+                <a href="#1237">1237</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
+            </div>
+            <div class="column has-background-white p-0"
+                 role="cell">
+                <pre class="has-background-white py-0 px-2">            }</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1238"
+                role="cell">
+                <a href="#1238">1238</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
+            </div>
+            <div class="column has-background-danger-light p-0"
+                 role="cell">
+                <pre class="has-background-danger-light py-0 px-2">            Expression::InDomain(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1239"
+                role="cell">
+                <a href="#1239">1239</a>
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
@@ -19745,9 +19857,9 @@
         </div><div class="columns p-0 m-0" role="row">
             <div
                 class="column is-1 is-narrow p-0 has-text-centered"
-                id="1233"
+                id="1240"
                 role="cell">
-                <a href="#1233">1233</a>
+                <a href="#1240">1240</a>
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
@@ -19761,9 +19873,9 @@
         </div><div class="columns p-0 m-0" role="row">
             <div
                 class="column is-1 is-narrow p-0 has-text-centered"
-                id="1234"
+                id="1241"
                 role="cell">
-                <a href="#1234">1234</a>
+                <a href="#1241">1241</a>
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
@@ -19777,9 +19889,9 @@
         </div><div class="columns p-0 m-0" role="row">
             <div
                 class="column is-1 is-narrow p-0 has-text-centered"
-                id="1235"
+                id="1242"
                 role="cell">
-                <a href="#1235">1235</a>
+                <a href="#1242">1242</a>
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
@@ -19793,9 +19905,9 @@
         </div><div class="columns p-0 m-0" role="row">
             <div
                 class="column is-1 is-narrow p-0 has-text-centered"
-                id="1236"
+                id="1243"
                 role="cell">
-                <a href="#1236">1236</a>
+                <a href="#1243">1243</a>
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
@@ -19805,118 +19917,6 @@
             <div class="column has-background-success-light p-0"
                  role="cell">
                 <pre class="has-background-success-light py-0 px-2">            Expression::Atomic(_, atom) =&gt; atom.return_type(),</pre>
-            </div>
-        </div><div class="columns p-0 m-0" role="row">
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered"
-                id="1237"
-                role="cell">
-                <a href="#1237">1237</a>
-            </div>
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
-            </div>
-            <div class="column has-background-danger-light p-0"
-                 role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::Scope(_, scope) =&gt; scope.return_type(),</pre>
-            </div>
-        </div><div class="columns p-0 m-0" role="row">
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered"
-                id="1238"
-                role="cell">
-                <a href="#1238">1238</a>
-            </div>
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="117">
-                117
-            </div>
-            <div class="column has-background-success-light p-0"
-                 role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Abs(_, _) =&gt; Some(ReturnType::Int),</pre>
-            </div>
-        </div><div class="columns p-0 m-0" role="row">
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered"
-                id="1239"
-                role="cell">
-                <a href="#1239">1239</a>
-            </div>
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="3146">
-                3146
-            </div>
-            <div class="column has-background-success-light p-0"
-                 role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Sum(_, _) =&gt; Some(ReturnType::Int),</pre>
-            </div>
-        </div><div class="columns p-0 m-0" role="row">
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered"
-                id="1240"
-                role="cell">
-                <a href="#1240">1240</a>
-            </div>
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="676">
-                676
-            </div>
-            <div class="column has-background-success-light p-0"
-                 role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Product(_, _) =&gt; Some(ReturnType::Int),</pre>
-            </div>
-        </div><div class="columns p-0 m-0" role="row">
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered"
-                id="1241"
-                role="cell">
-                <a href="#1241">1241</a>
-            </div>
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="156">
-                156
-            </div>
-            <div class="column has-background-success-light p-0"
-                 role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Min(_, _) =&gt; Some(ReturnType::Int),</pre>
-            </div>
-        </div><div class="columns p-0 m-0" role="row">
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered"
-                id="1242"
-                role="cell">
-                <a href="#1242">1242</a>
-            </div>
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="117">
-                117
-            </div>
-            <div class="column has-background-success-light p-0"
-                 role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Max(_, _) =&gt; Some(ReturnType::Int),</pre>
-            </div>
-        </div><div class="columns p-0 m-0" role="row">
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered"
-                id="1243"
-                role="cell">
-                <a href="#1243">1243</a>
-            </div>
-            <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="13">
-                13
-            </div>
-            <div class="column has-background-success-light p-0"
-                 role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Not(_, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19932,7 +19932,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::Or(_, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::Scope(_, scope) =&gt; scope.return_type(),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19942,13 +19942,13 @@
                 <a href="#1245">1245</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="117">
+                117
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::Imply(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Abs(_, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19958,13 +19958,13 @@
                 <a href="#1246">1246</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="3146">
+                3146
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::Iff(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Sum(_, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19975,12 +19975,12 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="39">
-                39
+                role="cell" aria-label="676">
+                676
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::And(_, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Product(_, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -19991,12 +19991,12 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="663">
-                663
+                role="cell" aria-label="156">
+                156
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Eq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Min(_, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20007,12 +20007,12 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="78">
-                78
+                role="cell" aria-label="117">
+                117
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Neq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Max(_, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20022,13 +20022,13 @@
                 <a href="#1250">1250</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="13">
+                13
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::Geq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Not(_, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20038,13 +20038,13 @@
                 <a href="#1251">1251</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="182">
-                182
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Leq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::Or(_, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20060,7 +20060,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::Gt(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::Imply(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20076,7 +20076,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::Lt(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::Iff(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20087,12 +20087,12 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="6838">
-                6838
+                role="cell" aria-label="39">
+                39
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::SafeDiv(_, _, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::And(_, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20103,12 +20103,12 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1326">
-                1326
+                role="cell" aria-label="663">
+                663
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::UnsafeDiv(_, _, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Eq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20118,13 +20118,13 @@
                 <a href="#1256">1256</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="78">
+                78
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatAllDiff(_, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Neq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20140,7 +20140,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatSumGeq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::Geq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20150,13 +20150,13 @@
                 <a href="#1258">1258</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="182">
+                182
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatSumLeq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Leq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20172,7 +20172,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionDivEqUndefZero(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::Gt(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20188,7 +20188,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatIneq(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::Lt(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20199,12 +20199,12 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="13">
-                13
+                role="cell" aria-label="6838">
+                6838
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::AllDiff(_, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::SafeDiv(_, _, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20215,12 +20215,12 @@
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="832">
-                832
+                role="cell" aria-label="1326">
+                1326
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Bubble(_, _, _) =&gt; None,</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::UnsafeDiv(_, _, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20236,7 +20236,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatWatchedLiteral(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatAllDiff(_, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20252,7 +20252,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionReify(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatSumGeq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20268,7 +20268,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionReifyImply(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatSumLeq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20284,7 +20284,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionWInIntervalSet(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionDivEqUndefZero(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20300,7 +20300,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionWInSet(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatIneq(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20310,13 +20310,13 @@
                 <a href="#1268">1268</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="13">
+                13
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionElementOne(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::AllDiff(_, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20326,13 +20326,13 @@
                 <a href="#1269">1269</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="832">
+                832
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::AuxDeclaration(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Bubble(_, _, _) =&gt; None,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20342,13 +20342,13 @@
                 <a href="#1270">1270</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1378">
-                1378
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::UnsafeMod(_, _, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatWatchedLiteral(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20358,13 +20358,13 @@
                 <a href="#1271">1271</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="6942">
-                6942
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::SafeMod(_, _, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionReify(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20380,7 +20380,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionModuloEqUndefZero(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionReifyImply(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20390,13 +20390,13 @@
                 <a href="#1273">1273</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1027">
-                1027
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Neg(_, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionWInIntervalSet(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20406,13 +20406,13 @@
                 <a href="#1274">1274</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="143">
-                143
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::UnsafePow(_, _, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionWInSet(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20422,13 +20422,13 @@
                 <a href="#1275">1275</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="728">
-                728
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::SafePow(_, _, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionElementOne(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20438,13 +20438,13 @@
                 <a href="#1276">1276</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="13">
-                13
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::Minus(_, _, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::AuxDeclaration(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20454,13 +20454,13 @@
                 <a href="#1277">1277</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1378">
+                1378
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatAbsEq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::UnsafeMod(_, _, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20470,13 +20470,13 @@
                 <a href="#1278">1278</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="6942">
+                6942
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatMinusEq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::SafeMod(_, _, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20492,7 +20492,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatProductEq(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionModuloEqUndefZero(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20502,13 +20502,13 @@
                 <a href="#1280">1280</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1027">
+                1027
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatWeightedSumLeq(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Neg(_, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20518,13 +20518,13 @@
                 <a href="#1281">1281</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="143">
+                143
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatWeightedSumGeq(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::UnsafePow(_, _, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20534,13 +20534,13 @@
                 <a href="#1282">1282</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
-                role="cell" aria-label="0">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="728">
+                728
             </div>
-            <div class="column has-background-danger-light p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionPow(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::SafePow(_, _, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20556,7 +20556,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expression::ToInt(_, _) =&gt; Some(ReturnType::Int),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::Minus(_, _, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20566,13 +20566,13 @@
                 <a href="#1284">1284</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
                 
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">        }</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatAbsEq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20582,13 +20582,13 @@
                 <a href="#1285">1285</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="77896">
-                77896
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    }</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatMinusEq(_, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20598,13 +20598,13 @@
                 <a href="#1286">1286</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
                 
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">}</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatProductEq(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20614,13 +20614,13 @@
                 <a href="#1287">1287</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
                 
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2"></pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatWeightedSumLeq(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20630,13 +20630,13 @@
                 <a href="#1288">1288</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
                 
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">#[cfg(test)]</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::FlatWeightedSumGeq(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20646,13 +20646,13 @@
                 <a href="#1289">1289</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
+                class="column is-1 is-narrow p-0 has-text-centered has-text-danger-light has-background-danger"
+                role="cell" aria-label="0">
                 
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">mod tests {</pre>
+                <pre class="has-background-danger-light py-0 px-2">            Expression::MinionPow(_, _, _, _) =&gt; Some(ReturnType::Bool),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20662,13 +20662,13 @@
                 <a href="#1290">1290</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="13">
+                13
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2"></pre>
+                <pre class="has-background-success-light py-0 px-2">            Expression::ToInt(_, _) =&gt; Some(ReturnType::Int),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20684,7 +20684,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    use crate::matrix_expr;</pre>
+                <pre class="has-background-white py-0 px-2">        }</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20694,13 +20694,13 @@
                 <a href="#1292">1292</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="77896">
+                77896
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2"></pre>
+                <pre class="has-background-success-light py-0 px-2">    }</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20716,7 +20716,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    use super::*;</pre>
+                <pre class="has-background-white py-0 px-2">}</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20748,7 +20748,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    #[test]</pre>
+                <pre class="has-background-white py-0 px-2">#[cfg(test)]</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20758,13 +20758,13 @@
                 <a href="#1296">1296</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    fn test_domain_of_constant_sum() {</pre>
+                <pre class="has-background-white py-0 px-2">mod tests {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20774,13 +20774,13 @@
                 <a href="#1297">1297</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let c1 = Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Int(1)));</pre>
+                <pre class="has-background-white py-0 px-2"></pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20790,13 +20790,13 @@
                 <a href="#1298">1298</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let c2 = Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Int(2)));</pre>
+                <pre class="has-background-white py-0 px-2">    use crate::matrix_expr;</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20806,13 +20806,13 @@
                 <a href="#1299">1299</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let sum = Expression::Sum(</pre>
+                <pre class="has-background-white py-0 px-2"></pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20822,13 +20822,13 @@
                 <a href="#1300">1300</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Metadata::new(),</pre>
+                <pre class="has-background-white py-0 px-2">    use super::*;</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20838,13 +20838,13 @@
                 <a href="#1301">1301</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Box::new(matrix_expr![c1.clone(), c2.clone()]),</pre>
+                <pre class="has-background-white py-0 px-2"></pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20854,13 +20854,13 @@
                 <a href="#1302">1302</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        );</pre>
+                <pre class="has-background-white py-0 px-2">    #[test]</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20876,7 +20876,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        assert_eq!(</pre>
+                <pre class="has-background-success-light py-0 px-2">    fn test_domain_of_constant_sum() {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20892,7 +20892,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            sum.domain_of(&amp;SymbolTable::new()),</pre>
+                <pre class="has-background-success-light py-0 px-2">        let c1 = Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Int(1)));</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20908,7 +20908,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Some(Domain::Int(vec![Range::Single(3)]))</pre>
+                <pre class="has-background-success-light py-0 px-2">        let c2 = Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Int(2)));</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20918,13 +20918,13 @@
                 <a href="#1306">1306</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">        );</pre>
+                <pre class="has-background-success-light py-0 px-2">        let sum = Expression::Sum(</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20940,7 +20940,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    }</pre>
+                <pre class="has-background-success-light py-0 px-2">            Metadata::new(),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20950,13 +20950,13 @@
                 <a href="#1308">1308</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2"></pre>
+                <pre class="has-background-success-light py-0 px-2">            Box::new(matrix_expr![c1.clone(), c2.clone()]),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20966,13 +20966,13 @@
                 <a href="#1309">1309</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    #[test]</pre>
+                <pre class="has-background-success-light py-0 px-2">        );</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -20988,7 +20988,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    fn test_domain_of_constant_invalid_type() {</pre>
+                <pre class="has-background-success-light py-0 px-2">        assert_eq!(</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21004,7 +21004,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let c1 = Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Int(1)));</pre>
+                <pre class="has-background-success-light py-0 px-2">            sum.domain_of(&amp;SymbolTable::new()),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21020,7 +21020,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let c2 = Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Bool(true)));</pre>
+                <pre class="has-background-success-light py-0 px-2">            Some(Domain::Int(vec![Range::Single(3)]))</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21030,13 +21030,13 @@
                 <a href="#1313">1313</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let sum = Expression::Sum(</pre>
+                <pre class="has-background-white py-0 px-2">        );</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21052,7 +21052,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Metadata::new(),</pre>
+                <pre class="has-background-success-light py-0 px-2">    }</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21062,13 +21062,13 @@
                 <a href="#1315">1315</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Box::new(matrix_expr![c1.clone(), c2.clone()]),</pre>
+                <pre class="has-background-white py-0 px-2"></pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21078,13 +21078,13 @@
                 <a href="#1316">1316</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
-                role="cell" aria-label="1">
-                1
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
             </div>
-            <div class="column has-background-success-light p-0"
+            <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        );</pre>
+                <pre class="has-background-white py-0 px-2">    #[test]</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21100,7 +21100,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        assert_eq!(sum.domain_of(&amp;SymbolTable::new()), None);</pre>
+                <pre class="has-background-success-light py-0 px-2">    fn test_domain_of_constant_invalid_type() {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21116,7 +21116,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    }</pre>
+                <pre class="has-background-success-light py-0 px-2">        let c1 = Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Int(1)));</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21126,13 +21126,13 @@
                 <a href="#1319">1319</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2"></pre>
+                <pre class="has-background-success-light py-0 px-2">        let c2 = Expression::Atomic(Metadata::new(), Atom::Literal(Literal::Bool(true)));</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21142,13 +21142,13 @@
                 <a href="#1320">1320</a>
             </div>
             <div
-                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
-                role="cell" aria-label="no coverage">
-                
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
             </div>
-            <div class="column has-background-white p-0"
+            <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    #[test]</pre>
+                <pre class="has-background-success-light py-0 px-2">        let sum = Expression::Sum(</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21164,7 +21164,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    fn test_domain_of_empty_sum() {</pre>
+                <pre class="has-background-success-light py-0 px-2">            Metadata::new(),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21180,7 +21180,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let sum = Expression::Sum(Metadata::new(), Box::new(matrix_expr![]));</pre>
+                <pre class="has-background-success-light py-0 px-2">            Box::new(matrix_expr![c1.clone(), c2.clone()]),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21196,7 +21196,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        assert_eq!(sum.domain_of(&amp;SymbolTable::new()), None);</pre>
+                <pre class="has-background-success-light py-0 px-2">        );</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21212,7 +21212,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">    }</pre>
+                <pre class="has-background-success-light py-0 px-2">        assert_eq!(sum.domain_of(&amp;SymbolTable::new()), None);</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -21220,6 +21220,118 @@
                 id="1325"
                 role="cell">
                 <a href="#1325">1325</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
+            </div>
+            <div class="column has-background-success-light p-0"
+                 role="cell">
+                <pre class="has-background-success-light py-0 px-2">    }</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1326"
+                role="cell">
+                <a href="#1326">1326</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
+            </div>
+            <div class="column has-background-white p-0"
+                 role="cell">
+                <pre class="has-background-white py-0 px-2"></pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1327"
+                role="cell">
+                <a href="#1327">1327</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
+                role="cell" aria-label="no coverage">
+                
+            </div>
+            <div class="column has-background-white p-0"
+                 role="cell">
+                <pre class="has-background-white py-0 px-2">    #[test]</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1328"
+                role="cell">
+                <a href="#1328">1328</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
+            </div>
+            <div class="column has-background-success-light p-0"
+                 role="cell">
+                <pre class="has-background-success-light py-0 px-2">    fn test_domain_of_empty_sum() {</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1329"
+                role="cell">
+                <a href="#1329">1329</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
+            </div>
+            <div class="column has-background-success-light p-0"
+                 role="cell">
+                <pre class="has-background-success-light py-0 px-2">        let sum = Expression::Sum(Metadata::new(), Box::new(matrix_expr![]));</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1330"
+                role="cell">
+                <a href="#1330">1330</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
+            </div>
+            <div class="column has-background-success-light p-0"
+                 role="cell">
+                <pre class="has-background-success-light py-0 px-2">        assert_eq!(sum.domain_of(&amp;SymbolTable::new()), None);</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1331"
+                role="cell">
+                <a href="#1331">1331</a>
+            </div>
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered has-text-success-light has-background-success"
+                role="cell" aria-label="1">
+                1
+            </div>
+            <div class="column has-background-success-light p-0"
+                 role="cell">
+                <pre class="has-background-success-light py-0 px-2">    }</pre>
+            </div>
+        </div><div class="columns p-0 m-0" role="row">
+            <div
+                class="column is-1 is-narrow p-0 has-text-centered"
+                id="1332"
+                role="cell">
+                <a href="#1332">1332</a>
             </div>
             <div
                 class="column is-1 is-narrow p-0 has-text-centered has-text-white has-background-white"
@@ -21235,7 +21347,7 @@
         <footer class="footer">
             
                 <div class="content has-text-centered">
-                    <p class="heading">Date: 2025-07-17 10:07</p>
+                    <p class="heading">Date: 2025-07-17 10:51</p>
                 </div>
             
         </footer>
