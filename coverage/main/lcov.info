@@ -1764,9 +1764,9 @@ DA:258,179413
 DA:271,876798
 DA:272,876798
 DA:273,876798
-DA:287,468845
-DA:288,468845
-DA:289,468845
+DA:287,469079
+DA:288,469079
+DA:289,469079
 DA:292,413140
 DA:293,413140
 DA:294,413140
@@ -1819,9 +1819,9 @@ DA:377,195
 DA:378,195
 DA:379,195
 DA:380,195
-DA:390,3060174
-DA:392,3060174
-DA:393,3060174
+DA:390,3060408
+DA:392,3060408
+DA:393,3060408
 DA:396,227513
 DA:398,227513
 DA:399,227513
@@ -1830,9 +1830,9 @@ DA:433,169
 DA:434,169
 DA:435,169
 DA:436,169
-DA:439,1345643
-DA:440,1345643
-DA:441,1345643
+DA:439,1345877
+DA:440,1345877
+DA:441,1345877
 DA:444,0
 DA:445,0
 DA:446,0
@@ -1907,9 +1907,9 @@ DA:557,0
 DA:561,0
 DA:562,0
 DA:563,0
-DA:567,44967
-DA:568,44967
-DA:569,44967
+DA:567,44915
+DA:568,44915
+DA:569,44915
 DA:575,2211
 DA:577,2211
 DA:578,2211
@@ -2319,13 +2319,13 @@ FN:63,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Lite
 FN:97,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::atom::Atom>>::biplate::{closure#1}
 FN:131,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#2}
 FN:97,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#1}
-FN:63,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<core::option::Option<conjure_core::ast::expressions::Expression>>>::biplate
+FN:41,<conjure_core::ast::records::RecordValue<_> as uniplate::traits::Uniplate>::uniplate::{closure#0}
 FN:131,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#2}
 FN:63,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate
 FN:63,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate
 FN:131,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#2}
 FN:131,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::metadata::Metadata>>::biplate::{closure#2}
-FN:41,<conjure_core::ast::records::RecordValue<_> as uniplate::traits::Uniplate>::uniplate::{closure#0}
+FN:63,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<core::option::Option<conjure_core::ast::expressions::Expression>>>::biplate
 FN:97,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<alloc::vec::Vec<conjure_core::ast::expressions::Expression>>>::biplate::{closure#1}
 FN:73,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::atom::Atom>>::biplate::{closure#0}
 FN:97,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#1}
@@ -2453,11 +2453,11 @@ FN:97,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Lite
 FN:73,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
 FN:73,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate::{closure#0}
 FN:73,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<alloc::vec::Vec<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
-FN:73,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
+FN:29,<conjure_core::ast::records::RecordValue<_> as uniplate::traits::Uniplate>::uniplate
 FN:131,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#2}
 FN:73,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FN:131,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#2}
-FN:29,<conjure_core::ast::records::RecordValue<_> as uniplate::traits::Uniplate>::uniplate
+FN:73,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FN:73,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FN:63,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate
 FN:131,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::atom::Atom>>::biplate::{closure#2}
@@ -2669,13 +2669,13 @@ FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Lit
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::atom::Atom>>::biplate::{closure#1}
 FNDA:1,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#2}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#1}
-FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<core::option::Option<conjure_core::ast::expressions::Expression>>>::biplate
+FNDA:0,<conjure_core::ast::records::RecordValue<_> as uniplate::traits::Uniplate>::uniplate::{closure#0}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#2}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#2}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::metadata::Metadata>>::biplate::{closure#2}
-FNDA:0,<conjure_core::ast::records::RecordValue<_> as uniplate::traits::Uniplate>::uniplate::{closure#0}
+FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<core::option::Option<conjure_core::ast::expressions::Expression>>>::biplate
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<alloc::vec::Vec<conjure_core::ast::expressions::Expression>>>::biplate::{closure#1}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::atom::Atom>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#1}
@@ -2803,11 +2803,11 @@ FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Lit
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<alloc::vec::Vec<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
-FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
+FNDA:0,<conjure_core::ast::records::RecordValue<_> as uniplate::traits::Uniplate>::uniplate
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#2}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#2}
-FNDA:0,<conjure_core::ast::records::RecordValue<_> as uniplate::traits::Uniplate>::uniplate
+FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression> as uniplate::traits::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate
 FNDA:0,<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal> as uniplate::traits::Biplate<conjure_core::ast::atom::Atom>>::biplate::{closure#2}
@@ -4119,11 +4119,11 @@ DA:35,0
 DA:42,0
 DA:43,0
 DA:44,0
-DA:48,1403428
-DA:49,1403428
-DA:50,364559
-DA:51,1038869
-DA:53,1403428
+DA:48,1382043
+DA:49,1382043
+DA:50,379041
+DA:51,1003002
+DA:53,1382043
 DA:63,0
 DA:64,0
 DA:65,0
@@ -5652,16 +5652,16 @@ BRH:0
 DA:35,0
 DA:36,0
 DA:37,0
-DA:43,1263522
-DA:44,1263522
-DA:45,832845
-DA:46,316914
-DA:47,73840
-DA:48,73840
-DA:49,73840
+DA:43,1263912
+DA:44,1263912
+DA:45,833014
+DA:46,316979
+DA:47,73996
+DA:48,73996
+DA:49,73996
 DA:51,39923
 DA:53,39923
-DA:56,1263522
+DA:56,1263912
 DA:60,0
 DA:61,0
 DA:62,0
@@ -6650,9 +6650,9 @@ DA:182,7514
 DA:186,0
 DA:187,0
 DA:188,0
-DA:192,429
-DA:193,429
-DA:194,429
+DA:192,299
+DA:193,299
+DA:194,299
 DA:200,13182
 DA:201,13182
 DA:202,13182
@@ -6853,9 +6853,9 @@ DA:142,143
 DA:143,143
 DA:148,416
 DA:149,416
-DA:153,4290
-DA:154,4290
-DA:155,4290
+DA:153,4368
+DA:154,4368
+DA:155,4368
 DA:161,31603
 DA:162,31603
 DA:163,31603
@@ -7738,9 +7738,9 @@ DA:579,30667
 DA:580,30667
 DA:582,143
 DA:583,30667
-DA:584,173771
+DA:584,171535
 DA:585,5889
-DA:587,44902
+DA:587,45045
 DA:588,4095
 DA:590,1820
 DA:591,1820
@@ -8331,11 +8331,11 @@ DA:66,79485
 DA:67,27875
 DA:68,51610
 DA:72,79485
-DA:76,465296
-DA:77,465296
-DA:78,186797
-DA:79,278499
-DA:81,465296
+DA:76,465556
+DA:77,465556
+DA:78,186823
+DA:79,278733
+DA:81,465556
 DA:85,117
 DA:86,117
 DA:87,117
@@ -11929,12 +11929,12 @@ DA:502,52
 DA:503,52
 DA:504,26
 DA:508,13832
-DA:513,331695
-DA:514,331695
-DA:515,316654
+DA:513,331721
+DA:514,331721
+DA:515,316680
 DA:516,13858
 DA:517,1183
-DA:519,331695
+DA:519,331721
 DA:531,1
 DA:533,1
 DA:534,1
@@ -13348,28 +13348,28 @@ FN:157,<tree_morph::engine::State>::mark_cleanliness
 FN:214,<tree_morph::engine::State>::go_up
 FN:122,tree_morph::engine::morph::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>::{closure#0}
 FN:123,tree_morph::engine::morph::<rule_groups::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<rule_groups::Expr, ()>, &'b rule_groups::Expr, &'c ()) -> core::option::Option<rule_groups::Expr>, tree_morph::helpers::select_first<rule_groups::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<rule_groups::Expr, ()>, &'b rule_groups::Expr, &'c ()) -> core::option::Option<rule_groups::Expr>>>::{closure#0}::{closure#0}
-FN:123,tree_morph::engine::morph::<_, _, _, _>::{closure#0}::{closure#0}
+FN:299,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::new
 FN:150,<tree_morph::engine::State>::new
 FN:123,tree_morph::engine::morph::<_, _, _, _>::{closure#0}::{closure#0}
 FN:123,tree_morph::engine::morph::<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule, tree_morph::helpers::select_first<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule>>::{closure#0}::{closure#0}
-FN:299,<tree_morph::engine::DirtyZipper<_>>::new
-FN:299,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::new
-FN:323,<tree_morph::engine::DirtyZipper<_>>::get_next_dirty
+FN:110,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>
+FN:122,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>::{closure#0}
+FN:123,tree_morph::engine::morph::<_, _, _, _>::{closure#0}::{closure#0}
 FN:299,<tree_morph::engine::DirtyZipper<mixed_fn_rules::Expr>>::new
 FN:124,tree_morph::engine::morph::<rule_groups::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<rule_groups::Expr, ()>, &'b rule_groups::Expr, &'c ()) -> core::option::Option<rule_groups::Expr>, tree_morph::helpers::select_first<rule_groups::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<rule_groups::Expr, ()>, &'b rule_groups::Expr, &'c ()) -> core::option::Option<rule_groups::Expr>>>::{closure#0}::{closure#0}::{closure#0}
+FN:124,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>::{closure#0}::{closure#0}::{closure#0}
 FN:110,tree_morph::engine::morph::<_, _, _, _>
-FN:110,tree_morph::engine::morph::<_, _, _, _>
-FN:178,<tree_morph::engine::State>::go_down
+FN:308,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::mark_dirty
 FN:424,tree_morph::engine::morph_impl_not_opt::<_, _, _>
-FN:275,<tree_morph::engine::NodeState as core::fmt::Debug>::fmt
+FN:299,<tree_morph::engine::DirtyZipper<_>>::new
 FN:389,tree_morph::engine::morph_not_opt::<_, _, _, _>
 FN:308,<tree_morph::engine::DirtyZipper<enum_rules::Expr>>::mark_dirty
-FN:110,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>
+FN:323,<tree_morph::engine::DirtyZipper<_>>::get_next_dirty
 FN:110,tree_morph::engine::morph::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>
 FN:308,<tree_morph::engine::DirtyZipper<mixed_fn_rules::Expr>>::mark_dirty
-FN:122,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>::{closure#0}
-FN:124,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>::{closure#0}::{closure#0}::{closure#0}
-FN:308,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::mark_dirty
+FN:110,tree_morph::engine::morph::<_, _, _, _>
+FN:178,<tree_morph::engine::State>::go_down
+FN:275,<tree_morph::engine::NodeState as core::fmt::Debug>::fmt
 FN:299,<tree_morph::engine::DirtyZipper<dirty_clean::Expr>>::new
 FN:122,tree_morph::engine::morph::<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule, tree_morph::helpers::select_first<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule>>::{closure#0}
 FN:124,tree_morph::engine::morph::<_, _, _, _>::{closure#0}::{closure#0}::{closure#0}
@@ -13384,25 +13384,25 @@ FN:123,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut
 FN:299,<tree_morph::engine::DirtyZipper<lambda_calc::Expr>>::new
 FN:402,tree_morph::engine::morph_not_opt::<_, _, _, _>::{closure#0}::{closure#0}
 FN:299,<tree_morph::engine::DirtyZipper<_>>::new
-FN:124,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>::{closure#0}::{closure#0}::{closure#0}
 FN:354,tree_morph::engine::morph_impl::<mixed_fn_rules::Expr, (), tree_morph::engine::morph<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>::{closure#0}::{closure#0}>
+FN:124,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>::{closure#0}::{closure#0}::{closure#0}
 FN:110,tree_morph::engine::morph::<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule, tree_morph::helpers::select_first<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule>>
 FN:323,<tree_morph::engine::DirtyZipper<enum_rules::Expr>>::get_next_dirty
-FN:424,tree_morph::engine::morph_impl_not_opt::<_, _, _>
-FN:157,<tree_morph::engine::State>::mark_cleanliness
-FN:150,<tree_morph::engine::State>::new
-FN:163,<tree_morph::engine::State>::get_cleanliness
-FN:245,<tree_morph::engine::NodeState>::new_dirty
-FN:223,<tree_morph::engine::State as core::default::Default>::default
-FN:401,tree_morph::engine::morph_not_opt::<_, _, _, _>::{closure#0}
-FN:299,<tree_morph::engine::DirtyZipper<rule_groups::Expr>>::new
 FN:323,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::get_next_dirty
+FN:157,<tree_morph::engine::State>::mark_cleanliness
+FN:424,tree_morph::engine::morph_impl_not_opt::<_, _, _>
+FN:150,<tree_morph::engine::State>::new
+FN:245,<tree_morph::engine::NodeState>::new_dirty
+FN:163,<tree_morph::engine::State>::get_cleanliness
+FN:223,<tree_morph::engine::State as core::default::Default>::default
+FN:299,<tree_morph::engine::DirtyZipper<rule_groups::Expr>>::new
+FN:401,tree_morph::engine::morph_not_opt::<_, _, _, _>::{closure#0}
 FN:194,<tree_morph::engine::State>::go_right
 FN:110,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, tree_morph::helpers::select_first<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>
 FN:308,<tree_morph::engine::DirtyZipper<shapes::Shape>>::mark_dirty
 FN:308,<tree_morph::engine::DirtyZipper<_>>::mark_dirty
-FN:323,<tree_morph::engine::DirtyZipper<shapes::Shape>>::get_next_dirty
 FN:124,tree_morph::engine::morph::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>::{closure#0}::{closure#0}::{closure#0}
+FN:323,<tree_morph::engine::DirtyZipper<shapes::Shape>>::get_next_dirty
 FN:275,<tree_morph::engine::NodeState as core::fmt::Debug>::fmt
 FN:124,tree_morph::engine::morph::<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce, tree_morph::helpers::select_first<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce>>::{closure#0}::{closure#0}::{closure#0}
 FN:123,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>::{closure#0}::{closure#0}
@@ -13457,28 +13457,28 @@ FNDA:0,<tree_morph::engine::State>::mark_cleanliness
 FNDA:1,<tree_morph::engine::State>::go_up
 FNDA:1,tree_morph::engine::morph::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>::{closure#0}
 FNDA:1,tree_morph::engine::morph::<rule_groups::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<rule_groups::Expr, ()>, &'b rule_groups::Expr, &'c ()) -> core::option::Option<rule_groups::Expr>, tree_morph::helpers::select_first<rule_groups::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<rule_groups::Expr, ()>, &'b rule_groups::Expr, &'c ()) -> core::option::Option<rule_groups::Expr>>>::{closure#0}::{closure#0}
-FNDA:0,tree_morph::engine::morph::<_, _, _, _>::{closure#0}::{closure#0}
+FNDA:0,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::new
 FNDA:1,<tree_morph::engine::State>::new
 FNDA:0,tree_morph::engine::morph::<_, _, _, _>::{closure#0}::{closure#0}
 FNDA:1,tree_morph::engine::morph::<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule, tree_morph::helpers::select_first<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule>>::{closure#0}::{closure#0}
-FNDA:0,<tree_morph::engine::DirtyZipper<_>>::new
-FNDA:0,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::new
-FNDA:0,<tree_morph::engine::DirtyZipper<_>>::get_next_dirty
+FNDA:0,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>
+FNDA:0,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>::{closure#0}
+FNDA:0,tree_morph::engine::morph::<_, _, _, _>::{closure#0}::{closure#0}
 FNDA:1,<tree_morph::engine::DirtyZipper<mixed_fn_rules::Expr>>::new
 FNDA:1,tree_morph::engine::morph::<rule_groups::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<rule_groups::Expr, ()>, &'b rule_groups::Expr, &'c ()) -> core::option::Option<rule_groups::Expr>, tree_morph::helpers::select_first<rule_groups::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<rule_groups::Expr, ()>, &'b rule_groups::Expr, &'c ()) -> core::option::Option<rule_groups::Expr>>>::{closure#0}::{closure#0}::{closure#0}
+FNDA:0,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>::{closure#0}::{closure#0}::{closure#0}
 FNDA:0,tree_morph::engine::morph::<_, _, _, _>
-FNDA:0,tree_morph::engine::morph::<_, _, _, _>
-FNDA:0,<tree_morph::engine::State>::go_down
+FNDA:0,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::mark_dirty
 FNDA:0,tree_morph::engine::morph_impl_not_opt::<_, _, _>
-FNDA:0,<tree_morph::engine::NodeState as core::fmt::Debug>::fmt
+FNDA:0,<tree_morph::engine::DirtyZipper<_>>::new
 FNDA:0,tree_morph::engine::morph_not_opt::<_, _, _, _>
 FNDA:1,<tree_morph::engine::DirtyZipper<enum_rules::Expr>>::mark_dirty
-FNDA:0,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>
+FNDA:0,<tree_morph::engine::DirtyZipper<_>>::get_next_dirty
 FNDA:1,tree_morph::engine::morph::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>
 FNDA:1,<tree_morph::engine::DirtyZipper<mixed_fn_rules::Expr>>::mark_dirty
-FNDA:0,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>::{closure#0}
-FNDA:0,tree_morph::engine::morph::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>::{closure#0}::{closure#0}::{closure#0}
-FNDA:0,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::mark_dirty
+FNDA:0,tree_morph::engine::morph::<_, _, _, _>
+FNDA:0,<tree_morph::engine::State>::go_down
+FNDA:0,<tree_morph::engine::NodeState as core::fmt::Debug>::fmt
 FNDA:1,<tree_morph::engine::DirtyZipper<dirty_clean::Expr>>::new
 FNDA:1,tree_morph::engine::morph::<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule, tree_morph::helpers::select_first<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule>>::{closure#0}
 FNDA:0,tree_morph::engine::morph::<_, _, _, _>::{closure#0}::{closure#0}::{closure#0}
@@ -13493,25 +13493,25 @@ FNDA:1,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut
 FNDA:1,<tree_morph::engine::DirtyZipper<lambda_calc::Expr>>::new
 FNDA:0,tree_morph::engine::morph_not_opt::<_, _, _, _>::{closure#0}::{closure#0}
 FNDA:0,<tree_morph::engine::DirtyZipper<_>>::new
-FNDA:1,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>::{closure#0}::{closure#0}::{closure#0}
 FNDA:1,tree_morph::engine::morph_impl::<mixed_fn_rules::Expr, (), tree_morph::engine::morph<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>::{closure#0}::{closure#0}>
+FNDA:1,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>::{closure#0}::{closure#0}::{closure#0}
 FNDA:1,tree_morph::engine::morph::<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule, tree_morph::helpers::select_first<enum_rules::Expr, enum_rules::Meta, enum_rules::MyRule>>
 FNDA:1,<tree_morph::engine::DirtyZipper<enum_rules::Expr>>::get_next_dirty
-FNDA:0,tree_morph::engine::morph_impl_not_opt::<_, _, _>
-FNDA:1,<tree_morph::engine::State>::mark_cleanliness
-FNDA:0,<tree_morph::engine::State>::new
-FNDA:0,<tree_morph::engine::State>::get_cleanliness
-FNDA:1,<tree_morph::engine::NodeState>::new_dirty
-FNDA:0,<tree_morph::engine::State as core::default::Default>::default
-FNDA:0,tree_morph::engine::morph_not_opt::<_, _, _, _>::{closure#0}
-FNDA:1,<tree_morph::engine::DirtyZipper<rule_groups::Expr>>::new
 FNDA:0,<tree_morph::engine::DirtyZipper<conjure_core::ast::expressions::Expression>>::get_next_dirty
+FNDA:1,<tree_morph::engine::State>::mark_cleanliness
+FNDA:0,tree_morph::engine::morph_impl_not_opt::<_, _, _>
+FNDA:0,<tree_morph::engine::State>::new
+FNDA:1,<tree_morph::engine::NodeState>::new_dirty
+FNDA:0,<tree_morph::engine::State>::get_cleanliness
+FNDA:0,<tree_morph::engine::State as core::default::Default>::default
+FNDA:1,<tree_morph::engine::DirtyZipper<rule_groups::Expr>>::new
+FNDA:0,tree_morph::engine::morph_not_opt::<_, _, _, _>::{closure#0}
 FNDA:1,<tree_morph::engine::State>::go_right
 FNDA:1,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, tree_morph::helpers::select_first<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>
 FNDA:1,<tree_morph::engine::DirtyZipper<shapes::Shape>>::mark_dirty
 FNDA:0,<tree_morph::engine::DirtyZipper<_>>::mark_dirty
-FNDA:1,<tree_morph::engine::DirtyZipper<shapes::Shape>>::get_next_dirty
 FNDA:1,tree_morph::engine::morph::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>::{closure#0}::{closure#0}::{closure#0}
+FNDA:1,<tree_morph::engine::DirtyZipper<shapes::Shape>>::get_next_dirty
 FNDA:0,<tree_morph::engine::NodeState as core::fmt::Debug>::fmt
 FNDA:1,tree_morph::engine::morph::<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce, tree_morph::helpers::select_first<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce>>::{closure#0}::{closure#0}::{closure#0}
 FNDA:1,tree_morph::engine::morph::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>::{closure#0}::{closure#0}
@@ -15354,15 +15354,15 @@ DA:306,2706
 DA:307,2706
 DA:308,2706
 DA:309,2706
-DA:313,2035
+DA:313,2024
 DA:318,979
 DA:319,979
 DA:320,2310
-DA:321,1639
-DA:322,1639
-DA:323,1639
-DA:324,1639
-DA:325,1639
+DA:321,1749
+DA:322,1749
+DA:323,1749
+DA:324,1749
+DA:325,1749
 DA:326,2310
 DA:327,979
 DA:329,979
@@ -16511,16 +16511,16 @@ BRH:0
 DA:21,26
 DA:23,26
 DA:24,26
-DA:27,149500
-DA:28,149500
-DA:29,149500
-DA:30,127322
-DA:31,127322
-DA:32,127322
+DA:27,149864
+DA:28,149864
+DA:29,149864
+DA:30,127660
+DA:31,127660
+DA:32,127660
 DA:33,2418
 DA:35,13
 DA:36,13
-DA:37,149487
+DA:37,149851
 DA:43,26
 DA:44,13
 DA:45,13
@@ -18051,22 +18051,22 @@ LH:29
 end_of_record
 SF:crates/tree_morph/src/helpers.rs
 FN:167,tree_morph::helpers::select_smallest_subtree::<_, _, _>
-FN:19,tree_morph::helpers::one_or_select::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, &tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>
 FN:19,tree_morph::helpers::one_or_select::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, &tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>
+FN:19,tree_morph::helpers::one_or_select::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, &tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>
 FN:176,tree_morph::helpers::select_smallest_subtree::<_, _, _>::{closure#0}::{closure#0}
 FN:175,tree_morph::helpers::select_smallest_subtree::<_, _, _>::{closure#0}
 FN:99,tree_morph::helpers::select_user_input::<_, _, _>::{closure#0}
 FN:41,tree_morph::helpers::select_first::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>
 FN:76,tree_morph::helpers::select_user_input::<_, _, _>
-FN:148,tree_morph::helpers::select_random::<_, _, _>
 FN:59,tree_morph::helpers::select_panic::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>
+FN:148,tree_morph::helpers::select_random::<_, _, _>
 FN:41,tree_morph::helpers::select_first::<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce>
 FN:41,tree_morph::helpers::select_first::<_, _, _>
 FN:59,tree_morph::helpers::select_panic::<_, _, _>
 FN:19,tree_morph::helpers::one_or_select::<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce, &tree_morph::helpers::select_first<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce>>
-FN:59,tree_morph::helpers::select_panic::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>
-FN:176,tree_morph::helpers::select_smallest_subtree::<_, _, _>::{closure#0}::{closure#0}
 FN:41,tree_morph::helpers::select_first::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>
+FN:176,tree_morph::helpers::select_smallest_subtree::<_, _, _>::{closure#0}::{closure#0}
+FN:59,tree_morph::helpers::select_panic::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>
 FN:59,tree_morph::helpers::select_panic::<_, _, _>
 FN:41,tree_morph::helpers::select_first::<dirty_clean::Expr, dirty_clean::Meta, dirty_clean::MyRule>
 FN:148,tree_morph::helpers::select_random::<_, _, _>
@@ -18085,22 +18085,22 @@ FN:19,tree_morph::helpers::one_or_select::<shapes::Shape, (), for<'a, 'b, 'c> fn
 FN:19,tree_morph::helpers::one_or_select::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule, &tree_morph::helpers::select_panic<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>>
 FN:167,tree_morph::helpers::select_smallest_subtree::<_, _, _>
 FNDA:0,tree_morph::helpers::select_smallest_subtree::<_, _, _>
-FNDA:1,tree_morph::helpers::one_or_select::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, &tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>
 FNDA:1,tree_morph::helpers::one_or_select::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>, &tree_morph::helpers::select_first<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>>
+FNDA:1,tree_morph::helpers::one_or_select::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>, &tree_morph::helpers::select_panic<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>>
 FNDA:0,tree_morph::helpers::select_smallest_subtree::<_, _, _>::{closure#0}::{closure#0}
 FNDA:0,tree_morph::helpers::select_smallest_subtree::<_, _, _>::{closure#0}
 FNDA:0,tree_morph::helpers::select_user_input::<_, _, _>::{closure#0}
 FNDA:0,tree_morph::helpers::select_first::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>
 FNDA:0,tree_morph::helpers::select_user_input::<_, _, _>
-FNDA:0,tree_morph::helpers::select_random::<_, _, _>
 FNDA:0,tree_morph::helpers::select_panic::<conjure_core::ast::expressions::Expression, conjure_core::ast::symbol_table::SymbolTable, &conjure_core::rule_engine::rule::Rule>
+FNDA:0,tree_morph::helpers::select_random::<_, _, _>
 FNDA:0,tree_morph::helpers::select_first::<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce>
 FNDA:0,tree_morph::helpers::select_first::<_, _, _>
 FNDA:0,tree_morph::helpers::select_panic::<_, _, _>
 FNDA:1,tree_morph::helpers::one_or_select::<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce, &tree_morph::helpers::select_first<lambda_calc::Expr, u32, lambda_calc::transform_beta_reduce>>
-FNDA:1,tree_morph::helpers::select_panic::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>
-FNDA:0,tree_morph::helpers::select_smallest_subtree::<_, _, _>::{closure#0}::{closure#0}
 FNDA:0,tree_morph::helpers::select_first::<mixed_fn_rules::Expr, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<mixed_fn_rules::Expr, ()>, &'b mixed_fn_rules::Expr, &'c ()) -> core::option::Option<mixed_fn_rules::Expr>>
+FNDA:0,tree_morph::helpers::select_smallest_subtree::<_, _, _>::{closure#0}::{closure#0}
+FNDA:1,tree_morph::helpers::select_panic::<shapes::Shape, (), for<'a, 'b, 'c> fn(&'a mut tree_morph::commands::Commands<shapes::Shape, ()>, &'b shapes::Shape, &'c ()) -> core::option::Option<shapes::Shape>>
 FNDA:0,tree_morph::helpers::select_panic::<_, _, _>
 FNDA:0,tree_morph::helpers::select_first::<dirty_clean::Expr, dirty_clean::Meta, dirty_clean::MyRule>
 FNDA:0,tree_morph::helpers::select_random::<_, _, _>
@@ -21824,84 +21824,84 @@ LF:42
 LH:23
 end_of_record
 SF:crates/conjure_core/src/solver/mod.rs
-FN:302,<conjure_core::solver::Solver<_>>::get_family
-FN:233,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
-FN:401,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:352,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
-FN:302,<conjure_core::solver::Solver<_>>::get_family
-FN:418,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
-FN:406,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:352,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
-FN:233,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
-FN:406,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:406,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:291,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::new
-FN:395,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<std::fs::File>
-FN:418,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
-FN:406,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:401,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:291,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::new
-FN:406,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:244,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
-FN:401,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:291,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::new
-FN:395,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
-FN:291,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::new
-FN:418,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
-FN:352,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
-FN:244,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
-FN:239,<_ as conjure_core::solver::SolverAdaptor>::get_name
-FN:302,<conjure_core::solver::Solver<_>>::get_family
-FN:308,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat>>::load_model
-FN:401,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:302,<conjure_core::solver::Solver<_>>::get_family
-FN:244,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
-FN:308,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::load_model
-FN:308,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat>>::load_model
-FN:418,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
-FN:395,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
-FN:291,<conjure_core::solver::Solver<_>>::new
-FN:319,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve
-FN:395,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<std::fs::File>
-FN:302,<conjure_core::solver::Solver<_>>::get_family
-FN:319,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::solve
-FN:244,<_ as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
-FN:418,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
-FN:401,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:239,<_ as conjure_core::solver::SolverAdaptor>::get_name
-FN:319,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ModelLoaded>>::solve
-FN:395,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
-FN:239,<_ as conjure_core::solver::SolverAdaptor>::get_name
-FN:308,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::load_model
-FN:244,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
-FN:239,<_ as conjure_core::solver::SolverAdaptor>::get_name
-FN:395,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
-FN:401,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:395,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<std::fs::File>
-FN:233,<_ as conjure_core::solver::SolverAdaptor>::init_solver
-FN:233,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
-FN:352,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
-FN:239,<_ as conjure_core::solver::SolverAdaptor>::get_name
-FN:401,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:401,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:395,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
-FN:352,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
-FN:233,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
-FN:401,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
-FN:395,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<std::fs::File>
-FN:406,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:308,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::load_model
-FN:308,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::load_model
-FN:319,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::solve
-FN:406,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:291,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat>>::new
-FN:319,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ModelLoaded>>::solve
-FN:406,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:319,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::solve
-FN:319,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::solve
-FN:291,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat>>::new
-FN:406,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
-FN:308,<conjure_core::solver::Solver<_>>::load_model
+FN:304,<conjure_core::solver::Solver<_>>::get_family
+FN:235,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
+FN:403,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:354,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
+FN:304,<conjure_core::solver::Solver<_>>::get_family
+FN:420,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
+FN:408,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:354,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
+FN:235,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
+FN:408,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:408,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:293,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::new
+FN:397,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<std::fs::File>
+FN:420,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
+FN:408,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:403,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:293,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::new
+FN:408,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:246,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
+FN:403,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:293,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::new
+FN:397,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
+FN:293,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::new
+FN:420,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
+FN:354,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
+FN:246,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
+FN:241,<_ as conjure_core::solver::SolverAdaptor>::get_name
+FN:304,<conjure_core::solver::Solver<_>>::get_family
+FN:310,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat>>::load_model
+FN:403,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:304,<conjure_core::solver::Solver<_>>::get_family
+FN:246,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
+FN:310,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::load_model
+FN:310,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat>>::load_model
+FN:420,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
+FN:397,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
+FN:293,<conjure_core::solver::Solver<_>>::new
+FN:321,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve
+FN:397,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<std::fs::File>
+FN:304,<conjure_core::solver::Solver<_>>::get_family
+FN:321,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::solve
+FN:246,<_ as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
+FN:420,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::wall_time_s
+FN:403,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:241,<_ as conjure_core::solver::SolverAdaptor>::get_name
+FN:321,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ModelLoaded>>::solve
+FN:397,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
+FN:241,<_ as conjure_core::solver::SolverAdaptor>::get_name
+FN:310,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::load_model
+FN:246,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
+FN:241,<_ as conjure_core::solver::SolverAdaptor>::get_name
+FN:397,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
+FN:403,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:397,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<std::fs::File>
+FN:235,<_ as conjure_core::solver::SolverAdaptor>::init_solver
+FN:235,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
+FN:354,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
+FN:241,<_ as conjure_core::solver::SolverAdaptor>::get_name
+FN:403,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:403,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:397,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<_>
+FN:354,<conjure_core::solver::Solver<_, conjure_core::solver::states::ModelLoaded>>::solve_mut
+FN:235,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
+FN:403,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
+FN:397,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ModelLoaded>>::write_solver_input_file::<std::fs::File>
+FN:408,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:310,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::load_model
+FN:310,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion>>::load_model
+FN:321,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::solve
+FN:408,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:293,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat>>::new
+FN:321,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat, conjure_core::solver::states::ModelLoaded>>::solve
+FN:408,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:321,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::solve
+FN:321,<conjure_core::solver::Solver<conjure_core::solver::adaptors::minion::adaptor::Minion, conjure_core::solver::states::ModelLoaded>>::solve
+FN:293,<conjure_core::solver::Solver<conjure_core::solver::adaptors::rustsat::adaptor::Sat>>::new
+FN:408,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::save_stats_to_context
+FN:310,<conjure_core::solver::Solver<_>>::load_model
 FNDA:0,<conjure_core::solver::Solver<_>>::get_family
 FNDA:0,<conjure_core::solver::adaptors::minion::adaptor::Minion as conjure_core::solver::SolverAdaptor>::init_solver
 FNDA:0,<conjure_core::solver::Solver<_, conjure_core::solver::states::ExecutionSuccess>>::stats
@@ -21984,52 +21984,50 @@ FNF:78
 FNH:12
 BRF:0
 BRH:0
-DA:233,2756
-DA:239,0
-DA:240,0
+DA:235,2756
 DA:241,0
-DA:244,1976
-DA:245,1976
+DA:242,0
+DA:243,0
 DA:246,1976
 DA:247,1976
 DA:248,1976
 DA:249,1976
 DA:250,1976
-DA:291,2804
-DA:292,2804
+DA:251,1976
+DA:252,1976
 DA:293,2804
 DA:294,2804
 DA:295,2804
 DA:296,2804
+DA:297,2804
 DA:298,2804
-DA:299,2804
 DA:300,2804
-DA:302,0
-DA:303,0
+DA:301,2804
+DA:302,2804
 DA:304,0
-DA:308,2804
-DA:309,2804
-DA:310,2024
-DA:311,2024
+DA:305,0
+DA:306,0
+DA:310,2804
+DA:311,2804
 DA:312,2024
 DA:313,2024
 DA:314,2024
-DA:315,2804
-DA:319,2024
-DA:320,2024
+DA:315,2024
+DA:316,2024
+DA:317,2804
 DA:321,2024
 DA:322,2024
+DA:323,2024
 DA:324,2024
-DA:327,2024
+DA:326,2024
 DA:329,2024
 DA:331,2024
-DA:332,2024
 DA:333,2024
 DA:334,2024
 DA:335,2024
 DA:336,2024
+DA:337,2024
 DA:338,2024
-DA:339,2024
 DA:340,2024
 DA:341,2024
 DA:342,2024
@@ -22037,23 +22035,23 @@ DA:343,2024
 DA:344,2024
 DA:345,2024
 DA:346,2024
-DA:348,0
-DA:350,2024
-DA:352,0
-DA:353,0
+DA:347,2024
+DA:348,2024
+DA:350,0
+DA:352,2024
 DA:354,0
 DA:355,0
+DA:356,0
 DA:357,0
-DA:360,0
+DA:359,0
 DA:362,0
 DA:364,0
-DA:365,0
 DA:366,0
 DA:367,0
 DA:368,0
 DA:369,0
+DA:370,0
 DA:371,0
-DA:372,0
 DA:373,0
 DA:374,0
 DA:375,0
@@ -22061,26 +22059,28 @@ DA:376,0
 DA:377,0
 DA:378,0
 DA:379,0
+DA:380,0
 DA:381,0
 DA:383,0
-DA:395,0
-DA:396,0
+DA:385,0
 DA:397,0
-DA:401,1152
-DA:402,1152
+DA:398,0
+DA:399,0
 DA:403,1152
-DA:406,1152
-DA:409,1152
-DA:410,1152
+DA:404,1152
+DA:405,1152
+DA:408,1152
 DA:411,1152
 DA:412,1152
 DA:413,1152
 DA:414,1152
 DA:415,1152
 DA:416,1152
-DA:418,0
-DA:419,0
+DA:417,1152
+DA:418,1152
 DA:420,0
+DA:421,0
+DA:422,0
 LF:97
 LH:60
 end_of_record
@@ -24042,9 +24042,9 @@ DA:651,314
 DA:652,314
 DA:653,314
 DA:654,314
-DA:655,34120
-DA:656,34120
-DA:657,34120
+DA:655,34188
+DA:656,34188
+DA:657,34188
 DA:658,314
 DA:660,314
 DA:661,314
@@ -24055,7 +24055,7 @@ DA:666,314
 DA:667,314
 DA:668,314
 DA:669,314
-DA:670,34120
+DA:670,34188
 DA:671,314
 DA:674,1
 DA:675,1
