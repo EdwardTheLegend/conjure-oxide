@@ -76,7 +76,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">use conjure_core::ast::{Atom, Expression as Expr, SymbolTable};</pre>
+                <pre class="has-background-white py-0 px-2">use conjure_core::ast::{Atom, Expression as Expr, Moo, SymbolTable};</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -364,7 +364,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            Expr::Not(_, expr_box) =&gt; Ok(Reduction::pure(*expr_box.clone())),</pre>
+                <pre class="has-background-success-light py-0 px-2">            Expr::Not(_, expr_box) =&gt; Ok(Reduction::pure(Moo::unwrap_or_clone(expr_box.clone()))),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -1148,7 +1148,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                                    Box::new(into_matrix_expr![new_or_contents]),</pre>
+                <pre class="has-background-success-light py-0 px-2">                                    Moo::new(into_matrix_expr![new_or_contents]),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -1244,7 +1244,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                                Box::new(into_matrix_expr![new_and_contents]),</pre>
+                <pre class="has-background-success-light py-0 px-2">                                Moo::new(into_matrix_expr![new_and_contents]),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -1980,7 +1980,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                    Box::new(into_matrix_expr![new_exprs]),</pre>
+                <pre class="has-background-success-light py-0 px-2">                    Moo::new(into_matrix_expr![new_exprs]),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2556,7 +2556,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">                    Box::new(into_matrix_expr![new_exprs]),</pre>
+                <pre class="has-background-success-light py-0 px-2">                    Moo::new(into_matrix_expr![new_exprs]),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -5507,7 +5507,7 @@
         <footer class="footer">
             
                 <div class="content has-text-centered">
-                    <p class="heading">Date: 2025-08-08 11:35</p>
+                    <p class="heading">Date: 2025-08-20 11:19</p>
                 </div>
             
         </footer>
