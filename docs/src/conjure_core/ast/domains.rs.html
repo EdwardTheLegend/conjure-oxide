@@ -271,7 +271,7 @@
 <a href=#271 id=271 data-nosnippet>271</a>            <span class="kw">return </span>Domain::Empty(ReturnType::Int);
 <a href=#272 id=272 data-nosnippet>272</a>        }
 <a href=#273 id=273 data-nosnippet>273</a>
-<a href=#274 id=274 data-nosnippet>274</a>        <span class="kw">let </span>set = BTreeSet::from_iter(elements.iter().cloned());
+<a href=#274 id=274 data-nosnippet>274</a>        <span class="kw">let </span>set = BTreeSet::from_iter(elements.iter().copied());
 <a href=#275 id=275 data-nosnippet>275</a>
 <a href=#276 id=276 data-nosnippet>276</a>        Domain::from_set_i32(<span class="kw-2">&amp;</span>set)
 <a href=#277 id=277 data-nosnippet>277</a>    }
@@ -322,7 +322,7 @@
 <a href=#322 id=322 data-nosnippet>322</a>            <span class="kw">return </span><span class="macro">domain_int!</span>(<span class="kw-2">*</span>elements.first().unwrap());
 <a href=#323 id=323 data-nosnippet>323</a>        }
 <a href=#324 id=324 data-nosnippet>324</a>
-<a href=#325 id=325 data-nosnippet>325</a>        <span class="kw">let </span><span class="kw-2">mut </span>elems_iter = elements.iter().cloned();
+<a href=#325 id=325 data-nosnippet>325</a>        <span class="kw">let </span><span class="kw-2">mut </span>elems_iter = elements.iter().copied();
 <a href=#326 id=326 data-nosnippet>326</a>
 <a href=#327 id=327 data-nosnippet>327</a>        <span class="kw">let </span><span class="kw-2">mut </span>ranges: Vec&lt;Range&lt;i32&gt;&gt; = <span class="macro">vec!</span>[];
 <a href=#328 id=328 data-nosnippet>328</a>
