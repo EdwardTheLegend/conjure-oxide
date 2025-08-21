@@ -140,7 +140,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">use minion_rs::ast as minion_ast;</pre>
+                <pre class="has-background-white py-0 px-2">use minion_sys::ast as minion_ast;</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -156,7 +156,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">use minion_rs::error::MinionError;</pre>
+                <pre class="has-background-white py-0 px-2">use minion_sys::error::MinionError;</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -172,7 +172,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">use minion_rs::{get_from_table, run_minion};</pre>
+                <pre class="has-background-white py-0 px-2">use minion_sys::{get_from_table, run_minion};</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -540,7 +540,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">&#x2F;&#x2F;&#x2F; This adaptor uses the `minion_rs` crate to talk to Minion over FFI.</pre>
+                <pre class="has-background-white py-0 px-2">&#x2F;&#x2F;&#x2F; This adaptor uses the `minion_sys` crate to talk to Minion over FFI.</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -1036,7 +1036,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">fn minion_rs_callback(solutions: HashMap&lt;minion_ast::VarName, minion_ast::Constant&gt;) -&gt; bool {</pre>
+                <pre class="has-background-success-light py-0 px-2">fn minion_sys_callback(solutions: HashMap&lt;minion_ast::VarName, minion_ast::Constant&gt;) -&gt; bool {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2108,7 +2108,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            minion_rs_callback,</pre>
+                <pre class="has-background-success-light py-0 px-2">            minion_sys_callback,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2204,7 +2204,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            x =&gt; Runtime(format!(&quot;unknown minion_rs error: {x:#?}&quot;)),</pre>
+                <pre class="has-background-danger-light py-0 px-2">            x =&gt; Runtime(format!(&quot;unknown minion_sys error: {x:#?}&quot;)),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2860,7 +2860,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">        minion_rs::print::write_minion_file(writer, model)</pre>
+                <pre class="has-background-danger-light py-0 px-2">        minion_sys::print::write_minion_file(writer, model)</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -3027,7 +3027,7 @@
         <footer class="footer">
             
                 <div class="content has-text-centered">
-                    <p class="heading">Date: 2025-08-20 11:19</p>
+                    <p class="heading">Date: 2025-08-21 09:09</p>
                 </div>
             
         </footer>
