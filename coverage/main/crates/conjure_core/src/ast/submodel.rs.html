@@ -588,7 +588,7 @@
             </div>
             <div class="column has-background-white p-0"
                  role="cell">
-                <pre class="has-background-white py-0 px-2">    constraints: Expression,</pre>
+                <pre class="has-background-white py-0 px-2">    constraints: Moo&lt;Expression&gt;,</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -796,7 +796,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            constraints: Expression::Root(Metadata::new(), vec![]),</pre>
+                <pre class="has-background-success-light py-0 px-2">            constraints: Moo::new(Expression::Root(Metadata::new(), vec![])),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -956,7 +956,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">            constraints: Expression::Root(Metadata::new(), vec![]),</pre>
+                <pre class="has-background-success-light py-0 px-2">            constraints: Moo::new(Expression::Root(Metadata::new(), vec![])),</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -1660,7 +1660,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        &amp;mut self.constraints</pre>
+                <pre class="has-background-success-light py-0 px-2">        Moo::make_mut(&amp;mut self.constraints)</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -1980,7 +1980,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let Expression::Root(_, constraints) = &amp;self.constraints else {</pre>
+                <pre class="has-background-success-light py-0 px-2">        let Expression::Root(_, constraints) = self.constraints.as_ref() else {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -2124,7 +2124,7 @@
             </div>
             <div class="column has-background-success-light p-0"
                  role="cell">
-                <pre class="has-background-success-light py-0 px-2">        let Expression::Root(_, constraints) = &amp;mut self.constraints else {</pre>
+                <pre class="has-background-success-light py-0 px-2">        let Expression::Root(_, constraints) = Moo::make_mut(&amp;mut self.constraints) else {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -6460,7 +6460,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            let Expression::Root(_, _) = root else {</pre>
+                <pre class="has-background-danger-light py-0 px-2">            let Expression::Root(_, _) = &amp;*root else {</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -6540,7 +6540,7 @@
             </div>
             <div class="column has-background-danger-light p-0"
                  role="cell">
-                <pre class="has-background-danger-light py-0 px-2">            *self3.root_mut_unchecked() = root;</pre>
+                <pre class="has-background-danger-light py-0 px-2">            self3.constraints = root;</pre>
             </div>
         </div><div class="columns p-0 m-0" role="row">
             <div
@@ -6659,7 +6659,7 @@
         <footer class="footer">
             
                 <div class="content has-text-centered">
-                    <p class="heading">Date: 2025-08-21 10:08</p>
+                    <p class="heading">Date: 2025-08-21 10:19</p>
                 </div>
             
         </footer>

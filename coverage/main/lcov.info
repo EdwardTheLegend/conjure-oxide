@@ -306,10 +306,10 @@ DA:73,0
 DA:74,524106
 DA:83,426261
 DA:84,426261
-DA:85,426261
-DA:86,425931
-DA:89,330
-DA:90,264
+DA:85,425931
+DA:88,330
+DA:89,264
+DA:92,66
 DA:93,66
 DA:95,66
 DA:96,66
@@ -333,10 +333,10 @@ DA:116,66
 DA:117,426261
 DA:126,426261
 DA:127,426261
-DA:128,426261
-DA:129,426052
-DA:132,209
-DA:133,176
+DA:128,426052
+DA:131,209
+DA:132,176
+DA:135,33
 DA:136,33
 DA:138,33
 DA:139,33
@@ -1335,11 +1335,11 @@ FN:527,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::bipl
 FN:439,<conjure_core::ast::declaration::DeclarationPtr>::map::<conjure_core::ast::declaration::DeclarationKind, <conjure_core::ast::declaration::DeclarationPtr>::kind::{closure#0}>
 FN:293,<conjure_core::ast::declaration::DeclarationPtr>::as_var::{closure#0}
 FN:487,<conjure_core::ast::declaration::DeclarationPtr as conjure_core::ast::types::Typeable>::return_type
-FN:567,<conjure_core::ast::declaration::DeclarationPtr as core::cmp::PartialEq>::eq
-FN:167,<conjure_core::ast::declaration::DeclarationPtr>::new_domain_letting
-FN:543,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::biplate::Biplate<conjure_core::ast::declaration::DeclarationPtr>>::biplate::{closure#1}
-FN:506,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::uniplate::Uniplate>::uniplate::{closure#0}
 FN:473,<conjure_core::ast::declaration::DeclarationPtr as conjure_core::ast::serde::DefaultWithId>::default_with_id
+FN:167,<conjure_core::ast::declaration::DeclarationPtr>::new_domain_letting
+FN:567,<conjure_core::ast::declaration::DeclarationPtr as core::cmp::PartialEq>::eq
+FN:506,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::uniplate::Uniplate>::uniplate::{closure#0}
+FN:543,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::biplate::Biplate<conjure_core::ast::declaration::DeclarationPtr>>::biplate::{closure#1}
 FN:473,<conjure_core::ast::declaration::DeclarationPtr as conjure_core::ast::serde::DefaultWithId>::default_with_id
 FN:450,<conjure_core::ast::declaration::DeclarationPtr>::replace
 FN:167,<conjure_core::ast::declaration::DeclarationPtr>::new_domain_letting
@@ -1607,11 +1607,11 @@ FNDA:0,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::bipl
 FNDA:0,<conjure_core::ast::declaration::DeclarationPtr>::map::<conjure_core::ast::declaration::DeclarationKind, <conjure_core::ast::declaration::DeclarationPtr>::kind::{closure#0}>
 FNDA:0,<conjure_core::ast::declaration::DeclarationPtr>::as_var::{closure#0}
 FNDA:0,<conjure_core::ast::declaration::DeclarationPtr as conjure_core::ast::types::Typeable>::return_type
-FNDA:0,<conjure_core::ast::declaration::DeclarationPtr as core::cmp::PartialEq>::eq
-FNDA:1,<conjure_core::ast::declaration::DeclarationPtr>::new_domain_letting
-FNDA:0,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::biplate::Biplate<conjure_core::ast::declaration::DeclarationPtr>>::biplate::{closure#1}
-FNDA:1,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::uniplate::Uniplate>::uniplate::{closure#0}
 FNDA:0,<conjure_core::ast::declaration::DeclarationPtr as conjure_core::ast::serde::DefaultWithId>::default_with_id
+FNDA:1,<conjure_core::ast::declaration::DeclarationPtr>::new_domain_letting
+FNDA:0,<conjure_core::ast::declaration::DeclarationPtr as core::cmp::PartialEq>::eq
+FNDA:1,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::uniplate::Uniplate>::uniplate::{closure#0}
+FNDA:0,<conjure_core::ast::declaration::DeclarationPtr as uniplate::traits::biplate::Biplate<conjure_core::ast::declaration::DeclarationPtr>>::biplate::{closure#1}
 FNDA:0,<conjure_core::ast::declaration::DeclarationPtr as conjure_core::ast::serde::DefaultWithId>::default_with_id
 FNDA:0,<conjure_core::ast::declaration::DeclarationPtr>::replace
 FNDA:0,<conjure_core::ast::declaration::DeclarationPtr>::new_domain_letting
@@ -1827,9 +1827,9 @@ DA:258,268671
 DA:271,1603810
 DA:272,1603810
 DA:273,1603810
-DA:287,973336
-DA:288,973336
-DA:289,973336
+DA:287,973089
+DA:288,973089
+DA:289,973089
 DA:292,491296
 DA:293,491296
 DA:294,491296
@@ -1882,9 +1882,9 @@ DA:377,195
 DA:378,195
 DA:379,195
 DA:380,195
-DA:390,12611586
-DA:392,12611586
-DA:393,12611586
+DA:390,12611339
+DA:392,12611339
+DA:393,12611339
 DA:396,1229969
 DA:398,1229969
 DA:399,1229969
@@ -1893,9 +1893,9 @@ DA:433,169
 DA:434,169
 DA:435,169
 DA:436,169
-DA:439,2577146
-DA:440,2577146
-DA:441,2577146
+DA:439,2576899
+DA:440,2576899
+DA:441,2576899
 DA:444,0
 DA:445,0
 DA:446,0
@@ -1970,9 +1970,9 @@ DA:557,0
 DA:561,0
 DA:562,0
 DA:563,0
-DA:567,3624985
-DA:568,3624985
-DA:569,3624985
+DA:567,3624972
+DA:568,3624972
+DA:569,3624972
 DA:575,3795
 DA:577,3795
 DA:578,3795
@@ -3045,56 +3045,56 @@ end_of_record
 SF:crates/conjure_rule_macros/src/lib.rs
 FN:130,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse::{closure#0}
 FN:82,conjure_rule_macros::parse_parenthesized::<_>
-FN:47,conjure_rule_macros::register_rule
-FN:82,conjure_rule_macros::parse_parenthesized::<syn::lit::LitStr>
 FN:106,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
+FN:82,conjure_rule_macros::parse_parenthesized::<syn::lit::LitStr>
 FN:150,conjure_rule_macros::register_rule_set
 FN:82,conjure_rule_macros::parse_parenthesized::<syn::lit::LitStr>
 FN:82,conjure_rule_macros::parse_parenthesized::<syn::path::Path>
-FN:106,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
+FN:35,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
+FN:47,conjure_rule_macros::register_rule
 FN:82,conjure_rule_macros::parse_parenthesized::<syn::path::Path>
 FN:57,conjure_rule_macros::register_rule::{closure#0}
-FN:35,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
+FN:106,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
 FN:47,conjure_rule_macros::register_rule
 FN:130,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse::{closure#0}
 FN:150,conjure_rule_macros::register_rule_set
-FN:150,conjure_rule_macros::register_rule_set
+FN:19,<conjure_rule_macros::RuleSetAndPriority as syn::parse::Parse>::parse
 FN:19,<conjure_rule_macros::RuleSetAndPriority as syn::parse::Parse>::parse
 FN:106,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
 FN:35,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
 FN:57,conjure_rule_macros::register_rule::{closure#0}
+FN:47,conjure_rule_macros::register_rule
+FN:150,conjure_rule_macros::register_rule_set
+FN:57,conjure_rule_macros::register_rule::{closure#0}
 FN:130,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse::{closure#0}
 FN:19,<conjure_rule_macros::RuleSetAndPriority as syn::parse::Parse>::parse
-FN:19,<conjure_rule_macros::RuleSetAndPriority as syn::parse::Parse>::parse
-FN:57,conjure_rule_macros::register_rule::{closure#0}
-FN:47,conjure_rule_macros::register_rule
 FN:35,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
 FNDA:1,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse::{closure#0}
 FNDA:0,conjure_rule_macros::parse_parenthesized::<_>
-FNDA:0,conjure_rule_macros::register_rule
+FNDA:1,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
 FNDA:1,conjure_rule_macros::parse_parenthesized::<syn::lit::LitStr>
-FNDA:0,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
 FNDA:1,conjure_rule_macros::register_rule_set
 FNDA:1,conjure_rule_macros::parse_parenthesized::<syn::lit::LitStr>
 FNDA:1,conjure_rule_macros::parse_parenthesized::<syn::path::Path>
-FNDA:1,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
+FNDA:1,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
+FNDA:0,conjure_rule_macros::register_rule
 FNDA:1,conjure_rule_macros::parse_parenthesized::<syn::path::Path>
 FNDA:1,conjure_rule_macros::register_rule::{closure#0}
-FNDA:0,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
+FNDA:0,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
 FNDA:1,conjure_rule_macros::register_rule
 FNDA:0,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse::{closure#0}
 FNDA:1,conjure_rule_macros::register_rule_set
-FNDA:0,conjure_rule_macros::register_rule_set
+FNDA:1,<conjure_rule_macros::RuleSetAndPriority as syn::parse::Parse>::parse
 FNDA:1,<conjure_rule_macros::RuleSetAndPriority as syn::parse::Parse>::parse
 FNDA:1,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse
 FNDA:1,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
+FNDA:1,conjure_rule_macros::register_rule::{closure#0}
+FNDA:1,conjure_rule_macros::register_rule
+FNDA:0,conjure_rule_macros::register_rule_set
 FNDA:0,conjure_rule_macros::register_rule::{closure#0}
 FNDA:0,<conjure_rule_macros::RuleSetArgs as syn::parse::Parse>::parse::{closure#0}
-FNDA:1,<conjure_rule_macros::RuleSetAndPriority as syn::parse::Parse>::parse
 FNDA:0,<conjure_rule_macros::RuleSetAndPriority as syn::parse::Parse>::parse
-FNDA:1,conjure_rule_macros::register_rule::{closure#0}
-FNDA:1,conjure_rule_macros::register_rule
-FNDA:1,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
+FNDA:0,<conjure_rule_macros::RegisterRuleArgs as syn::parse::Parse>::parse
 FNF:26
 FNH:17
 BRF:0
@@ -3740,69 +3740,69 @@ LF:3
 LH:0
 end_of_record
 SF:crates/conjure_rules/src/matrix/repr_matrix.rs
-FN:119,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#14}
-FN:229,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#11}
-FN:359,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#1}
-FN:164,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#5}
-FN:229,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#11}
+FN:118,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#14}
+FN:228,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#11}
+FN:356,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#1}
+FN:163,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#5}
+FN:228,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#11}
 FN:31,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#0}
-FN:236,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#12}
-FN:254,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom
-FN:164,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#5}
-FN:43,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#1}
-FN:373,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#2}
-FN:359,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#1}
-FN:112,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#13}
-FN:266,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#0}
+FN:235,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#12}
+FN:253,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom
+FN:163,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#5}
+FN:42,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#1}
+FN:370,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#2}
+FN:356,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#1}
+FN:111,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#13}
+FN:265,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#0}
 FN:18,conjure_rules::matrix::repr_matrix::index_matrix_to_atom
-FN:159,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#4}
-FN:119,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#14}
-FN:329,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom
+FN:158,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#4}
+FN:118,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#14}
+FN:327,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom
 FN:18,conjure_rules::matrix::repr_matrix::index_matrix_to_atom
 FN:22,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl
-FN:119,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#14}
-FN:43,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#1}
-FN:306,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}
-FN:277,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#1}
-FN:201,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#7}
-FN:148,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#3}
-FN:306,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}
-FN:373,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#2}
-FN:314,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}::{closure#0}
-FN:329,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom
-FN:359,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#1}
-FN:159,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#4}
-FN:266,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#0}
-FN:347,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#0}
-FN:329,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom
+FN:118,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#14}
+FN:42,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#1}
+FN:304,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}
+FN:276,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#1}
+FN:200,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#7}
+FN:147,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#3}
+FN:304,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}
+FN:370,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#2}
+FN:312,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}::{closure#0}
+FN:327,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom
+FN:356,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#1}
+FN:158,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#4}
+FN:265,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#0}
+FN:345,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#0}
+FN:327,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom
 FN:18,conjure_rules::matrix::repr_matrix::index_matrix_to_atom
-FN:373,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#2}
-FN:159,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#4}
-FN:201,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#7}
-FN:306,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}
-FN:229,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#11}
-FN:201,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#7}
-FN:43,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#1}
-FN:347,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#0}
-FN:112,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#13}
+FN:370,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#2}
+FN:158,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#4}
+FN:200,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#7}
+FN:304,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}
+FN:228,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#11}
+FN:200,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#7}
+FN:42,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#1}
+FN:345,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#0}
+FN:111,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#13}
 FN:22,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl
 FN:22,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl
-FN:148,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#3}
-FN:236,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#12}
-FN:266,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#0}
-FN:236,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#12}
-FN:148,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#3}
-FN:254,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom
-FN:277,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#1}
-FN:254,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom
-FN:314,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}::{closure#0}
+FN:147,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#3}
+FN:235,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#12}
+FN:265,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#0}
+FN:235,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#12}
+FN:147,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#3}
+FN:253,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom
+FN:276,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#1}
+FN:253,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom
+FN:312,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}::{closure#0}
 FN:31,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#0}
-FN:277,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#1}
-FN:112,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#13}
-FN:347,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#0}
-FN:314,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}::{closure#0}
+FN:276,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#1}
+FN:111,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#13}
+FN:345,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#0}
+FN:312,conjure_rules::matrix::repr_matrix::slice_matrix_to_atom::{closure#2}::{closure#0}
 FN:31,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#0}
-FN:164,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#5}
+FN:163,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#5}
 FNDA:0,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#14}
 FNDA:0,conjure_rules::matrix::repr_matrix::index_matrix_to_atom_impl::{closure#11}
 FNDA:0,conjure_rules::matrix::repr_matrix::matrix_ref_to_atom::{closure#1}
@@ -3883,35 +3883,35 @@ DA:34,2838
 DA:35,2838
 DA:36,2838
 DA:42,2838
-DA:43,2838
-DA:45,0
+DA:44,0
+DA:53,2838
 DA:54,2838
-DA:55,2838
-DA:57,4499
-DA:58,3014
+DA:56,4499
+DA:57,3014
+DA:58,1353
 DA:59,1353
-DA:60,1353
-DA:62,1661
-DA:65,2838
+DA:61,1661
+DA:64,2838
+DA:67,1485
 DA:68,1485
 DA:69,1485
 DA:70,1485
 DA:71,1485
-DA:72,1485
-DA:74,1485
-DA:76,1485
+DA:73,1485
+DA:75,1485
+DA:93,1353
 DA:94,1353
-DA:95,1353
-DA:97,0
-DA:99,1353
-DA:101,1276
-DA:102,1177
+DA:96,0
+DA:98,1353
+DA:100,1276
+DA:101,1177
+DA:102,99
 DA:103,99
 DA:104,99
 DA:105,99
-DA:106,99
+DA:107,99
 DA:108,99
-DA:109,99
+DA:111,275
 DA:112,275
 DA:113,275
 DA:114,275
@@ -3919,54 +3919,54 @@ DA:115,275
 DA:116,275
 DA:117,275
 DA:118,275
-DA:119,275
-DA:120,99
-DA:123,99
-DA:125,99
-DA:126,0
-DA:129,99
-DA:130,0
+DA:119,99
+DA:122,99
+DA:124,99
+DA:125,0
+DA:128,99
+DA:129,0
+DA:132,99
 DA:133,99
-DA:134,99
+DA:135,99
 DA:136,99
 DA:137,99
 DA:138,99
 DA:139,99
-DA:140,99
-DA:141,77
+DA:140,77
+DA:145,77
 DA:146,77
-DA:147,77
+DA:147,187
 DA:148,187
-DA:149,187
-DA:150,0
-DA:153,187
-DA:154,0
+DA:149,0
+DA:152,187
+DA:153,0
+DA:156,187
 DA:157,187
-DA:158,187
-DA:159,77
+DA:158,77
+DA:161,77
 DA:162,77
-DA:163,77
-DA:164,187
-DA:165,77
-DA:168,77
-DA:200,77
+DA:163,187
+DA:164,77
+DA:167,77
+DA:199,77
+DA:200,187
 DA:201,187
 DA:202,187
 DA:203,187
-DA:204,187
+DA:204,77
 DA:205,77
-DA:206,77
-DA:208,77
+DA:207,77
+DA:210,77
 DA:211,77
 DA:212,77
-DA:213,77
+DA:215,77
 DA:216,77
 DA:217,77
-DA:218,77
-DA:221,77
-DA:223,77
+DA:220,77
+DA:222,77
+DA:226,77
 DA:227,77
-DA:228,77
+DA:228,2002
 DA:229,2002
 DA:230,2002
 DA:231,2002
@@ -3974,106 +3974,104 @@ DA:232,2002
 DA:233,2002
 DA:234,2002
 DA:235,2002
-DA:236,2002
-DA:237,77
-DA:239,77
+DA:236,77
+DA:238,77
+DA:240,77
 DA:241,77
 DA:242,77
 DA:243,77
 DA:244,77
-DA:245,77
-DA:248,374913
-DA:250,377751
+DA:247,374913
+DA:249,377751
+DA:253,72061
 DA:254,72061
-DA:255,72061
-DA:256,71731
-DA:259,330
-DA:260,0
-DA:263,330
-DA:264,0
-DA:266,330
-DA:267,0
-DA:268,330
+DA:255,71731
+DA:258,330
+DA:259,0
+DA:262,330
+DA:263,0
+DA:265,330
+DA:266,0
+DA:267,330
+DA:269,330
 DA:270,330
 DA:271,330
 DA:272,330
 DA:273,330
-DA:274,330
-DA:277,330
-DA:279,0
-DA:282,330
-DA:283,330
-DA:284,638
-DA:285,638
-DA:286,330
-DA:287,330
-DA:288,286
+DA:276,330
+DA:277,0
+DA:280,330
+DA:281,330
+DA:282,638
+DA:283,638
+DA:284,330
+DA:285,330
+DA:286,286
+DA:289,308
+DA:290,308
 DA:291,308
-DA:292,308
-DA:293,308
+DA:296,286
 DA:298,286
 DA:300,286
+DA:301,286
 DA:302,286
 DA:303,286
-DA:304,286
-DA:305,286
+DA:304,968
+DA:305,968
 DA:306,968
 DA:307,968
 DA:308,968
 DA:309,968
 DA:310,968
 DA:311,968
-DA:312,968
+DA:312,1936
 DA:313,968
-DA:314,1936
-DA:315,968
+DA:314,968
 DA:316,968
-DA:318,968
-DA:319,968
+DA:317,968
+DA:318,286
 DA:320,286
 DA:322,286
-DA:324,286
-DA:325,72061
-DA:329,72061
-DA:333,72061
-DA:335,3366
-DA:336,68695
-DA:338,70697
-DA:339,32879
-DA:340,49357
-DA:343,21340
-DA:344,21175
-DA:347,165
-DA:348,88
+DA:323,72061
+DA:327,72061
+DA:331,72061
+DA:333,3366
+DA:334,68695
+DA:336,70697
+DA:337,32879
+DA:338,49357
+DA:341,21340
+DA:342,21175
+DA:345,165
+DA:346,88
+DA:347,77
 DA:349,77
+DA:350,77
 DA:351,77
 DA:352,77
 DA:353,77
-DA:354,77
-DA:355,77
-DA:358,77
-DA:359,77
-DA:361,0
-DA:364,77
-DA:365,0
-DA:366,77
-DA:368,77
-DA:369,0
-DA:372,77
+DA:356,77
+DA:358,0
+DA:361,77
+DA:362,0
+DA:363,77
+DA:365,77
+DA:366,0
+DA:369,77
+DA:370,506
+DA:371,506
+DA:372,506
 DA:373,506
 DA:374,506
 DA:375,506
 DA:376,506
 DA:377,506
-DA:378,506
-DA:379,506
-DA:380,506
-DA:381,77
-DA:382,77
-DA:385,68618
-DA:386,72061
-LF:202
-LH:189
+DA:378,77
+DA:379,77
+DA:382,68618
+DA:383,72061
+LF:200
+LH:187
 end_of_record
 SF:crates/conjure_rules/src/sets/horizontal/neq.rs
 FN:10,conjure_rules::sets::horizontal::neq::neq_not_eq_sets
@@ -4228,11 +4226,11 @@ DA:35,0
 DA:42,0
 DA:43,0
 DA:44,0
-DA:48,1846026
-DA:49,1846026
-DA:50,544661
-DA:51,1301365
-DA:53,1846026
+DA:48,1840930
+DA:49,1840930
+DA:50,485186
+DA:51,1355744
+DA:53,1840930
 DA:63,0
 DA:64,0
 DA:65,0
@@ -6116,12 +6114,12 @@ DA:402,1092
 DA:403,1092
 DA:404,1092
 DA:405,1092
-DA:409,1458912
-DA:411,1458912
-DA:412,1458912
-DA:413,1458912
-DA:414,1458912
-DA:416,1458912
+DA:409,451503
+DA:411,451503
+DA:412,451503
+DA:413,451503
+DA:414,451503
+DA:416,451503
 DA:420,0
 DA:421,0
 DA:422,0
@@ -7324,16 +7322,16 @@ DA:40,1235
 DA:44,0
 DA:45,0
 DA:46,0
-DA:52,1948583
-DA:53,1948583
-DA:54,1194323
-DA:55,334789
-DA:56,383201
-DA:57,383201
-DA:58,383201
+DA:52,1948154
+DA:53,1948154
+DA:54,1194089
+DA:55,334776
+DA:56,383019
+DA:57,383019
+DA:58,383019
 DA:60,36270
 DA:62,36270
-DA:65,1948583
+DA:65,1948154
 DA:69,0
 DA:70,0
 DA:71,0
@@ -7995,12 +7993,12 @@ DA:182,7514
 DA:186,0
 DA:187,0
 DA:188,0
-DA:192,494
-DA:193,494
-DA:194,494
-DA:200,16497
-DA:201,16497
-DA:202,16497
+DA:192,338
+DA:193,338
+DA:194,338
+DA:200,14066
+DA:201,14066
+DA:202,14066
 DA:206,0
 DA:207,0
 DA:208,0
@@ -8150,60 +8148,60 @@ DA:55,0
 DA:56,0
 DA:60,13637
 DA:61,13637
-DA:63,416
-DA:64,416
-DA:69,416
-DA:71,13221
+DA:63,377
+DA:64,377
+DA:69,377
+DA:71,13260
 DA:73,13637
 DA:78,12246
 DA:79,12246
-DA:81,455
-DA:82,455
-DA:87,455
-DA:89,11791
+DA:81,390
+DA:82,390
+DA:87,390
+DA:89,11856
 DA:91,12246
 DA:95,2483
 DA:96,2483
 DA:97,2483
 DA:98,2483
 DA:99,2483
-DA:102,416
-DA:103,416
-DA:105,37856
-DA:106,37856
-DA:107,37856
-DA:109,67327
-DA:110,37856
-DA:111,8385
-DA:112,8385
-DA:113,8385
-DA:114,29471
-DA:117,37856
-DA:118,8385
-DA:119,29471
-DA:122,416
-DA:123,416
-DA:127,728
-DA:128,728
-DA:130,1001
-DA:131,273
+DA:102,377
+DA:103,377
+DA:105,34307
+DA:106,34307
+DA:107,34307
+DA:109,61438
+DA:110,34307
+DA:111,7176
+DA:112,7176
+DA:113,7176
+DA:114,27131
+DA:117,34307
+DA:118,7176
+DA:119,27131
+DA:122,377
+DA:123,377
+DA:127,624
+DA:128,624
+DA:130,858
+DA:131,234
 DA:133,0
 DA:134,0
 DA:135,0
-DA:138,273
-DA:139,273
-DA:140,273
-DA:141,273
-DA:142,273
-DA:143,273
-DA:148,728
-DA:149,728
-DA:153,7579
-DA:154,7579
-DA:155,7579
-DA:161,44252
-DA:162,44252
-DA:163,44252
+DA:138,234
+DA:139,234
+DA:140,234
+DA:141,234
+DA:142,234
+DA:143,234
+DA:148,624
+DA:149,624
+DA:153,9893
+DA:154,9893
+DA:155,9893
+DA:161,44213
+DA:162,44213
+DA:163,44213
 DA:167,0
 DA:168,0
 DA:169,0
@@ -9083,9 +9081,9 @@ DA:580,32578
 DA:581,32578
 DA:583,195
 DA:584,32578
-DA:585,181168
+DA:585,180271
 DA:586,5863
-DA:588,48685
+DA:588,49881
 DA:589,4108
 DA:591,2327
 DA:592,2327
@@ -9716,11 +9714,11 @@ DA:66,182211
 DA:67,33647
 DA:68,148564
 DA:72,182211
-DA:76,884195
-DA:77,884195
-DA:78,258466
-DA:79,625729
-DA:81,884195
+DA:76,883883
+DA:77,883883
+DA:78,258401
+DA:79,625482
+DA:81,883883
 DA:85,377
 DA:86,377
 DA:87,377
@@ -10768,8 +10766,8 @@ LF:187
 LH:135
 end_of_record
 SF:crates/conjure_rules/src/matrix/bubble.rs
-FN:90,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}::{closure#0}
-FN:90,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}::{closure#0}
+FN:92,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}::{closure#0}
+FN:92,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}::{closure#0}
 FN:89,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}
 FN:65,conjure_rules::matrix::bubble::slice_to_bubble
 FN:89,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}
@@ -10782,7 +10780,7 @@ FN:44,conjure_rules::matrix::bubble::index_to_bubble::{closure#0}
 FN:12,conjure_rules::matrix::bubble::index_to_bubble
 FN:12,conjure_rules::matrix::bubble::index_to_bubble
 FN:12,conjure_rules::matrix::bubble::index_to_bubble
-FN:90,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}::{closure#0}
+FN:92,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}::{closure#0}
 FNDA:0,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}::{closure#0}
 FNDA:0,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}::{closure#0}
 FNDA:1,conjure_rules::matrix::bubble::slice_to_bubble::{closure#0}
@@ -10849,8 +10847,8 @@ DA:87,242
 DA:88,242
 DA:89,484
 DA:90,484
-DA:91,242
-DA:92,242
+DA:91,484
+DA:92,484
 DA:93,484
 DA:94,242
 DA:97,242
@@ -11061,14 +11059,14 @@ FN:46,conjure_rules::representation::record_to_atom::__create_representation_rec
 FN:45,conjure_rules::representation::matrix_to_atom::__create_representation_matrix_to_atom
 FN:30,conjure_core::representation::get_repr_rule::{closure#0}
 FN:25,conjure_core::representation::get_repr_rule
-FN:45,conjure_rules::representation::record_to_atom::__create_representation_record_to_atom
 FN:46,conjure_rules::representation::tuple_to_atom::__create_representation_tuple_to_atom::{closure#0}
+FN:45,conjure_rules::representation::record_to_atom::__create_representation_record_to_atom
 FN:55,<alloc::boxed::Box<dyn conjure_core::representation::Representation> as core::clone::Clone>::clone
+FN:46,conjure_rules::representation::matrix_to_atom::__create_representation_matrix_to_atom::{closure#0}
 FN:45,conjure_rules::representation::tuple_to_atom::__create_representation_tuple_to_atom
 FN:46,conjure_rules::representation::record_to_atom::__create_representation_record_to_atom::{closure#0}
-FN:55,<alloc::boxed::Box<dyn conjure_core::representation::Representation> as core::clone::Clone>::clone
 FN:25,conjure_core::representation::get_repr_rule
-FN:46,conjure_rules::representation::matrix_to_atom::__create_representation_matrix_to_atom::{closure#0}
+FN:55,<alloc::boxed::Box<dyn conjure_core::representation::Representation> as core::clone::Clone>::clone
 FN:45,conjure_rules::representation::matrix_to_atom::__create_representation_matrix_to_atom
 FN:46,conjure_rules::representation::tuple_to_atom::__create_representation_tuple_to_atom::{closure#0}
 FN:30,conjure_core::representation::get_repr_rule::{closure#0}
@@ -11094,14 +11092,14 @@ FNDA:0,conjure_rules::representation::record_to_atom::__create_representation_re
 FNDA:0,conjure_rules::representation::matrix_to_atom::__create_representation_matrix_to_atom
 FNDA:0,conjure_core::representation::get_repr_rule::{closure#0}
 FNDA:0,conjure_core::representation::get_repr_rule
-FNDA:0,conjure_rules::representation::record_to_atom::__create_representation_record_to_atom
 FNDA:0,conjure_rules::representation::tuple_to_atom::__create_representation_tuple_to_atom::{closure#0}
+FNDA:0,conjure_rules::representation::record_to_atom::__create_representation_record_to_atom
 FNDA:0,<alloc::boxed::Box<dyn conjure_core::representation::Representation> as core::clone::Clone>::clone
+FNDA:0,conjure_rules::representation::matrix_to_atom::__create_representation_matrix_to_atom::{closure#0}
 FNDA:1,conjure_rules::representation::tuple_to_atom::__create_representation_tuple_to_atom
 FNDA:0,conjure_rules::representation::record_to_atom::__create_representation_record_to_atom::{closure#0}
-FNDA:0,<alloc::boxed::Box<dyn conjure_core::representation::Representation> as core::clone::Clone>::clone
 FNDA:0,conjure_core::representation::get_repr_rule
-FNDA:0,conjure_rules::representation::matrix_to_atom::__create_representation_matrix_to_atom::{closure#0}
+FNDA:0,<alloc::boxed::Box<dyn conjure_core::representation::Representation> as core::clone::Clone>::clone
 FNDA:1,conjure_rules::representation::matrix_to_atom::__create_representation_matrix_to_atom
 FNDA:1,conjure_rules::representation::tuple_to_atom::__create_representation_tuple_to_atom::{closure#0}
 FNDA:0,conjure_core::representation::get_repr_rule::{closure#0}
@@ -11411,7 +11409,7 @@ DA:143,25961
 DA:144,25961
 DA:145,25961
 DA:149,36775115
-DA:150,2353
+DA:150,2340
 DA:161,8312616
 DA:162,25857
 DA:163,8286759
@@ -12009,9 +12007,9 @@ FN:362,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressi
 FN:369,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#4}
 FN:204,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>::matrix_implied_indices
 FN:554,conjure_core::ast::literals::tests::matrix_uniplate_universe::{closure#0}
-FN:333,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<alloc::vec::Vec<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
-FN:362,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::metadata::Metadata>>::biplate::{closure#3}
 FN:355,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::name::Name>>::biplate::{closure#2}
+FN:362,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::metadata::Metadata>>::biplate::{closure#3}
+FN:333,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<alloc::vec::Vec<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
 FN:452,<conjure_core::ast::literals::Literal as core::convert::From<bool>>::from
 FN:369,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#4}
 FN:259,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal> as core::hash::Hash>::hash::<_>
@@ -12726,9 +12724,9 @@ FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressi
 FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#4}
 FNDA:1,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>::matrix_implied_indices
 FNDA:1,conjure_core::ast::literals::tests::matrix_uniplate_universe::{closure#0}
-FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<alloc::vec::Vec<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
-FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::metadata::Metadata>>::biplate::{closure#3}
 FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::name::Name>>::biplate::{closure#2}
+FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::metadata::Metadata>>::biplate::{closure#3}
+FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<alloc::vec::Vec<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::literals::Literal as core::convert::From<bool>>::from
 FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#4}
 FNDA:0,<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal> as core::hash::Hash>::hash::<_>
@@ -13538,12 +13536,12 @@ DA:518,52
 DA:519,52
 DA:520,26
 DA:524,27326
-DA:529,502931
-DA:530,502931
-DA:531,485719
+DA:529,502866
+DA:530,502866
+DA:531,485654
 DA:532,15340
 DA:533,1872
-DA:535,502931
+DA:535,502866
 DA:546,1
 DA:548,1
 DA:549,1
@@ -13700,17 +13698,17 @@ FN:216,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::s
 FN:216,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::get_name
 FN:220,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
 FN:62,conjure_core::solver::adaptors::rustsat::adaptor::get_ref_sols
-FN:166,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve_mut
 FN:156,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve::{closure#0}
-FN:174,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::load_model
 FN:212,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::get_family
+FN:174,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::load_model
 FN:228,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::write_solver_input_file::<_>
+FN:166,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve_mut
 FN:220,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
 FN:210,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::init_solver
 FN:51,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as core::default::Default>::default
 FN:92,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve
-FN:210,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::init_solver
 FN:51,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as core::default::Default>::default
+FN:210,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::init_solver
 FN:166,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve_mut
 FN:174,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::load_model
 FN:174,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::load_model
@@ -13757,17 +13755,17 @@ FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::s
 FNDA:1,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::get_name
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
 FNDA:0,conjure_core::solver::adaptors::rustsat::adaptor::get_ref_sols
-FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve_mut
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve::{closure#0}
-FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::load_model
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::get_family
+FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::load_model
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::write_solver_input_file::<_>
+FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve_mut
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::add_adaptor_info_to_stats
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::init_solver
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as core::default::Default>::default
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve
-FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::init_solver
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as core::default::Default>::default
+FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::init_solver
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::solve_mut
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::load_model
 FNDA:0,<conjure_core::solver::adaptors::rustsat::adaptor::Sat as conjure_core::solver::SolverAdaptor>::load_model
@@ -14225,9 +14223,9 @@ FN:406,conjure_rules::constant_eval::eval_constant::{closure#26}
 FN:301,conjure_rules::constant_eval::eval_constant::{closure#5}::{closure#0}
 FN:214,conjure_rules::constant_eval::eval_constant::{closure#0}
 FN:400,conjure_rules::constant_eval::eval_constant::{closure#25}
-FN:680,conjure_rules::constant_eval::bin_op::<bool, bool>
-FN:738,conjure_rules::constant_eval::flat_op::<_, _>
 FN:719,conjure_rules::constant_eval::opt_vec_op::<_, _>
+FN:738,conjure_rules::constant_eval::flat_op::<_, _>
+FN:680,conjure_rules::constant_eval::bin_op::<bool, bool>
 FN:320,conjure_rules::constant_eval::eval_constant::{closure#14}
 FN:318,conjure_rules::constant_eval::eval_constant::{closure#12}
 FN:719,conjure_rules::constant_eval::opt_vec_op::<_, _>
@@ -14392,9 +14390,9 @@ FNDA:1,conjure_rules::constant_eval::eval_constant::{closure#26}
 FNDA:0,conjure_rules::constant_eval::eval_constant::{closure#5}::{closure#0}
 FNDA:0,conjure_rules::constant_eval::eval_constant::{closure#0}
 FNDA:1,conjure_rules::constant_eval::eval_constant::{closure#25}
-FNDA:0,conjure_rules::constant_eval::bin_op::<bool, bool>
-FNDA:0,conjure_rules::constant_eval::flat_op::<_, _>
 FNDA:0,conjure_rules::constant_eval::opt_vec_op::<_, _>
+FNDA:0,conjure_rules::constant_eval::flat_op::<_, _>
+FNDA:0,conjure_rules::constant_eval::bin_op::<bool, bool>
 FNDA:1,conjure_rules::constant_eval::eval_constant::{closure#14}
 FNDA:0,conjure_rules::constant_eval::eval_constant::{closure#12}
 FNDA:0,conjure_rules::constant_eval::opt_vec_op::<_, _>
@@ -15341,46 +15339,46 @@ LF:100
 LH:87
 end_of_record
 SF:crates/conjure_core/src/ast/expressions.rs
-FN:950,<conjure_core::ast::expressions::Expression>::universe_categories
+FN:949,<conjure_core::ast::expressions::Expression>::universe_categories
 FN:683,<conjure_core::ast::expressions::Expression>::domain_of::{closure#7}
 FN:849,<conjure_core::ast::expressions::Expression>::identical_atom_to
 FN:627,<conjure_core::ast::expressions::Expression>::domain_of::{closure#1}
 FN:795,<conjure_core::ast::expressions::Expression>::is_safe
 FN:785,<conjure_core::ast::expressions::Expression>::set_meta
-FN:1010,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
-FN:1411,conjure_core::ast::expressions::tests::test_domain_of_empty_sum
-FN:902,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
+FN:1009,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
+FN:1404,conjure_core::ast::expressions::tests::test_domain_of_empty_sum
+FN:901,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
 FN:785,<conjure_core::ast::expressions::Expression>::set_meta
 FN:833,<conjure_core::ast::expressions::Expression>::is_matrix_literal
 FN:849,<conjure_core::ast::expressions::Expression>::identical_atom_to
-FN:1294,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
-FN:926,<conjure_core::ast::expressions::Expression>::into_literal
+FN:1293,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
+FN:925,<conjure_core::ast::expressions::Expression>::into_literal
 FN:780,<conjure_core::ast::expressions::Expression>::get_meta
-FN:1012,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
+FN:1011,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
 FN:677,<conjure_core::ast::expressions::Expression>::domain_of::{closure#6}
 FN:572,<conjure_core::ast::expressions::Expression>::domain_of
 FN:632,<conjure_core::ast::expressions::Expression>::domain_of::{closure#3}
-FN:998,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
-FN:961,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
+FN:997,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
+FN:960,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
 FN:683,<conjure_core::ast::expressions::Expression>::domain_of::{closure#7}
 FN:785,<conjure_core::ast::expressions::Expression>::set_meta
 FN:795,<conjure_core::ast::expressions::Expression>::is_safe
-FN:950,<conjure_core::ast::expressions::Expression>::universe_categories
+FN:949,<conjure_core::ast::expressions::Expression>::universe_categories
 FN:786,<conjure_core::ast::expressions::Expression>::set_meta::{closure#0}
-FN:950,<conjure_core::ast::expressions::Expression>::universe_categories
+FN:949,<conjure_core::ast::expressions::Expression>::universe_categories
 FN:786,<conjure_core::ast::expressions::Expression>::set_meta::{closure#0}
-FN:1042,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
-FN:961,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
+FN:1041,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
+FN:960,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
 FN:813,<conjure_core::ast::expressions::Expression>::is_clean
 FN:764,<conjure_core::ast::expressions::Expression>::domain_of::{closure#10}
-FN:986,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
+FN:985,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
 FN:640,<conjure_core::ast::expressions::Expression>::domain_of::{closure#4}
-FN:926,<conjure_core::ast::expressions::Expression>::into_literal
-FN:945,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
+FN:925,<conjure_core::ast::expressions::Expression>::into_literal
+FN:944,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
 FN:890,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked
 FN:864,<conjure_core::ast::expressions::Expression>::unwrap_list
 FN:864,<conjure_core::ast::expressions::Expression>::unwrap_list
-FN:981,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
+FN:980,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
 FN:654,<conjure_core::ast::expressions::Expression>::domain_of::{closure#5}
 FN:813,<conjure_core::ast::expressions::Expression>::is_clean
 FN:786,<conjure_core::ast::expressions::Expression>::set_meta::{closure#0}
@@ -15389,117 +15387,117 @@ FN:543,conjure_core::ast::expressions::range_vec_bounds_i32
 FN:890,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked
 FN:572,<conjure_core::ast::expressions::Expression>::domain_of
 FN:677,<conjure_core::ast::expressions::Expression>::domain_of::{closure#6}
-FN:915,<conjure_core::ast::expressions::Expression>::extend_root
+FN:914,<conjure_core::ast::expressions::Expression>::extend_root
 FN:872,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}
-FN:1004,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
-FN:1042,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
+FN:1003,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
+FN:1041,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
 FN:654,<conjure_core::ast::expressions::Expression>::domain_of::{closure#5}
-FN:1042,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
-FN:945,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
-FN:992,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
+FN:1041,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
+FN:944,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
+FN:991,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
 FN:825,<conjure_core::ast::expressions::Expression>::is_associative_commutative_operator
-FN:1004,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
-FN:1012,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
+FN:1003,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
+FN:1011,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
 FN:833,<conjure_core::ast::expressions::Expression>::is_matrix_literal
 FN:482,conjure_core::ast::expressions::bounded_i32_domain_for_matrix_literal_monotonic
 FN:700,<conjure_core::ast::expressions::Expression>::domain_of::{closure#8}
 FN:632,<conjure_core::ast::expressions::Expression>::domain_of::{closure#3}
 FN:849,<conjure_core::ast::expressions::Expression>::identical_atom_to
 FN:795,<conjure_core::ast::expressions::Expression>::is_safe
-FN:992,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
+FN:991,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
 FN:780,<conjure_core::ast::expressions::Expression>::get_meta
-FN:1065,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
-FN:1010,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
-FN:1042,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
-FN:1004,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
-FN:915,<conjure_core::ast::expressions::Expression>::extend_root
+FN:1064,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
+FN:1009,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
+FN:1041,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
+FN:1003,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
+FN:914,<conjure_core::ast::expressions::Expression>::extend_root
 FN:872,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}
-FN:953,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
+FN:952,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
 FN:786,<conjure_core::ast::expressions::Expression>::set_meta::{closure#0}
-FN:1004,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
+FN:1003,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
 FN:890,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked
-FN:1065,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
+FN:1064,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
 FN:890,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked
-FN:902,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
-FN:961,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
+FN:901,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
+FN:960,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
 FN:624,<conjure_core::ast::expressions::Expression>::domain_of::{closure#0}
 FN:795,<conjure_core::ast::expressions::Expression>::is_safe
 FN:785,<conjure_core::ast::expressions::Expression>::set_meta
-FN:1400,conjure_core::ast::expressions::tests::test_domain_of_constant_invalid_type
-FN:1004,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
+FN:1396,conjure_core::ast::expressions::tests::test_domain_of_constant_invalid_type
+FN:1003,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>>::from
 FN:543,conjure_core::ast::expressions::range_vec_bounds_i32
 FN:482,conjure_core::ast::expressions::bounded_i32_domain_for_matrix_literal_monotonic
-FN:950,<conjure_core::ast::expressions::Expression>::universe_categories
+FN:949,<conjure_core::ast::expressions::Expression>::universe_categories
 FN:683,<conjure_core::ast::expressions::Expression>::domain_of::{closure#7}
 FN:700,<conjure_core::ast::expressions::Expression>::domain_of::{closure#8}
-FN:902,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
+FN:901,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
 FN:780,<conjure_core::ast::expressions::Expression>::get_meta
 FN:833,<conjure_core::ast::expressions::Expression>::is_matrix_literal
-FN:1010,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
-FN:915,<conjure_core::ast::expressions::Expression>::extend_root
+FN:1009,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
+FN:914,<conjure_core::ast::expressions::Expression>::extend_root
 FN:624,<conjure_core::ast::expressions::Expression>::domain_of::{closure#0}
 FN:677,<conjure_core::ast::expressions::Expression>::domain_of::{closure#6}
-FN:953,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
-FN:945,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
-FN:902,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
-FN:992,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
+FN:952,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
+FN:944,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
+FN:901,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
+FN:991,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
 FN:872,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}
 FN:825,<conjure_core::ast::expressions::Expression>::is_associative_commutative_operator
 FN:818,<conjure_core::ast::expressions::Expression>::set_clean
 FN:572,<conjure_core::ast::expressions::Expression>::domain_of
 FN:825,<conjure_core::ast::expressions::Expression>::is_associative_commutative_operator
 FN:700,<conjure_core::ast::expressions::Expression>::domain_of::{closure#8}
-FN:998,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
+FN:997,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
 FN:627,<conjure_core::ast::expressions::Expression>::domain_of::{closure#1}
-FN:950,<conjure_core::ast::expressions::Expression>::universe_categories
+FN:949,<conjure_core::ast::expressions::Expression>::universe_categories
 FN:640,<conjure_core::ast::expressions::Expression>::domain_of::{closure#4}
 FN:654,<conjure_core::ast::expressions::Expression>::domain_of::{closure#5}
 FN:833,<conjure_core::ast::expressions::Expression>::is_matrix_literal
-FN:981,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
+FN:980,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
 FN:864,<conjure_core::ast::expressions::Expression>::unwrap_list
 FN:849,<conjure_core::ast::expressions::Expression>::identical_atom_to
 FN:482,conjure_core::ast::expressions::bounded_i32_domain_for_matrix_literal_monotonic
-FN:992,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
+FN:991,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
 FN:872,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}
 FN:755,<conjure_core::ast::expressions::Expression>::domain_of::{closure#9}
 FN:629,<conjure_core::ast::expressions::Expression>::domain_of::{closure#2}
-FN:1034,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
+FN:1033,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
 FN:677,<conjure_core::ast::expressions::Expression>::domain_of::{closure#6}
 FN:813,<conjure_core::ast::expressions::Expression>::is_clean
-FN:915,<conjure_core::ast::expressions::Expression>::extend_root
+FN:914,<conjure_core::ast::expressions::Expression>::extend_root
 FN:482,conjure_core::ast::expressions::bounded_i32_domain_for_matrix_literal_monotonic
-FN:1294,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
+FN:1293,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
 FN:700,<conjure_core::ast::expressions::Expression>::domain_of::{closure#8}
-FN:1097,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
+FN:1096,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
 FN:876,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}::{closure#0}
-FN:998,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
-FN:981,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
+FN:997,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
+FN:980,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
 FN:833,<conjure_core::ast::expressions::Expression>::is_matrix_literal
 FN:764,<conjure_core::ast::expressions::Expression>::domain_of::{closure#10}
-FN:1010,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
-FN:945,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
-FN:981,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
-FN:998,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
+FN:1009,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
+FN:944,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
+FN:980,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
+FN:997,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
 FN:755,<conjure_core::ast::expressions::Expression>::domain_of::{closure#9}
 FN:627,<conjure_core::ast::expressions::Expression>::domain_of::{closure#1}
 FN:632,<conjure_core::ast::expressions::Expression>::domain_of::{closure#3}
-FN:1097,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
-FN:953,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
+FN:1096,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
+FN:952,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
 FN:872,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}
 FN:654,<conjure_core::ast::expressions::Expression>::domain_of::{closure#5}
 FN:876,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}::{closure#0}
-FN:1065,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
+FN:1064,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
 FN:825,<conjure_core::ast::expressions::Expression>::is_associative_commutative_operator
 FN:813,<conjure_core::ast::expressions::Expression>::is_clean
 FN:780,<conjure_core::ast::expressions::Expression>::get_meta
 FN:632,<conjure_core::ast::expressions::Expression>::domain_of::{closure#3}
-FN:1034,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
-FN:986,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
+FN:1033,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
+FN:985,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
 FN:629,<conjure_core::ast::expressions::Expression>::domain_of::{closure#2}
 FN:640,<conjure_core::ast::expressions::Expression>::domain_of::{closure#4}
 FN:818,<conjure_core::ast::expressions::Expression>::set_clean
 FN:629,<conjure_core::ast::expressions::Expression>::domain_of::{closure#2}
-FN:1294,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
+FN:1293,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
 FN:764,<conjure_core::ast::expressions::Expression>::domain_of::{closure#10}
 FN:640,<conjure_core::ast::expressions::Expression>::domain_of::{closure#4}
 FN:629,<conjure_core::ast::expressions::Expression>::domain_of::{closure#2}
@@ -15507,11 +15505,11 @@ FN:795,<conjure_core::ast::expressions::Expression>::is_safe
 FN:572,<conjure_core::ast::expressions::Expression>::domain_of
 FN:654,<conjure_core::ast::expressions::Expression>::domain_of::{closure#5}
 FN:818,<conjure_core::ast::expressions::Expression>::set_clean
-FN:961,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
+FN:960,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
 FN:890,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked
-FN:1294,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
-FN:926,<conjure_core::ast::expressions::Expression>::into_literal
-FN:1294,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
+FN:1293,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
+FN:925,<conjure_core::ast::expressions::Expression>::into_literal
+FN:1293,<conjure_core::ast::expressions::Expression as conjure_core::ast::types::Typeable>::return_type
 FN:764,<conjure_core::ast::expressions::Expression>::domain_of::{closure#10}
 FN:629,<conjure_core::ast::expressions::Expression>::domain_of::{closure#2}
 FN:785,<conjure_core::ast::expressions::Expression>::set_meta
@@ -15520,58 +15518,58 @@ FN:640,<conjure_core::ast::expressions::Expression>::domain_of::{closure#4}
 FN:627,<conjure_core::ast::expressions::Expression>::domain_of::{closure#1}
 FN:849,<conjure_core::ast::expressions::Expression>::identical_atom_to
 FN:683,<conjure_core::ast::expressions::Expression>::domain_of::{closure#7}
-FN:1034,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
-FN:986,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
+FN:1033,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
+FN:985,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
 FN:627,<conjure_core::ast::expressions::Expression>::domain_of::{closure#1}
 FN:543,conjure_core::ast::expressions::range_vec_bounds_i32
-FN:1010,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
+FN:1009,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of
 FN:780,<conjure_core::ast::expressions::Expression>::get_meta
-FN:998,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
-FN:902,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
+FN:997,<conjure_core::ast::expressions::Expression as core::convert::From<conjure_core::ast::atom::Atom>>::from
+FN:901,<conjure_core::ast::expressions::Expression>::unwrap_matrix_unchecked::{closure#0}
 FN:543,conjure_core::ast::expressions::range_vec_bounds_i32
-FN:1034,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
+FN:1033,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
 FN:813,<conjure_core::ast::expressions::Expression>::is_clean
 FN:624,<conjure_core::ast::expressions::Expression>::domain_of::{closure#0}
-FN:953,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
-FN:986,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
+FN:952,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
+FN:985,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
 FN:755,<conjure_core::ast::expressions::Expression>::domain_of::{closure#9}
-FN:926,<conjure_core::ast::expressions::Expression>::into_literal
+FN:925,<conjure_core::ast::expressions::Expression>::into_literal
 FN:864,<conjure_core::ast::expressions::Expression>::unwrap_list
-FN:1097,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
-FN:1065,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
-FN:1012,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
+FN:1096,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
+FN:1064,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
+FN:1011,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
 FN:755,<conjure_core::ast::expressions::Expression>::domain_of::{closure#9}
 FN:624,<conjure_core::ast::expressions::Expression>::domain_of::{closure#0}
 FN:876,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}::{closure#0}
-FN:1042,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
+FN:1041,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#1}
 FN:572,<conjure_core::ast::expressions::Expression>::domain_of
-FN:945,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
+FN:944,<conjure_core::ast::expressions::Expression>::to_ac_operator_kind
 FN:683,<conjure_core::ast::expressions::Expression>::domain_of::{closure#7}
 FN:876,<conjure_core::ast::expressions::Expression>::unwrap_list::{closure#0}::{closure#0}
-FN:986,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
-FN:1012,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
+FN:985,<conjure_core::ast::expressions::Expression as core::convert::From<i32>>::from
+FN:1011,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
 FN:677,<conjure_core::ast::expressions::Expression>::domain_of::{closure#6}
-FN:981,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
+FN:980,<i32 as core::convert::TryFrom<conjure_core::ast::expressions::Expression>>::try_from
 FN:543,conjure_core::ast::expressions::range_vec_bounds_i32
-FN:1012,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
-FN:992,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
+FN:1011,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}
+FN:991,<conjure_core::ast::expressions::Expression as core::convert::From<bool>>::from
 FN:632,<conjure_core::ast::expressions::Expression>::domain_of::{closure#3}
-FN:953,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
-FN:1097,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
-FN:1389,conjure_core::ast::expressions::tests::test_domain_of_constant_sum
+FN:952,<conjure_core::ast::expressions::Expression>::universe_categories::{closure#0}
+FN:1096,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
+FN:1388,conjure_core::ast::expressions::tests::test_domain_of_constant_sum
 FN:755,<conjure_core::ast::expressions::Expression>::domain_of::{closure#9}
-FN:1097,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
+FN:1096,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt::{closure#0}
 FN:700,<conjure_core::ast::expressions::Expression>::domain_of::{closure#8}
-FN:915,<conjure_core::ast::expressions::Expression>::extend_root
-FN:926,<conjure_core::ast::expressions::Expression>::into_literal
-FN:1065,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
+FN:914,<conjure_core::ast::expressions::Expression>::extend_root
+FN:925,<conjure_core::ast::expressions::Expression>::into_literal
+FN:1064,<conjure_core::ast::expressions::Expression as core::fmt::Display>::fmt
 FN:818,<conjure_core::ast::expressions::Expression>::set_clean
 FN:482,conjure_core::ast::expressions::bounded_i32_domain_for_matrix_literal_monotonic
 FN:786,<conjure_core::ast::expressions::Expression>::set_meta::{closure#0}
 FN:818,<conjure_core::ast::expressions::Expression>::set_clean
 FN:825,<conjure_core::ast::expressions::Expression>::is_associative_commutative_operator
-FN:961,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
-FN:1034,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
+FN:960,<i32 as core::convert::TryFrom<&conjure_core::ast::expressions::Expression>>::try_from
+FN:1033,<conjure_core::ast::expressions::Expression as conjure_core::ast::categories::CategoryOf>::category_of::{closure#0}::{closure#0}
 FN:624,<conjure_core::ast::expressions::Expression>::domain_of::{closure#0}
 FN:764,<conjure_core::ast::expressions::Expression>::domain_of::{closure#10}
 FNDA:1,<conjure_core::ast::expressions::Expression>::universe_categories
@@ -16080,346 +16078,339 @@ DA:900,0
 DA:901,0
 DA:902,0
 DA:903,0
-DA:904,0
-DA:907,116402
-DA:909,230090
+DA:906,116402
+DA:908,230090
+DA:914,0
 DA:915,0
 DA:916,0
 DA:917,0
 DA:918,0
-DA:919,0
-DA:921,0
-DA:923,0
-DA:926,109031
-DA:927,83941
-DA:928,7267
+DA:920,0
+DA:922,0
+DA:925,109031
+DA:926,83941
+DA:927,7267
+DA:928,24960
 DA:929,24960
-DA:930,24960
+DA:931,0
 DA:932,0
-DA:933,0
-DA:937,0
-DA:940,76804
-DA:942,109031
+DA:936,0
+DA:939,76804
+DA:941,109031
+DA:944,140075
 DA:945,140075
 DA:946,140075
-DA:947,140075
+DA:949,9802
 DA:950,9802
 DA:951,9802
-DA:952,9802
-DA:953,118911
+DA:952,118911
+DA:953,9802
 DA:954,9802
-DA:955,9802
+DA:960,15717
 DA:961,15717
-DA:962,15717
-DA:963,7527
-DA:966,8190
-DA:967,6721
-DA:970,1469
-DA:971,0
-DA:974,1469
-DA:975,15717
+DA:962,7527
+DA:965,8190
+DA:966,6721
+DA:969,1469
+DA:970,0
+DA:973,1469
+DA:974,15717
+DA:980,0
 DA:981,0
 DA:982,0
-DA:983,0
+DA:985,1133
 DA:986,1133
 DA:987,1133
-DA:988,1133
+DA:991,36725
 DA:992,36725
 DA:993,36725
-DA:994,36725
+DA:997,637
 DA:998,637
 DA:999,637
-DA:1000,637
+DA:1003,2470
 DA:1004,2470
 DA:1005,2470
-DA:1006,2470
-DA:1010,129285
-DA:1012,514267
-DA:1014,514267
-DA:1017,134667
-DA:1020,379600
-DA:1028,379600
-DA:1030,0
-DA:1031,379600
-DA:1034,380315
+DA:1009,129285
+DA:1011,514267
+DA:1013,514267
+DA:1016,134667
+DA:1019,379600
+DA:1027,379600
+DA:1029,0
+DA:1030,379600
+DA:1033,380315
+DA:1035,379600
 DA:1036,379600
 DA:1037,379600
 DA:1038,379600
-DA:1039,379600
-DA:1042,379600
-DA:1044,188019
+DA:1041,379600
+DA:1043,188019
+DA:1044,0
 DA:1045,0
-DA:1046,0
+DA:1046,379600
 DA:1047,379600
-DA:1048,379600
-DA:1051,514267
+DA:1050,514267
+DA:1052,129285
 DA:1053,129285
-DA:1054,129285
-DA:1057,0
-DA:1059,0
+DA:1056,0
+DA:1058,0
+DA:1059,129285
 DA:1060,129285
-DA:1061,129285
+DA:1064,1259076
 DA:1065,1259076
-DA:1066,1259076
+DA:1066,208
 DA:1067,208
-DA:1068,208
+DA:1069,208
 DA:1070,208
-DA:1071,208
+DA:1072,806
 DA:1073,806
-DA:1074,806
+DA:1075,130
 DA:1076,130
-DA:1077,130
+DA:1078,130
 DA:1079,130
-DA:1080,130
+DA:1081,208
 DA:1082,208
-DA:1083,208
+DA:1084,2665
 DA:1085,2665
-DA:1086,2665
-DA:1089,112372
-DA:1090,1898
-DA:1091,39702
-DA:1092,53014
-DA:1094,4836
+DA:1088,112372
+DA:1089,1898
+DA:1090,39702
+DA:1091,53014
+DA:1093,4836
+DA:1094,6994
 DA:1095,6994
-DA:1096,6994
-DA:1097,13988
+DA:1096,13988
+DA:1097,6994
 DA:1098,6994
-DA:1099,6994
-DA:1100,13988
-DA:1101,6994
-DA:1103,6994
+DA:1099,13988
+DA:1100,6994
+DA:1102,6994
+DA:1104,13611
 DA:1105,13611
-DA:1106,13611
+DA:1107,19240
 DA:1108,19240
-DA:1109,19240
+DA:1110,0
 DA:1111,0
-DA:1112,0
-DA:1113,753974
-DA:1114,0
-DA:1115,1053
+DA:1112,753974
+DA:1113,0
+DA:1114,1053
+DA:1115,46553
 DA:1116,46553
-DA:1117,46553
+DA:1118,14534
 DA:1119,14534
-DA:1120,14534
+DA:1121,754
 DA:1122,754
-DA:1123,754
+DA:1124,351
 DA:1125,351
-DA:1126,351
+DA:1127,5317
 DA:1128,5317
-DA:1129,5317
+DA:1130,10114
 DA:1131,10114
-DA:1132,10114
+DA:1133,17069
 DA:1134,17069
-DA:1135,17069
+DA:1136,15574
 DA:1137,15574
-DA:1138,15574
+DA:1139,338
 DA:1140,338
-DA:1141,338
+DA:1142,55003
 DA:1143,55003
-DA:1144,55003
+DA:1145,11466
 DA:1146,11466
-DA:1147,11466
+DA:1148,2210
 DA:1149,2210
-DA:1150,2210
+DA:1151,11674
 DA:1152,11674
-DA:1153,11674
+DA:1154,104
 DA:1155,104
-DA:1156,104
+DA:1157,3068
 DA:1158,3068
-DA:1159,3068
+DA:1160,10634
 DA:1161,10634
-DA:1162,10634
+DA:1163,10556
 DA:1164,10556
-DA:1165,10556
+DA:1166,4238
 DA:1167,4238
 DA:1168,4238
 DA:1169,4238
 DA:1170,4238
 DA:1171,4238
-DA:1172,4238
+DA:1173,10088
 DA:1174,10088
-DA:1175,10088
+DA:1176,7722
 DA:1177,7722
-DA:1178,7722
+DA:1179,7007
 DA:1180,7007
-DA:1181,7007
+DA:1182,4290
 DA:1183,4290
-DA:1184,4290
+DA:1185,1612
 DA:1186,1612
-DA:1187,1612
+DA:1188,3263
 DA:1189,3263
-DA:1190,3263
+DA:1191,1170
 DA:1192,1170
 DA:1193,1170
 DA:1194,1170
 DA:1195,1170
 DA:1196,1170
 DA:1197,1170
-DA:1198,1170
+DA:1200,676
 DA:1201,676
 DA:1202,676
 DA:1203,676
 DA:1204,676
 DA:1205,676
 DA:1206,676
-DA:1207,676
+DA:1209,598
 DA:1210,598
-DA:1211,598
+DA:1212,2912
 DA:1213,2912
-DA:1214,2912
+DA:1215,1274
 DA:1216,1274
-DA:1217,1274
+DA:1218,234
 DA:1219,234
 DA:1220,234
-DA:1221,234
+DA:1222,78
 DA:1223,78
 DA:1224,78
-DA:1225,78
+DA:1226,7085
 DA:1227,7085
-DA:1228,7085
+DA:1229,4134
 DA:1230,4134
-DA:1231,4134
+DA:1232,5252
 DA:1233,5252
-DA:1234,5252
+DA:1235,7774
 DA:1236,7774
-DA:1237,7774
+DA:1238,2600
 DA:1239,2600
-DA:1240,2600
+DA:1241,962
 DA:1242,962
-DA:1243,962
+DA:1244,234
 DA:1245,234
-DA:1246,234
+DA:1247,208
 DA:1248,208
-DA:1249,208
+DA:1250,195
 DA:1251,195
 DA:1252,195
 DA:1253,195
 DA:1254,195
 DA:1255,195
 DA:1256,195
-DA:1257,195
+DA:1259,1222
 DA:1260,1222
 DA:1261,1222
 DA:1262,1222
 DA:1263,1222
 DA:1264,1222
 DA:1265,1222
-DA:1266,1222
+DA:1268,1222
 DA:1269,1222
 DA:1270,1222
 DA:1271,1222
 DA:1272,1222
 DA:1273,1222
 DA:1274,1222
-DA:1275,1222
+DA:1277,416
 DA:1278,416
-DA:1279,416
+DA:1280,754
 DA:1281,754
 DA:1282,754
-DA:1283,754
+DA:1285,26
 DA:1286,26
-DA:1287,26
-DA:1290,1259076
+DA:1289,1259076
+DA:1293,225797
 DA:1294,225797
-DA:1295,225797
+DA:1295,78
 DA:1296,78
-DA:1297,78
+DA:1298,364
 DA:1299,364
-DA:1300,364
+DA:1301,0
 DA:1302,0
 DA:1303,0
 DA:1304,0
-DA:1305,0
-DA:1306,13
-DA:1307,7813
-DA:1308,10127
-DA:1309,13923
-DA:1310,12948
-DA:1311,481
-DA:1315,27495
+DA:1305,13
+DA:1306,7813
+DA:1307,10127
+DA:1308,13923
+DA:1309,12948
+DA:1310,481
+DA:1314,27495
+DA:1315,15028
 DA:1316,15028
-DA:1317,15028
-DA:1319,12467
-DA:1321,52
-DA:1322,78
-DA:1324,351
+DA:1318,12467
+DA:1320,52
+DA:1321,78
+DA:1323,351
+DA:1324,0
 DA:1325,0
 DA:1326,0
 DA:1327,0
-DA:1328,0
-DA:1329,172146
-DA:1330,0
-DA:1331,117
-DA:1332,4758
-DA:1333,1781
-DA:1334,143
-DA:1335,117
-DA:1336,39
-DA:1337,26
-DA:1338,663
-DA:1339,0
-DA:1340,780
-DA:1341,1716
-DA:1342,247
-DA:1343,0
-DA:1344,260
-DA:1345,0
-DA:1346,104
-DA:1347,7215
-DA:1348,1404
+DA:1328,172146
+DA:1329,0
+DA:1330,117
+DA:1331,4758
+DA:1332,1781
+DA:1333,143
+DA:1334,117
+DA:1335,39
+DA:1336,26
+DA:1337,663
+DA:1338,0
+DA:1339,780
+DA:1340,1716
+DA:1341,247
+DA:1342,0
+DA:1343,260
+DA:1344,0
+DA:1345,104
+DA:1346,7215
+DA:1347,1404
+DA:1348,0
 DA:1349,0
 DA:1350,0
 DA:1351,0
-DA:1352,0
-DA:1353,52
-DA:1354,286
-DA:1355,611
+DA:1352,52
+DA:1353,286
+DA:1354,611
+DA:1355,0
 DA:1356,0
 DA:1357,0
 DA:1358,0
 DA:1359,0
 DA:1360,0
 DA:1361,0
-DA:1362,0
-DA:1363,1417
-DA:1364,7046
-DA:1365,0
-DA:1366,1079
-DA:1367,221
-DA:1368,845
-DA:1369,91
+DA:1362,1417
+DA:1363,7046
+DA:1364,0
+DA:1365,1079
+DA:1366,221
+DA:1367,845
+DA:1368,91
+DA:1369,0
 DA:1370,0
 DA:1371,0
 DA:1372,0
 DA:1373,0
 DA:1374,0
-DA:1375,0
-DA:1376,13
-DA:1378,225797
+DA:1375,13
+DA:1377,225797
+DA:1388,1
 DA:1389,1
 DA:1390,1
 DA:1391,1
 DA:1392,1
 DA:1393,1
-DA:1394,1
-DA:1395,1
 DA:1396,1
 DA:1397,1
+DA:1398,1
+DA:1399,1
 DA:1400,1
 DA:1401,1
-DA:1402,1
-DA:1403,1
 DA:1404,1
 DA:1405,1
 DA:1406,1
 DA:1407,1
-DA:1408,1
-DA:1411,1
-DA:1412,1
-DA:1413,1
-DA:1414,1
-LF:607
-LH:459
+LF:600
+LH:453
 end_of_record
 SF:crates/conjure_essence_macros/src/lib.rs
 FN:35,conjure_essence_macros::essence_expr
@@ -16544,29 +16535,29 @@ FN:820,conjure_rules::minion::introduce_wininterval_set_from_indomain
 FN:339,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#2}
 FN:820,conjure_rules::minion::introduce_wininterval_set_from_indomain
 FN:345,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#4}
-FN:1292,conjure_rules::minion::y_plus_k_geq_x_to_ineq
+FN:1290,conjure_rules::minion::y_plus_k_geq_x_to_ineq
 FN:617,conjure_rules::minion::introduce_abseq
 FN:497,conjure_rules::minion::flatten_expression_to_atom
 FN:703,conjure_rules::minion::introduce_flat_alldiff::{closure#0}
-FN:1101,conjure_rules::minion::flatten_matrix_literal
+FN:1099,conjure_rules::minion::flatten_matrix_literal
 FN:863,conjure_rules::minion::introduce_element_from_index
-FN:1292,conjure_rules::minion::y_plus_k_geq_x_to_ineq
+FN:1290,conjure_rules::minion::y_plus_k_geq_x_to_ineq
 FN:340,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#3}
 FN:345,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#4}
 FN:345,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#4}
-FN:1371,conjure_rules::minion::not_constraint_to_reify
+FN:1369,conjure_rules::minion::not_constraint_to_reify
 FN:737,conjure_rules::minion::introduce_minuseq_from_eq::{closure#0}
 FN:617,conjure_rules::minion::introduce_abseq
-FN:1038,conjure_rules::minion::flatten_product
+FN:1036,conjure_rules::minion::flatten_product
 FN:340,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#3}
 FN:398,conjure_rules::minion::flatten_weighted_sum_term
 FN:863,conjure_rules::minion::introduce_element_from_index
-FN:1434,conjure_rules::minion::iff_to_eq
-FN:998,conjure_rules::minion::flatten_eq
-FN:1255,conjure_rules::minion::x_leq_y_plus_k_to_ineq
-FN:1101,conjure_rules::minion::flatten_matrix_literal
+FN:1428,conjure_rules::minion::iff_to_eq
+FN:996,conjure_rules::minion::flatten_eq
+FN:1253,conjure_rules::minion::x_leq_y_plus_k_to_ineq
+FN:1099,conjure_rules::minion::flatten_matrix_literal
 FN:339,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#2}
-FN:1434,conjure_rules::minion::iff_to_eq
+FN:1428,conjure_rules::minion::iff_to_eq
 FN:241,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::match_sum_total
 FN:340,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#3}
 FN:514,conjure_rules::minion::introduce_diveq
@@ -16574,84 +16565,84 @@ FN:659,conjure_rules::minion::introduce_poweq
 FN:332,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#1}
 FN:737,conjure_rules::minion::introduce_minuseq_from_eq::{closure#0}
 FN:694,conjure_rules::minion::introduce_flat_alldiff
-FN:1434,conjure_rules::minion::iff_to_eq
+FN:1428,conjure_rules::minion::iff_to_eq
 FN:737,conjure_rules::minion::introduce_minuseq_from_eq::{closure#0}
 FN:790,conjure_rules::minion::introduce_reifyimply_ineq_from_imply
-FN:955,conjure_rules::minion::flatten_generic
-FN:936,conjure_rules::minion::flatten_imply
+FN:953,conjure_rules::minion::flatten_generic
+FN:934,conjure_rules::minion::flatten_imply
 FN:703,conjure_rules::minion::introduce_flat_alldiff::{closure#0}
 FN:332,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#1}
-FN:1371,conjure_rules::minion::not_constraint_to_reify
+FN:1369,conjure_rules::minion::not_constraint_to_reify
 FN:756,conjure_rules::minion::introduce_minuseq_from_aux_decl
 FN:34,conjure_rules::minion::introduce_producteq
 FN:34,conjure_rules::minion::introduce_producteq
-FN:1347,conjure_rules::minion::not_literal_to_wliteral::{closure#0}
-FN:1255,conjure_rules::minion::x_leq_y_plus_k_to_ineq
+FN:1345,conjure_rules::minion::not_literal_to_wliteral::{closure#0}
+FN:1253,conjure_rules::minion::x_leq_y_plus_k_to_ineq
 FN:566,conjure_rules::minion::introduce_modeq
 FN:497,conjure_rules::minion::flatten_expression_to_atom
-FN:1347,conjure_rules::minion::not_literal_to_wliteral::{closure#0}
+FN:1345,conjure_rules::minion::not_literal_to_wliteral::{closure#0}
 FN:863,conjure_rules::minion::introduce_element_from_index
 FN:694,conjure_rules::minion::introduce_flat_alldiff
 FN:703,conjure_rules::minion::introduce_flat_alldiff::{closure#0}
 FN:196,conjure_rules::minion::introduce_weighted_sumleq_sumgeq
 FN:756,conjure_rules::minion::introduce_minuseq_from_aux_decl
 FN:725,conjure_rules::minion::introduce_minuseq_from_eq::try_get_atoms
-FN:1342,conjure_rules::minion::not_literal_to_wliteral
-FN:1038,conjure_rules::minion::flatten_product
+FN:1340,conjure_rules::minion::not_literal_to_wliteral
+FN:1036,conjure_rules::minion::flatten_product
 FN:707,conjure_rules::minion::introduce_flat_alldiff::{closure#1}
 FN:241,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::match_sum_total
-FN:1255,conjure_rules::minion::x_leq_y_plus_k_to_ineq
+FN:1253,conjure_rules::minion::x_leq_y_plus_k_to_ineq
 FN:398,conjure_rules::minion::flatten_weighted_sum_term
-FN:1342,conjure_rules::minion::not_literal_to_wliteral
+FN:1340,conjure_rules::minion::not_literal_to_wliteral
 FN:725,conjure_rules::minion::introduce_minuseq_from_eq::try_get_atoms
 FN:617,conjure_rules::minion::introduce_abseq
-FN:998,conjure_rules::minion::flatten_eq
+FN:996,conjure_rules::minion::flatten_eq
 FN:720,conjure_rules::minion::introduce_minuseq_from_eq
 FN:196,conjure_rules::minion::introduce_weighted_sumleq_sumgeq
-FN:955,conjure_rules::minion::flatten_generic
-FN:1201,conjure_rules::minion::geq_to_ineq
+FN:953,conjure_rules::minion::flatten_generic
+FN:1199,conjure_rules::minion::geq_to_ineq
 FN:241,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::match_sum_total
 FN:514,conjure_rules::minion::introduce_diveq
 FN:332,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#1}
 FN:720,conjure_rules::minion::introduce_minuseq_from_eq
 FN:327,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#0}
-FN:1101,conjure_rules::minion::flatten_matrix_literal
+FN:1099,conjure_rules::minion::flatten_matrix_literal
 FN:566,conjure_rules::minion::introduce_modeq
-FN:1228,conjure_rules::minion::leq_to_ineq
-FN:1347,conjure_rules::minion::not_literal_to_wliteral::{closure#0}
-FN:936,conjure_rules::minion::flatten_imply
-FN:1342,conjure_rules::minion::not_literal_to_wliteral
+FN:1226,conjure_rules::minion::leq_to_ineq
+FN:1345,conjure_rules::minion::not_literal_to_wliteral::{closure#0}
+FN:934,conjure_rules::minion::flatten_imply
+FN:1340,conjure_rules::minion::not_literal_to_wliteral
 FN:398,conjure_rules::minion::flatten_weighted_sum_term
-FN:998,conjure_rules::minion::flatten_eq
-FN:1402,conjure_rules::minion::bool_eq_to_reify
-FN:1292,conjure_rules::minion::y_plus_k_geq_x_to_ineq
-FN:1402,conjure_rules::minion::bool_eq_to_reify
+FN:996,conjure_rules::minion::flatten_eq
+FN:1400,conjure_rules::minion::bool_eq_to_reify
+FN:1290,conjure_rules::minion::y_plus_k_geq_x_to_ineq
+FN:1400,conjure_rules::minion::bool_eq_to_reify
 FN:707,conjure_rules::minion::introduce_flat_alldiff::{closure#1}
 FN:756,conjure_rules::minion::introduce_minuseq_from_aux_decl
 FN:327,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#0}
 FN:497,conjure_rules::minion::flatten_expression_to_atom
-FN:1201,conjure_rules::minion::geq_to_ineq
+FN:1199,conjure_rules::minion::geq_to_ineq
 FN:34,conjure_rules::minion::introduce_producteq
 FN:339,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#2}
-FN:1371,conjure_rules::minion::not_constraint_to_reify
+FN:1369,conjure_rules::minion::not_constraint_to_reify
 FN:196,conjure_rules::minion::introduce_weighted_sumleq_sumgeq
 FN:725,conjure_rules::minion::introduce_minuseq_from_eq::try_get_atoms
 FN:720,conjure_rules::minion::introduce_minuseq_from_eq
-FN:1038,conjure_rules::minion::flatten_product
+FN:1036,conjure_rules::minion::flatten_product
 FN:820,conjure_rules::minion::introduce_wininterval_set_from_indomain
-FN:1228,conjure_rules::minion::leq_to_ineq
+FN:1226,conjure_rules::minion::leq_to_ineq
 FN:707,conjure_rules::minion::introduce_flat_alldiff::{closure#1}
 FN:790,conjure_rules::minion::introduce_reifyimply_ineq_from_imply
 FN:566,conjure_rules::minion::introduce_modeq
 FN:694,conjure_rules::minion::introduce_flat_alldiff
 FN:790,conjure_rules::minion::introduce_reifyimply_ineq_from_imply
 FN:659,conjure_rules::minion::introduce_poweq
-FN:955,conjure_rules::minion::flatten_generic
-FN:1228,conjure_rules::minion::leq_to_ineq
-FN:1402,conjure_rules::minion::bool_eq_to_reify
+FN:953,conjure_rules::minion::flatten_generic
+FN:1226,conjure_rules::minion::leq_to_ineq
+FN:1400,conjure_rules::minion::bool_eq_to_reify
 FN:659,conjure_rules::minion::introduce_poweq
-FN:1201,conjure_rules::minion::geq_to_ineq
-FN:936,conjure_rules::minion::flatten_imply
+FN:1199,conjure_rules::minion::geq_to_ineq
+FN:934,conjure_rules::minion::flatten_imply
 FN:514,conjure_rules::minion::introduce_diveq
 FNDA:0,conjure_rules::minion::introduce_weighted_sumleq_sumgeq::{closure#0}
 FNDA:0,conjure_rules::minion::introduce_wininterval_set_from_indomain
@@ -16903,15 +16894,15 @@ DA:325,3586
 DA:326,3586
 DA:327,3586
 DA:328,3586
-DA:332,3113
+DA:332,3080
 DA:337,1177
 DA:338,1177
 DA:339,3355
-DA:340,4202
-DA:341,4202
-DA:342,4202
-DA:343,4202
-DA:344,4202
+DA:340,4070
+DA:341,4070
+DA:342,4070
+DA:343,4070
+DA:344,4070
 DA:345,3355
 DA:346,1177
 DA:348,1177
@@ -17209,281 +17200,276 @@ DA:870,737
 DA:872,17061
 DA:874,3146
 DA:875,110
-DA:876,110
-DA:878,3036
-DA:880,261591
-DA:881,281688
-DA:883,891
-DA:884,44
+DA:876,3036
+DA:878,261591
+DA:879,281688
+DA:881,891
+DA:882,44
+DA:883,847
 DA:885,847
-DA:887,847
-DA:888,264
-DA:891,583
-DA:892,209
-DA:895,374
-DA:897,1265
-DA:898,1045
-DA:899,154
-DA:902,891
+DA:886,264
+DA:889,583
+DA:890,209
+DA:893,374
+DA:895,1265
+DA:896,1045
+DA:897,154
+DA:900,891
+DA:903,220
+DA:904,220
 DA:905,220
 DA:906,220
 DA:907,220
 DA:908,220
-DA:909,220
-DA:910,220
-DA:911,282579
-DA:936,186120
-DA:937,186120
-DA:938,185438
-DA:942,682
-DA:944,275
+DA:909,282579
+DA:934,186120
+DA:935,186120
+DA:936,185438
+DA:940,682
+DA:942,275
+DA:943,275
 DA:945,275
+DA:946,275
 DA:947,275
 DA:948,275
 DA:949,275
-DA:950,275
-DA:951,275
-DA:952,186120
+DA:950,186120
+DA:953,186120
+DA:954,171897
 DA:955,186120
-DA:956,171897
-DA:957,186120
-DA:970,171897
+DA:968,171897
+DA:969,14223
 DA:971,14223
 DA:973,14223
+DA:974,14223
 DA:975,14223
-DA:976,14223
-DA:977,14223
-DA:979,26950
-DA:980,26950
+DA:977,26950
+DA:978,26950
+DA:979,1056
+DA:980,1056
 DA:981,1056
 DA:982,1056
-DA:983,1056
-DA:984,1056
-DA:985,25894
-DA:988,14223
-DA:989,13178
+DA:983,25894
+DA:986,14223
+DA:987,13178
+DA:988,1045
 DA:990,1045
 DA:992,1045
-DA:994,1045
-DA:995,186120
-DA:998,186120
-DA:999,186120
-DA:1000,175626
+DA:993,186120
+DA:996,186120
+DA:997,186120
+DA:998,175626
+DA:999,10494
 DA:1001,10494
-DA:1003,10494
+DA:1002,10494
 DA:1004,10494
+DA:1005,10494
 DA:1006,10494
 DA:1007,10494
-DA:1008,10494
-DA:1009,10494
-DA:1011,31482
-DA:1012,20988
+DA:1009,31482
+DA:1010,20988
+DA:1011,1034
+DA:1012,1034
 DA:1013,1034
 DA:1014,1034
-DA:1015,1034
-DA:1016,1034
-DA:1017,19954
-DA:1021,10494
-DA:1022,10439
+DA:1015,19954
+DA:1019,10494
+DA:1020,10439
+DA:1021,55
 DA:1023,55
 DA:1025,55
-DA:1027,55
-DA:1028,186120
-DA:1038,186120
-DA:1062,186120
-DA:1063,184316
-DA:1066,1804
+DA:1026,186120
+DA:1036,186120
+DA:1060,186120
+DA:1061,184316
+DA:1064,1804
+DA:1066,891
+DA:1067,891
 DA:1068,891
-DA:1069,891
-DA:1070,891
-DA:1072,2002
+DA:1070,2002
+DA:1071,1771
+DA:1072,1771
 DA:1073,1771
-DA:1074,1771
-DA:1075,1771
-DA:1081,231
-DA:1082,220
+DA:1079,231
+DA:1080,220
+DA:1081,11
 DA:1083,11
-DA:1085,11
-DA:1086,11
-DA:1087,186120
-DA:1101,39303
-DA:1104,37455
-DA:1105,39303
-DA:1108,1848
-DA:1109,37455
+DA:1084,11
+DA:1085,186120
+DA:1099,39303
+DA:1102,37455
+DA:1103,39303
+DA:1106,1848
+DA:1107,37455
+DA:1110,37455
 DA:1112,37455
+DA:1113,37455
 DA:1114,37455
-DA:1115,37455
 DA:1116,37455
-DA:1118,37455
-DA:1126,35365
-DA:1127,34815
-DA:1131,11946
-DA:1132,11946
+DA:1124,35365
+DA:1125,34815
+DA:1129,11946
+DA:1130,11946
+DA:1131,55
+DA:1132,55
 DA:1133,55
 DA:1134,55
-DA:1135,55
-DA:1136,55
-DA:1137,11891
-DA:1138,242
-DA:1149,242
-DA:1150,0
-DA:1153,242
-DA:1156,242
-DA:1157,176
-DA:1158,66
-DA:1161,66
-DA:1162,66
-DA:1164,0
+DA:1135,11891
+DA:1136,242
+DA:1147,242
+DA:1148,0
+DA:1151,242
+DA:1154,242
+DA:1155,176
+DA:1156,66
+DA:1159,66
+DA:1160,66
+DA:1162,0
+DA:1163,66
 DA:1165,66
 DA:1167,66
+DA:1168,66
 DA:1169,66
 DA:1170,66
 DA:1171,66
-DA:1172,66
 DA:1173,66
 DA:1175,66
-DA:1177,66
-DA:1178,11649
-DA:1181,550
-DA:1184,37455
+DA:1176,11649
+DA:1179,550
+DA:1182,37455
+DA:1183,66
+DA:1184,66
 DA:1185,66
 DA:1186,66
 DA:1187,66
-DA:1188,66
-DA:1189,66
-DA:1191,37389
-DA:1193,39303
-DA:1201,132935
-DA:1202,132935
-DA:1203,132682
-DA:1206,253
-DA:1207,0
-DA:1210,253
-DA:1211,0
+DA:1189,37389
+DA:1191,39303
+DA:1199,132935
+DA:1200,132935
+DA:1201,132682
+DA:1204,253
+DA:1205,0
+DA:1208,253
+DA:1209,0
+DA:1212,253
+DA:1213,253
 DA:1214,253
 DA:1215,253
 DA:1216,253
 DA:1217,253
-DA:1218,253
-DA:1219,253
-DA:1220,132935
-DA:1228,132935
-DA:1229,132935
-DA:1230,131989
-DA:1233,946
-DA:1234,11
-DA:1237,935
-DA:1238,286
+DA:1218,132935
+DA:1226,132935
+DA:1227,132935
+DA:1228,131989
+DA:1231,946
+DA:1232,11
+DA:1235,935
+DA:1236,286
+DA:1239,649
+DA:1240,649
 DA:1241,649
 DA:1242,649
 DA:1243,649
 DA:1244,649
-DA:1245,649
-DA:1246,649
-DA:1247,132935
-DA:1255,319792
-DA:1256,319792
-DA:1257,309782
-DA:1260,10010
-DA:1261,132
-DA:1264,9878
-DA:1265,9548
+DA:1245,132935
+DA:1253,319792
+DA:1254,319792
+DA:1255,309782
+DA:1258,10010
+DA:1259,132
+DA:1262,9878
+DA:1263,9548
+DA:1266,330
+DA:1267,330
 DA:1268,330
 DA:1269,330
-DA:1270,330
-DA:1271,330
-DA:1272,308
-DA:1273,22
-DA:1274,0
-DA:1276,286
+DA:1270,308
+DA:1271,22
+DA:1272,0
+DA:1274,286
+DA:1278,22
+DA:1279,22
 DA:1280,22
 DA:1281,22
 DA:1282,22
 DA:1283,22
-DA:1284,22
-DA:1285,22
-DA:1286,319792
+DA:1284,319792
+DA:1290,361284
 DA:1292,361284
-DA:1294,361284
-DA:1295,360635
-DA:1298,649
-DA:1299,0
-DA:1302,649
-DA:1303,583
+DA:1293,360635
+DA:1296,649
+DA:1297,0
+DA:1300,649
+DA:1301,583
+DA:1304,66
+DA:1305,66
 DA:1306,66
-DA:1307,66
-DA:1308,66
-DA:1309,44
-DA:1310,33
-DA:1311,0
-DA:1313,11
+DA:1307,44
+DA:1308,33
+DA:1309,0
+DA:1311,11
+DA:1315,33
+DA:1316,33
 DA:1317,33
 DA:1318,33
 DA:1319,33
 DA:1320,33
-DA:1321,33
-DA:1322,33
-DA:1323,361284
+DA:1321,361284
+DA:1340,132935
 DA:1342,132935
-DA:1344,132935
-DA:1345,121
-DA:1346,121
+DA:1343,121
+DA:1344,121
+DA:1345,110
+DA:1346,110
 DA:1347,110
 DA:1348,110
 DA:1349,110
 DA:1350,110
-DA:1351,110
-DA:1352,110
-DA:1353,0
-DA:1354,11
-DA:1355,11
-DA:1357,132814
-DA:1359,132935
-DA:1371,117546
-DA:1372,117535
-DA:1373,117535
+DA:1351,0
+DA:1352,11
+DA:1353,11
+DA:1355,132814
+DA:1357,132935
+DA:1369,117546
+DA:1370,117535
+DA:1371,117535
+DA:1372,11
 DA:1374,11
-DA:1376,11
-DA:1377,0
-DA:1380,11
+DA:1375,0
+DA:1378,11
+DA:1379,0
+DA:1380,0
 DA:1381,0
-DA:1382,0
-DA:1383,0
+DA:1384,11
+DA:1385,11
 DA:1386,11
 DA:1387,11
 DA:1388,11
-DA:1389,11
-DA:1390,11
-DA:1391,117546
-DA:1402,282579
-DA:1403,282579
-DA:1404,3146
-DA:1405,17842
-DA:1406,11682
-DA:1407,5269
-DA:1408,891
-DA:1411,261591
-DA:1412,262482
-DA:1416,20097
-DA:1417,19360
-DA:1420,737
-DA:1421,737
-DA:1422,737
-DA:1423,737
-DA:1424,737
-DA:1425,282579
-DA:1434,282579
-DA:1435,282579
-DA:1436,282546
-DA:1439,33
-DA:1440,33
-DA:1441,33
-DA:1442,33
-DA:1443,33
-DA:1444,282579
-LF:711
-LH:676
+DA:1389,117546
+DA:1400,282579
+DA:1401,282579
+DA:1402,3146
+DA:1403,17842
+DA:1404,11682
+DA:1405,5269
+DA:1406,891
+DA:1409,261591
+DA:1410,262482
+DA:1414,20097
+DA:1415,19360
+DA:1418,737
+DA:1419,282579
+DA:1428,282579
+DA:1429,282579
+DA:1430,282546
+DA:1433,33
+DA:1434,33
+DA:1435,33
+DA:1436,33
+DA:1437,33
+DA:1438,282579
+LF:706
+LH:671
 end_of_record
 SF:crates/conjure_rules/src/sets/horizontal/subset.rs
 FN:11,conjure_rules::sets::horizontal::subset::subset_to_subset_eq_neq
@@ -17932,16 +17918,16 @@ BRH:0
 DA:21,26
 DA:23,26
 DA:24,26
-DA:27,94380
-DA:28,94380
-DA:29,94380
-DA:30,80626
-DA:31,80626
-DA:32,80626
+DA:27,94458
+DA:28,94458
+DA:29,94458
+DA:30,80704
+DA:31,80704
+DA:32,80704
 DA:33,2457
 DA:35,13
 DA:36,13
-DA:37,94367
+DA:37,94445
 DA:43,26
 DA:44,13
 DA:45,13
@@ -20895,24 +20881,24 @@ FNF:45
 FNH:9
 BRF:0
 BRH:0
-DA:144,1014
-DA:145,1014
-DA:146,1014
+DA:144,975
+DA:145,975
+DA:146,975
 DA:172,429
 DA:173,429
 DA:174,429
-DA:175,17147
+DA:175,26663
 DA:176,429
 DA:177,429
-DA:202,12558
-DA:203,12558
-DA:204,12558
-DA:223,10049
-DA:224,10049
-DA:225,10049
-DA:226,35243
-DA:227,10049
-DA:228,10049
+DA:202,12519
+DA:203,12519
+DA:204,12519
+DA:223,10010
+DA:224,10010
+DA:225,10010
+DA:226,34814
+DA:227,10010
+DA:228,10010
 DA:245,2496
 DA:246,2496
 DA:247,2496
@@ -21484,125 +21470,125 @@ LF:96
 LH:74
 end_of_record
 SF:crates/conjure_core/src/solver/adaptors/minion/parse_model.rs
-FN:340,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
+FN:339,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
 FN:124,conjure_core::solver::adaptors::minion::parse_model::load_intdomain_var
-FN:198,conjure_core::solver::adaptors::minion::parse_model::name_to_string
-FN:481,conjure_core::solver::adaptors::minion::parse_model::parse_name
-FN:327,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
-FN:327,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
+FN:197,conjure_core::solver::adaptors::minion::parse_model::name_to_string
+FN:480,conjure_core::solver::adaptors::minion::parse_model::parse_name
+FN:326,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
+FN:326,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
 FN:124,conjure_core::solver::adaptors::minion::parse_model::load_intdomain_var
-FN:252,conjure_core::solver::adaptors::minion::parse_model::parse_expr
+FN:251,conjure_core::solver::adaptors::minion::parse_model::parse_expr
 FN:70,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#0}
-FN:187,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
+FN:186,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
 FN:124,conjure_core::solver::adaptors::minion::parse_model::load_intdomain_var
-FN:243,conjure_core::solver::adaptors::minion::parse_model::load_expr
+FN:242,conjure_core::solver::adaptors::minion::parse_model::load_expr
 FN:70,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#0}
-FN:340,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
-FN:444,conjure_core::solver::adaptors::minion::parse_model::parse_atom
-FN:477,conjure_core::solver::adaptors::minion::parse_model::parse_literal
-FN:212,conjure_core::solver::adaptors::minion::parse_model::load_constraints
-FN:212,conjure_core::solver::adaptors::minion::parse_model::load_constraints
-FN:435,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
-FN:176,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
-FN:457,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
-FN:481,conjure_core::solver::adaptors::minion::parse_model::parse_name
-FN:435,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
-FN:212,conjure_core::solver::adaptors::minion::parse_model::load_constraints
-FN:466,conjure_core::solver::adaptors::minion::parse_model::parse_literals
-FN:466,conjure_core::solver::adaptors::minion::parse_model::parse_literals
-FN:198,conjure_core::solver::adaptors::minion::parse_model::name_to_string
-FN:176,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
+FN:339,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
+FN:443,conjure_core::solver::adaptors::minion::parse_model::parse_atom
+FN:476,conjure_core::solver::adaptors::minion::parse_model::parse_literal
+FN:211,conjure_core::solver::adaptors::minion::parse_model::load_constraints
+FN:211,conjure_core::solver::adaptors::minion::parse_model::load_constraints
+FN:434,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
+FN:175,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
+FN:456,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
+FN:480,conjure_core::solver::adaptors::minion::parse_model::parse_name
+FN:434,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
+FN:211,conjure_core::solver::adaptors::minion::parse_model::load_constraints
+FN:465,conjure_core::solver::adaptors::minion::parse_model::parse_literals
+FN:465,conjure_core::solver::adaptors::minion::parse_model::parse_literals
+FN:197,conjure_core::solver::adaptors::minion::parse_model::name_to_string
+FN:175,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
 FN:108,conjure_core::solver::adaptors::minion::parse_model::load_var
-FN:435,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
-FN:243,conjure_core::solver::adaptors::minion::parse_model::load_expr
-FN:198,conjure_core::solver::adaptors::minion::parse_model::name_to_string
-FN:466,conjure_core::solver::adaptors::minion::parse_model::parse_literals
-FN:243,conjure_core::solver::adaptors::minion::parse_model::load_expr
-FN:162,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
-FN:422,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
-FN:252,conjure_core::solver::adaptors::minion::parse_model::parse_expr
+FN:434,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
+FN:242,conjure_core::solver::adaptors::minion::parse_model::load_expr
+FN:197,conjure_core::solver::adaptors::minion::parse_model::name_to_string
+FN:465,conjure_core::solver::adaptors::minion::parse_model::parse_literals
+FN:242,conjure_core::solver::adaptors::minion::parse_model::load_expr
+FN:161,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
+FN:421,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
+FN:251,conjure_core::solver::adaptors::minion::parse_model::parse_expr
 FN:70,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#0}
-FN:444,conjure_core::solver::adaptors::minion::parse_model::parse_atom
-FN:422,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
+FN:443,conjure_core::solver::adaptors::minion::parse_model::parse_atom
+FN:421,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
 FN:70,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#0}
-FN:477,conjure_core::solver::adaptors::minion::parse_model::parse_literal
-FN:457,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
-FN:477,conjure_core::solver::adaptors::minion::parse_model::parse_literal
-FN:347,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
-FN:334,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
+FN:476,conjure_core::solver::adaptors::minion::parse_model::parse_literal
+FN:456,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
+FN:476,conjure_core::solver::adaptors::minion::parse_model::parse_literal
+FN:346,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
+FN:333,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
 FN:108,conjure_core::solver::adaptors::minion::parse_model::load_var
-FN:187,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
-FN:176,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
-FN:422,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
-FN:252,conjure_core::solver::adaptors::minion::parse_model::parse_expr
-FN:334,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
-FN:327,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
+FN:186,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
+FN:175,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
+FN:421,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
+FN:251,conjure_core::solver::adaptors::minion::parse_model::parse_expr
+FN:333,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
+FN:326,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
 FN:108,conjure_core::solver::adaptors::minion::parse_model::load_var
 FN:94,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#1}
-FN:457,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
-FN:334,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
-FN:457,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
-FN:243,conjure_core::solver::adaptors::minion::parse_model::load_expr
-FN:435,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
+FN:456,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
+FN:333,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
+FN:456,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
+FN:242,conjure_core::solver::adaptors::minion::parse_model::load_expr
+FN:434,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
 FN:94,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#1}
-FN:340,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
-FN:327,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
+FN:339,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
+FN:326,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
 FN:124,conjure_core::solver::adaptors::minion::parse_model::load_intdomain_var
-FN:466,conjure_core::solver::adaptors::minion::parse_model::parse_literals
-FN:422,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
-FN:347,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
+FN:465,conjure_core::solver::adaptors::minion::parse_model::parse_literals
+FN:421,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
+FN:346,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
 FN:31,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table
 FN:108,conjure_core::solver::adaptors::minion::parse_model::load_var
 FN:23,conjure_core::solver::adaptors::minion::parse_model::model_to_minion
-FN:340,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
-FN:162,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
-FN:176,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
-FN:187,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
-FN:481,conjure_core::solver::adaptors::minion::parse_model::parse_name
-FN:187,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
-FN:252,conjure_core::solver::adaptors::minion::parse_model::parse_expr
-FN:444,conjure_core::solver::adaptors::minion::parse_model::parse_atom
-FN:477,conjure_core::solver::adaptors::minion::parse_model::parse_literal
+FN:339,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
+FN:161,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
+FN:175,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
+FN:186,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
+FN:480,conjure_core::solver::adaptors::minion::parse_model::parse_name
+FN:186,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
+FN:251,conjure_core::solver::adaptors::minion::parse_model::parse_expr
+FN:443,conjure_core::solver::adaptors::minion::parse_model::parse_atom
+FN:476,conjure_core::solver::adaptors::minion::parse_model::parse_literal
 FN:94,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#1}
-FN:176,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
-FN:334,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
-FN:340,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
+FN:175,conjure_core::solver::adaptors::minion::parse_model::_try_add_var
+FN:333,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
+FN:339,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
 FN:23,conjure_core::solver::adaptors::minion::parse_model::model_to_minion
-FN:481,conjure_core::solver::adaptors::minion::parse_model::parse_name
-FN:444,conjure_core::solver::adaptors::minion::parse_model::parse_atom
-FN:347,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
-FN:243,conjure_core::solver::adaptors::minion::parse_model::load_expr
-FN:477,conjure_core::solver::adaptors::minion::parse_model::parse_literal
-FN:212,conjure_core::solver::adaptors::minion::parse_model::load_constraints
-FN:162,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
-FN:334,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
+FN:480,conjure_core::solver::adaptors::minion::parse_model::parse_name
+FN:443,conjure_core::solver::adaptors::minion::parse_model::parse_atom
+FN:346,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
+FN:242,conjure_core::solver::adaptors::minion::parse_model::load_expr
+FN:476,conjure_core::solver::adaptors::minion::parse_model::parse_literal
+FN:211,conjure_core::solver::adaptors::minion::parse_model::load_constraints
+FN:161,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
+FN:333,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#1}
 FN:23,conjure_core::solver::adaptors::minion::parse_model::model_to_minion
 FN:31,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table
-FN:198,conjure_core::solver::adaptors::minion::parse_model::name_to_string
+FN:197,conjure_core::solver::adaptors::minion::parse_model::name_to_string
 FN:23,conjure_core::solver::adaptors::minion::parse_model::model_to_minion
-FN:481,conjure_core::solver::adaptors::minion::parse_model::parse_name
+FN:480,conjure_core::solver::adaptors::minion::parse_model::parse_name
 FN:108,conjure_core::solver::adaptors::minion::parse_model::load_var
-FN:327,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
-FN:212,conjure_core::solver::adaptors::minion::parse_model::load_constraints
+FN:326,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#0}
+FN:211,conjure_core::solver::adaptors::minion::parse_model::load_constraints
 FN:124,conjure_core::solver::adaptors::minion::parse_model::load_intdomain_var
-FN:347,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
+FN:346,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
 FN:94,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#1}
 FN:31,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table
 FN:70,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#0}
 FN:31,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table
-FN:252,conjure_core::solver::adaptors::minion::parse_model::parse_expr
-FN:422,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
-FN:457,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
-FN:187,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
-FN:162,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
-FN:435,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
+FN:251,conjure_core::solver::adaptors::minion::parse_model::parse_expr
+FN:421,conjure_core::solver::adaptors::minion::parse_model::parse_atomic_expr
+FN:456,conjure_core::solver::adaptors::minion::parse_model::parse_literal_as_int
+FN:186,conjure_core::solver::adaptors::minion::parse_model::_try_add_aux_var
+FN:161,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
+FN:434,conjure_core::solver::adaptors::minion::parse_model::parse_atoms
 FN:94,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table::{closure#1}
-FN:347,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
+FN:346,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#3}
 FN:23,conjure_core::solver::adaptors::minion::parse_model::model_to_minion
-FN:198,conjure_core::solver::adaptors::minion::parse_model::name_to_string
-FN:466,conjure_core::solver::adaptors::minion::parse_model::parse_literals
-FN:162,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
-FN:444,conjure_core::solver::adaptors::minion::parse_model::parse_atom
+FN:197,conjure_core::solver::adaptors::minion::parse_model::name_to_string
+FN:465,conjure_core::solver::adaptors::minion::parse_model::parse_literals
+FN:161,conjure_core::solver::adaptors::minion::parse_model::load_booldomain_var
+FN:443,conjure_core::solver::adaptors::minion::parse_model::parse_atom
 FN:31,conjure_core::solver::adaptors::minion::parse_model::load_symbol_table
 FNDA:0,conjure_core::solver::adaptors::minion::parse_model::parse_expr::{closure#2}
 FNDA:1,conjure_core::solver::adaptors::minion::parse_model::load_intdomain_var
@@ -21818,11 +21804,11 @@ DA:146,130
 DA:148,0
 DA:149,0
 DA:151,7540
-DA:152,7540
-DA:154,7540
-DA:155,5902
-DA:157,1638
-DA:159,7540
+DA:153,7540
+DA:154,5902
+DA:156,1638
+DA:158,7540
+DA:161,1547
 DA:162,1547
 DA:163,1547
 DA:164,1547
@@ -21830,10 +21816,10 @@ DA:165,1547
 DA:166,1547
 DA:167,1547
 DA:168,1547
-DA:169,1547
-DA:170,858
-DA:172,689
-DA:174,1547
+DA:169,858
+DA:171,689
+DA:173,1547
+DA:175,6760
 DA:176,6760
 DA:177,6760
 DA:178,6760
@@ -21843,7 +21829,7 @@ DA:181,6760
 DA:182,6760
 DA:183,6760
 DA:184,6760
-DA:185,6760
+DA:186,2327
 DA:187,2327
 DA:188,2327
 DA:189,2327
@@ -21853,189 +21839,188 @@ DA:192,2327
 DA:193,2327
 DA:194,2327
 DA:195,2327
-DA:196,2327
+DA:197,34294
 DA:198,34294
-DA:199,34294
-DA:201,7579
+DA:200,7579
+DA:201,7735
 DA:202,7735
 DA:203,7735
 DA:204,7735
-DA:205,7735
-DA:207,18980
-DA:209,34294
+DA:206,18980
+DA:208,34294
+DA:211,2184
 DA:212,2184
 DA:213,2184
 DA:214,2184
-DA:215,2184
-DA:216,7904
-DA:224,117
+DA:215,7904
+DA:223,117
+DA:225,39
 DA:226,39
 DA:227,39
-DA:228,39
+DA:229,78
 DA:230,78
 DA:231,78
-DA:232,78
-DA:235,7787
+DA:234,7787
+DA:238,2184
 DA:239,2184
-DA:240,2184
+DA:242,7787
 DA:243,7787
 DA:244,7787
 DA:245,7787
 DA:246,7787
 DA:247,7787
 DA:248,7787
-DA:249,7787
+DA:251,9984
 DA:252,9984
-DA:253,9984
+DA:253,715
 DA:254,715
 DA:255,715
-DA:256,715
+DA:259,0
 DA:260,0
-DA:261,0
+DA:263,481
 DA:264,481
-DA:265,481
+DA:266,988
 DA:267,988
-DA:268,988
+DA:269,1014
 DA:270,1014
-DA:271,1014
+DA:272,1131
 DA:273,1131
 DA:274,1131
 DA:275,1131
-DA:276,1131
+DA:277,1001
 DA:278,1001
 DA:279,1001
-DA:280,1001
-DA:282,416
+DA:281,416
+DA:284,416
 DA:285,416
-DA:286,416
-DA:288,416
-DA:291,221
+DA:287,416
+DA:290,221
+DA:293,221
 DA:294,221
-DA:295,221
-DA:297,221
-DA:300,52
+DA:296,221
+DA:299,52
+DA:301,52
 DA:302,52
 DA:303,52
 DA:304,52
-DA:305,52
-DA:308,39
+DA:307,39
+DA:309,39
 DA:310,39
 DA:311,39
 DA:312,39
-DA:313,39
-DA:316,260
+DA:315,260
+DA:317,260
 DA:318,260
 DA:319,260
-DA:320,260
+DA:323,416
 DA:324,416
 DA:325,416
 DA:326,416
-DA:327,416
+DA:327,0
 DA:328,0
 DA:329,0
 DA:330,0
-DA:331,0
-DA:333,416
-DA:334,897
-DA:335,416
+DA:332,416
+DA:333,897
+DA:334,416
+DA:336,208
 DA:337,208
 DA:338,208
 DA:339,208
-DA:340,208
+DA:340,0
 DA:341,0
 DA:342,0
 DA:343,0
-DA:344,0
-DA:346,208
-DA:347,429
-DA:348,208
+DA:345,208
+DA:346,429
+DA:347,208
+DA:349,1079
 DA:350,1079
 DA:351,1079
-DA:352,1079
+DA:354,91
 DA:355,91
-DA:356,91
+DA:357,689
 DA:358,689
 DA:359,689
-DA:360,689
-DA:363,182
+DA:362,182
+DA:364,182
 DA:365,182
-DA:366,182
-DA:370,117
+DA:369,117
+DA:371,117
 DA:372,117
-DA:373,117
-DA:377,104
+DA:376,104
+DA:378,104
 DA:379,104
-DA:380,104
-DA:384,91
+DA:383,91
+DA:386,91
 DA:387,91
-DA:388,91
-DA:390,91
-DA:393,208
+DA:389,91
+DA:392,208
+DA:394,208
 DA:395,208
 DA:396,208
-DA:397,208
-DA:400,208
+DA:399,208
+DA:401,208
 DA:402,208
 DA:403,208
-DA:404,208
+DA:406,104
 DA:407,104
 DA:408,104
-DA:409,104
-DA:411,169
+DA:410,169
+DA:412,169
 DA:413,169
-DA:414,169
-DA:416,169
-DA:418,0
-DA:420,9984
+DA:415,169
+DA:417,0
+DA:419,9984
+DA:421,4290
 DA:422,4290
-DA:423,4290
+DA:424,13
 DA:425,13
-DA:426,13
-DA:428,4277
+DA:427,4277
+DA:428,0
 DA:429,0
 DA:430,0
-DA:431,0
-DA:433,4290
+DA:432,4290
+DA:434,3159
 DA:435,3159
-DA:436,3159
-DA:437,11609
+DA:436,11609
+DA:437,8450
 DA:438,8450
-DA:439,8450
+DA:440,3159
 DA:441,3159
-DA:442,3159
+DA:443,22711
 DA:444,22711
-DA:445,22711
+DA:445,5447
 DA:446,5447
-DA:447,5447
-DA:449,17264
+DA:448,17264
+DA:450,0
 DA:451,0
 DA:452,0
-DA:453,0
-DA:455,22711
+DA:454,22711
+DA:456,7917
 DA:457,7917
-DA:458,7917
-DA:459,7319
-DA:460,377
-DA:461,221
-DA:462,0
-DA:464,7917
+DA:458,7319
+DA:459,377
+DA:460,221
+DA:461,0
+DA:463,7917
+DA:465,416
 DA:466,416
 DA:467,416
 DA:468,416
-DA:469,416
-DA:470,1664
+DA:469,1664
+DA:470,1248
 DA:471,1248
-DA:472,1248
+DA:473,416
 DA:474,416
-DA:475,416
+DA:476,2470
 DA:477,2470
 DA:478,2470
-DA:479,2470
+DA:480,17472
 DA:481,17472
 DA:482,17472
-DA:483,17472
-LF:306
-LH:278
+LF:305
+LH:277
 end_of_record
 SF:conjure_oxide/src/print_info_schema.rs
 FN:7,conjure_oxide::print_info_schema::run_print_info_schema_command
@@ -24583,6 +24568,7 @@ FN:146,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::
 FN:146,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate::{closure#1}
 FN:176,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as serde::ser::Serialize>::serialize::<serde_json::value::ser::Serializer>
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
+FN:69,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as core::convert::AsRef<conjure_core::ast::expressions::Expression>>::as_ref
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate::{closure#0}
 FN:77,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as core::ops::deref::Deref>::deref
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
@@ -24627,7 +24613,6 @@ FN:86,<conjure_core::ast::moo::Moo<_> as uniplate::traits::uniplate::Uniplate>::
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::submodel::SubModel>>::biplate::{closure#0}
 FN:146,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::atom::Atom>>::biplate::{closure#1}
 FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate
-FN:69,<conjure_core::ast::moo::Moo<_> as core::convert::AsRef<_>>::as_ref
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FN:63,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom>>::unwrap_or_clone
 FN:176,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as serde::ser::Serialize>::serialize::<serde_json::value::ser::Serializer>
@@ -24636,15 +24621,15 @@ FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::
 FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate
 FN:146,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as uniplate::traits::biplate::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate::{closure#1}
 FN:146,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::Literal>>::biplate::{closure#1}
+FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as uniplate::traits::biplate::Biplate<conjure_core::ast::atom::Atom>>::biplate
 FN:146,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate::{closure#1}
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
-FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as uniplate::traits::biplate::Biplate<conjure_core::ast::atom::Atom>>::biplate
-FN:42,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension>>::new
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
+FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FN:185,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as core::fmt::Display>::fmt
 FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::name::Name>>::biplate
 FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate
-FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
+FN:42,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension>>::new
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::name::Name>>::biplate::{closure#0}
 FN:146,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#1}
 FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate
@@ -24657,6 +24642,7 @@ FN:55,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>:
 FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FN:69,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as core::convert::AsRef<conjure_core::ast::expressions::Expression>>::as_ref
+FN:167,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as serde::de::Deserialize>::deserialize::<serde::__private::de::missing_field::MissingFieldDeserializer<serde_json::error::Error>>
 FN:167,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as serde::de::Deserialize>::deserialize::<serde::__private::de::content::ContentDeserializer<serde_json::error::Error>>
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::name::Name>>::biplate::{closure#0}
 FN:185,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as core::fmt::Display>::fmt
@@ -24705,6 +24691,7 @@ FN:42,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>:
 FN:127,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::Literal>>::biplate::{closure#0}
 FN:42,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension>>::new
 FN:176,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as serde::ser::Serialize>::serialize::<serde_json::value::ser::Serializer>
+FN:167,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as serde::de::Deserialize>::deserialize::<serde::__private::de::missing_field::MissingFieldDeserializer<serde_json::error::Error>>
 FN:176,<conjure_core::ast::moo::Moo<_> as serde::ser::Serialize>::serialize::<_>
 FN:123,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as uniplate::traits::biplate::Biplate<conjure_core::ast::submodel::SubModel>>::biplate
 FN:146,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#1}
@@ -25061,6 +25048,7 @@ FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate::{closure#1}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as serde::ser::Serialize>::serialize::<serde_json::value::ser::Serializer>
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
+FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as core::convert::AsRef<conjure_core::ast::expressions::Expression>>::as_ref
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as core::ops::deref::Deref>::deref
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
@@ -25105,7 +25093,6 @@ FNDA:0,<conjure_core::ast::moo::Moo<_> as uniplate::traits::uniplate::Uniplate>:
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::submodel::SubModel>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::atom::Atom>>::biplate::{closure#1}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate
-FNDA:0,<conjure_core::ast::moo::Moo<_> as core::convert::AsRef<_>>::as_ref
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FNDA:1,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom>>::unwrap_or_clone
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as serde::ser::Serialize>::serialize::<serde_json::value::ser::Serializer>
@@ -25114,15 +25101,15 @@ FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as uniplate::traits::biplate::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate::{closure#1}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::Literal>>::biplate::{closure#1}
+FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as uniplate::traits::biplate::Biplate<conjure_core::ast::atom::Atom>>::biplate
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate::{closure#1}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate::{closure#0}
-FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as uniplate::traits::biplate::Biplate<conjure_core::ast::atom::Atom>>::biplate
-FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension>>::new
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
+FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as core::fmt::Display>::fmt
 FNDA:1,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::name::Name>>::biplate
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::comprehension::Comprehension>>::biplate
-FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
+FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension>>::new
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::name::Name>>::biplate::{closure#0}
 FNDA:1,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#1}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::AbstractLiteral<conjure_core::ast::literals::Literal>>>::biplate
@@ -25135,6 +25122,7 @@ FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#0}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as core::convert::AsRef<conjure_core::ast::expressions::Expression>>::as_ref
+FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as serde::de::Deserialize>::deserialize::<serde::__private::de::missing_field::MissingFieldDeserializer<serde_json::error::Error>>
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as serde::de::Deserialize>::deserialize::<serde::__private::de::content::ContentDeserializer<serde_json::error::Error>>
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::name::Name>>::biplate::{closure#0}
 FNDA:1,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as core::fmt::Display>::fmt
@@ -25183,6 +25171,7 @@ FNDA:1,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression>>
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::literals::Literal>>::biplate::{closure#0}
 FNDA:1,<conjure_core::ast::moo::Moo<conjure_core::ast::comprehension::Comprehension>>::new
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as serde::ser::Serialize>::serialize::<serde_json::value::ser::Serializer>
+FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as serde::de::Deserialize>::deserialize::<serde::__private::de::missing_field::MissingFieldDeserializer<serde_json::error::Error>>
 FNDA:0,<conjure_core::ast::moo::Moo<_> as serde::ser::Serialize>::serialize::<_>
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::submodel::SubModel> as uniplate::traits::biplate::Biplate<conjure_core::ast::submodel::SubModel>>::biplate
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::literals::Literal>>>::biplate::{closure#1}
@@ -25253,27 +25242,27 @@ FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::expressions::Expression>>::biplate::{closure#1}
 FNDA:0,<conjure_core::ast::moo::Moo<conjure_core::ast::expressions::Expression> as uniplate::traits::biplate::Biplate<conjure_core::ast::records::RecordValue<conjure_core::ast::expressions::Expression>>>::biplate
 FNDA:1,<conjure_core::ast::moo::Moo<conjure_core::ast::atom::Atom> as uniplate::traits::biplate::Biplate<conjure_core::ast::declaration::DeclarationPtr>>::biplate::{closure#1}
-FNF:478
+FNF:480
 FNH:52
 BRF:0
 BRH:0
-DA:42,109979
-DA:43,109979
-DA:44,109979
-DA:45,109979
-DA:46,109979
-DA:55,60996
-DA:56,60996
-DA:57,60996
+DA:42,120808
+DA:43,120808
+DA:44,120808
+DA:45,120808
+DA:46,120808
+DA:55,127010
+DA:56,127010
+DA:57,127010
 DA:63,447226
 DA:64,447226
 DA:65,447226
-DA:69,447939
-DA:70,447939
-DA:71,447939
-DA:77,15173837
-DA:78,15173837
-DA:79,15173837
+DA:69,468206
+DA:70,468206
+DA:71,468206
+DA:77,15559573
+DA:78,15559573
+DA:79,15559573
 DA:86,0
 DA:87,0
 DA:88,0
@@ -25294,8 +25283,8 @@ DA:110,0
 DA:112,0
 DA:113,0
 DA:115,0
-DA:123,13019253
-DA:124,13019253
+DA:123,13050726
+DA:124,13050726
 DA:126,0
 DA:127,0
 DA:128,0
@@ -25303,10 +25292,10 @@ DA:130,0
 DA:132,0
 DA:133,0
 DA:135,0
-DA:139,13019253
-DA:143,13019253
-DA:145,13019253
-DA:146,13019253
+DA:139,13050726
+DA:143,13050726
+DA:145,13050726
+DA:146,13050726
 DA:147,4870320
 DA:148,4870320
 DA:149,4870320
@@ -25316,17 +25305,17 @@ DA:156,60996
 DA:157,4809324
 DA:159,4870320
 DA:160,4870320
-DA:163,13019253
-DA:167,29688
-DA:168,29688
-DA:169,29688
-DA:171,29688
-DA:172,29688
-DA:176,475813
-DA:177,475813
-DA:178,475813
-DA:180,475813
-DA:181,475813
+DA:163,13050726
+DA:167,34272
+DA:168,34272
+DA:169,34272
+DA:171,34272
+DA:172,34272
+DA:176,483847
+DA:177,483847
+DA:178,483847
+DA:180,483847
+DA:181,483847
 DA:185,500448
 DA:186,500448
 DA:187,500448
@@ -25870,9 +25859,9 @@ DA:651,326
 DA:652,326
 DA:653,326
 DA:654,326
-DA:655,37365
-DA:656,37365
-DA:657,37365
+DA:655,37707
+DA:656,37707
+DA:657,37707
 DA:658,326
 DA:660,326
 DA:661,326
@@ -25883,7 +25872,7 @@ DA:666,326
 DA:667,326
 DA:668,326
 DA:669,326
-DA:670,37365
+DA:670,37707
 DA:671,326
 DA:674,1
 DA:675,1
@@ -26618,9 +26607,9 @@ FN:713,<conjure_core::ast::domains::Domain>::resolve
 FN:608,<conjure_core::ast::domains::Domain>::from_literal_vec::{closure#2}
 FN:1015,conjure_core::ast::domains::tests::test_negative_div
 FN:317,<conjure_core::ast::domains::Domain>::from_set_i32
-FN:692,<conjure_core::ast::domains::Domain>::is_finite::{closure#0}
-FN:864,<conjure_core::ast::domains::Domain as core::fmt::Display>::fmt
 FN:579,<conjure_core::ast::domains::Domain>::from_literal_vec::{closure#1}
+FN:864,<conjure_core::ast::domains::Domain as core::fmt::Display>::fmt
+FN:692,<conjure_core::ast::domains::Domain>::is_finite::{closure#0}
 FN:993,<conjure_core::ast::literals::Literal as conjure_core::ast::types::Typeable>::return_type
 FN:51,<conjure_core::ast::domains::Range<i32> as core::fmt::Display>::fmt
 FN:113,<conjure_core::ast::domains::Domain>::contains::{closure#0}
@@ -26729,11 +26718,11 @@ FN:804,<conjure_core::ast::domains::Domain>::union
 FN:987,<_ as conjure_core::ast::domains::HasDomain>::resolved_domain_of
 FN:660,<conjure_core::ast::domains::Domain>::apply_i32
 FN:683,<conjure_core::ast::domains::Domain>::is_finite
-FN:51,<conjure_core::ast::domains::Range<i32> as core::fmt::Display>::fmt
+FN:269,<conjure_core::ast::domains::Domain>::from_slice_i32
 FN:113,<conjure_core::ast::domains::Domain>::contains::{closure#0}
 FN:713,<conjure_core::ast::domains::Domain>::resolve
 FN:864,<conjure_core::ast::domains::Domain as core::fmt::Display>::fmt
-FN:269,<conjure_core::ast::domains::Domain>::from_slice_i32
+FN:51,<conjure_core::ast::domains::Range<i32> as core::fmt::Display>::fmt
 FN:476,<conjure_core::ast::domains::Domain>::from_literal_vec::{closure#0}
 FN:476,<conjure_core::ast::domains::Domain>::from_literal_vec::{closure#0}
 FN:683,<conjure_core::ast::domains::Domain>::is_finite
@@ -26774,9 +26763,9 @@ FNDA:0,<conjure_core::ast::domains::Domain>::resolve
 FNDA:0,<conjure_core::ast::domains::Domain>::from_literal_vec::{closure#2}
 FNDA:1,conjure_core::ast::domains::tests::test_negative_div
 FNDA:0,<conjure_core::ast::domains::Domain>::from_set_i32
-FNDA:0,<conjure_core::ast::domains::Domain>::is_finite::{closure#0}
-FNDA:0,<conjure_core::ast::domains::Domain as core::fmt::Display>::fmt
 FNDA:0,<conjure_core::ast::domains::Domain>::from_literal_vec::{closure#1}
+FNDA:0,<conjure_core::ast::domains::Domain as core::fmt::Display>::fmt
+FNDA:0,<conjure_core::ast::domains::Domain>::is_finite::{closure#0}
 FNDA:0,<conjure_core::ast::literals::Literal as conjure_core::ast::types::Typeable>::return_type
 FNDA:0,<conjure_core::ast::domains::Range<i32> as core::fmt::Display>::fmt
 FNDA:0,<conjure_core::ast::domains::Domain>::contains::{closure#0}
@@ -26885,11 +26874,11 @@ FNDA:0,<conjure_core::ast::domains::Domain>::union
 FNDA:0,<_ as conjure_core::ast::domains::HasDomain>::resolved_domain_of
 FNDA:1,<conjure_core::ast::domains::Domain>::apply_i32
 FNDA:0,<conjure_core::ast::domains::Domain>::is_finite
-FNDA:0,<conjure_core::ast::domains::Range<i32> as core::fmt::Display>::fmt
+FNDA:0,<conjure_core::ast::domains::Domain>::from_slice_i32
 FNDA:0,<conjure_core::ast::domains::Domain>::contains::{closure#0}
 FNDA:0,<conjure_core::ast::domains::Domain>::resolve
 FNDA:1,<conjure_core::ast::domains::Domain as core::fmt::Display>::fmt
-FNDA:0,<conjure_core::ast::domains::Domain>::from_slice_i32
+FNDA:0,<conjure_core::ast::domains::Range<i32> as core::fmt::Display>::fmt
 FNDA:0,<conjure_core::ast::domains::Domain>::from_literal_vec::{closure#0}
 FNDA:0,<conjure_core::ast::domains::Domain>::from_literal_vec::{closure#0}
 FNDA:0,<conjure_core::ast::domains::Domain>::is_finite
