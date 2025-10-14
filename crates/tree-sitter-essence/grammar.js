@@ -23,11 +23,22 @@ module.exports = grammar ({
     //general
     constant: $ => choice(
       $.integer,
+      $.set,
       $.TRUE,
       $.FALSE
     ),
 
     integer: $ => choice(/[0-9]+/, /-[0-9]+/),
+
+    set: $ => seq("{", optional($.set_list), "}"),
+
+    set_list: $ => seq(
+      $.expression,
+      optional(repeat(seq(
+        ",",
+        $.expression
+      )))
+    ),
 
     TRUE: $ => "true",
 
