@@ -77,10 +77,6 @@
         {
           "type": "integer",
           "named": true
-        },
-        {
-          "type": "set",
-          "named": true
         }
       ]
     }
@@ -452,6 +448,7 @@
   {
     "type": "program",
     "named": true,
+    "root": true,
     "fields": {},
     "children": {
       "multiple": true,
@@ -505,36 +502,6 @@
         },
         {
           "type": "integer",
-          "named": true
-        }
-      ]
-    }
-  },
-  {
-    "type": "set",
-    "named": true,
-    "fields": {},
-    "children": {
-      "multiple": false,
-      "required": false,
-      "types": [
-        {
-          "type": "set_list",
-          "named": true
-        }
-      ]
-    }
-  },
-  {
-    "type": "set_list",
-    "named": true,
-    "fields": {},
-    "children": {
-      "multiple": true,
-      "required": true,
-      "types": [
-        {
-          "type": "expression",
           "named": true
         }
       ]
@@ -747,23 +714,11 @@
     "named": false
   },
   {
-    "type": "toInt",
-    "named": false
-  },
-  {
     "type": "variable",
     "named": true
   },
   {
-    "type": "{",
-    "named": false
-  },
-  {
     "type": "|",
-    "named": false
-  },
-  {
-    "type": "}",
     "named": false
   }
 ]
